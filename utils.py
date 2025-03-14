@@ -657,3 +657,20 @@ def replace_citation_indices(full_content, citations_set, existing_citation_numb
 
 
 
+def candidate_items_list_merge(candidate_items_list_global):
+    '''
+    candidate_items_list 是一个列表，每个元素是一个列表，每个元素是一个字典，包含了一个文档的内容
+    '''
+    candidate_items_dict={}
+    for candidate_list_local in candidate_items_list_global:
+        for candidate_item in candidate_list_local:
+            name=candidate_item['Name']
+            if name not in candidate_items_dict:
+                candidate_items_dict[name]=candidate_item
+            else:
+                #两个dict合并一下更新到candidate_items_dict中
+                candidate_items_dict[name].update(candidate_item)
+    candidate_items_list=list(candidate_items_dict.values())
+    return candidate_items_list
+     
+      

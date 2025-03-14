@@ -115,14 +115,20 @@ def ADT_generation(question='', personality_traits=''):
     response=GPT_QA(ADT_prompt, model_name="gpt-4o-mini", t=0.2)
     return response
 
-def OCG(historical_qa='',external_knowledge_str='',ADT=''):
-    QA_prompt= OCG_TEMPLATE.replace("{{external_knowledge_str}}", external_knowledge_str).replace("{{ADT}}", ADT)
-    historical_qa=[{
-        'role': 'system',
-        'content': OCG_SYSTEM
-    }]+historical_qa
-    response=GPT_QA(QA_prompt, model_name="gpt-4o", t=0.0,historical_qa=historical_qa)
-    return response
+def Extract(article='',ADT=''):
+    extract_prompt= EXTRACT_TEMPLATE.replace("{{article}}", article).replace("{{ADT}}", ADT)
+    response=GPT_QA(extract_prompt, model_name="gpt-4o-mini", t=0.0)
+    
+    candidate_items_str=''
+    for content in response:
+        if content:
+            candidate_items_str+=content
+
+    candidate_items_str=candidate_items_str.split('```json')[1].split('```')[0]
+    candidate_items_list=json.loads(candidate_items_str)
+    
+    
+    return candidate_items_list
 
 
 def complete(candidate_item='',external_knowledge_str='',ADT=''):

@@ -67,7 +67,7 @@ def generate_response_rec(data):
     with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
         json.dump(log_json, f, ensure_ascii=False, indent=4)
         
-    
+    candidate_items_list_global=[]
     for subquestion in subquestion_list:
         log_json['subquestion'][subquestion]={'AI_search_content_list':[],'citations':[]}
         with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
@@ -90,10 +90,15 @@ def generate_response_rec(data):
             for chunk in response:
                 if chunk:
                     spanned_content+=chunk
+                    
+            # 接着根据搜到的内容，生成candidate items
+            candidate_items_list_local = Extract(article=deepcopy(spanned_content),ADT=deepcopy(adt_content))
+            candidate_items_list_global.append(candidate_items_list_local)
             AI_search_content_list.append({
                 'title':title,
                 'content':content,
                 'spanned_content':spanned_content
+                'candidate_items_list_local':candidate_items_list_local
             })
             AI_search_content+=f'{title}\n\n{spanned_content}\n\n'
             
@@ -116,39 +121,18 @@ def generate_response_rec(data):
     dict_data = FrontWrapper_Body(None,f'# Prepare Candidate Items List:\n\n')
     json_data = json.dumps(dict_data)
     yield f'data: {json_data}\n\n'
+
     
-    
-    aa=input('continue?')
-    
-    # 接着根据搜到的内容，生成candidate items
-    response = OCG(external_knowledge_str=deepcopy(AI_search_content_full),ADT=adt_content)
-    
-    candidate_items_str=''
-    for item in response:
-        content = None
-        reasoning_content = None
-        if isinstance(item, tuple) and len(item) == 2:
-            content, reasoning_content = item
-        else:
-            content = item
-            reason_content = None
-        if content:
-            candidate_items_str+=content
-        dict_data = FrontWrapper_Body(None,content)
-        json_data = json.dumps(dict_data)
-        yield f'data: {json_data}\n\n'
-    candidate_items_str=candidate_items_str.replace('```json','').replace('```','')
-    candidate_items_list=json.loads(candidate_items_str)
+    candidate_items_list=candidate_items_list_merge(candidate_items_list)
     dict_data = FrontWrapper_Body(None,'\n\n')
     json_data = json.dumps(dict_data)
     yield f'data: {json_data}\n\n'
     
-    # #candidate_items_str 也写入文件
-    # with open(f'AI_search_content/{time_stamp}.md','a') as f:
-    #     f.write(candidate_items_str+'\n\n')
     log_json['candidate_items_list_prepare']=candidate_items_list
     with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
         json.dump(log_json, f, ensure_ascii=False, indent=4)
+        
+    aa=input('continue?')
     
     external_knowledge_str_local_list=[]
     # 接着对candidate_items_list 中的每一个进行补充和校验
