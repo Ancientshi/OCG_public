@@ -1,0 +1,14 @@
+### 对象实体
+```txt
+{{candidate_item}}
+```
+
+### 知识点文档
+```txt
+{{external_knowledge_str}}
+```
+
+### 抽象类数据结构
+```txt
+{{ADT}}
+```

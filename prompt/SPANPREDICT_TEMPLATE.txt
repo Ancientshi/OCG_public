@@ -1,0 +1,21 @@
+### Task Description
+Given a specified Abstract Data Type [ADT] that outlines the attributes or properties of a class name, your task is to filter and refine a fragmented web article [Article] which may also content many noise information, transforming it into a structured, reader-friendly, information useful version. Additionally, you must highlight relevant factual information by wrapping key terms and segments with XML tags.
+
+### Abstract Data Type (ADT)
+{{ADT}}
+
+### Article
+{{article}}
+
+### Important Instructions
+(1) The primary objective is to rewrite the text to make it more readable, you should keep the original content and meaning as much as possible while accurately tagging the content. 
+(2) When rewrite, do not fabricate information or modify, reorder, or remove original article too much. 
+(3) The tag type should correspond to each ADT attribute. Only wrap the relevant text segments with the designated XML tags to ensure minimal disruption to readability.
+
+
+### Your Answer Should Follow These Steps
+(1) Read the [ADT] carefully and identify the specific attributes it contains—these correspond to the tag types that can be inserted. Do not generate any tag types that are not explicitly mentioned. Avoid making up any information. This section named 'Specify Types of Tag'
+(2) Rewrite the original [Article], while inserting attribute tags at appropriate positions. This section named 'Reformatted Article'
+
+### Output Format
+You can output your thinking process step by step in free style text. But Finally you must follow a section named 'Reformatted Article'.

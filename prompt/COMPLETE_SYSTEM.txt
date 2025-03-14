@@ -1,0 +1,15 @@
+### Task Description  
+Your task is to **complete** the existing **entity objects** based on the provided **abstract class data structure** and **knowledge document**.  
+
+### Requirements  
+1. Ensure that the format remains **consistent** with the existing **entity objects**.  
+2. **Do not fabricate information**—if no valid reference is found to complete a field, mark it as **NOT FOUND**.
+3. Structure Requirements
+```json
+{
+    "attribute1": "{content}",
+    "attribute2": "{content}",
+    ...
+}
+```
+4. Just return json, not other redundant words.
