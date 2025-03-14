@@ -137,25 +137,13 @@ Topics
 <!-- image -->
 
 # Spanned Content
-### Specify Types of Tag
-Based on the provided Abstract Data Type (ADT) for the class `ThrillerMovie`, the following XML tags will be used to wrap relevant segments of the article:
-
-1. `<Name>`: For the title of the movie.
-2. `<PlotComplexity>`: For the complexity of the plot.
-3. `<PsychologicalDepth>`: For the exploration of psychological themes and character motivations.
-4. `<CharacterDevelopment>`: For the assessment of character development.
-5. `<TwistsAndTurns>`: For unexpected plot developments.
-6. `<Themes>`: For the central ideas and messages of the film.
-7. `<AdditionalInformation>`: For any supplementary details about the movie.
-
-### Reformatted Article
 In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.
 
 # Can you recommend any films similar to <Name>"Shutter Island"</Name>?
 
 REQUESTING
 
-I thought <Name>Shutter Island</Name> was an amazing film. I'm a big fan of these types of <PsychologicalDepth>psychological thrillers</PsychologicalDepth>. I can't seem to find anything as good.
+I thought <Name>Shutter Island</Name> was an amazing film. I'm a big fan of these types of <PsychologicalThemes>psychological thrillers</PsychologicalThemes>. I can't seem to find anything as good.
 
 Create your account and connect with a world of communities.
 
@@ -275,5 +263,3 @@ Press
 Communities
 
 Best of Reddit
-
-Topics

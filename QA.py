@@ -1,5 +1,4 @@
 from utils import *
-from Search import search_snippets
 from prompt import *
 
 import threading
@@ -124,7 +123,7 @@ def Extract(article='',ADT=''):
         if content:
             candidate_items_str+=content
 
-    candidate_items_str=candidate_items_str.split('```json')[1].split('```')[0]
+    candidate_items_str=candidate_items_str.split('```json')[1].split('```')[0].strip()
     candidate_items_list=json.loads(candidate_items_str)
     
     

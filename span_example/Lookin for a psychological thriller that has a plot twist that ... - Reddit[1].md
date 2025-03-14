@@ -141,145 +141,31 @@ Topics
 <!-- image -->
 
 # Spanned Content
-### Specify Types of Tag
-Based on the provided Abstract Data Type (ADT) for the class `ThrillerMovie`, the following XML tags will be used to wrap relevant segments of the article:
+<ThrillerMovie>
+    <Name>Psychological Thriller Recommendations</Name>
+    <MindBending>Yes</MindBending>
+    <PsychologicalThemes>Yes</PsychologicalThemes>
+    <ComplexityLevel>Moderate</ComplexityLevel>
+    <CharacterDepth>No</CharacterDepth>
+    <PlotTwists>Yes</PlotTwists>
+    <IntellectualEngagement>High</IntellectualEngagement>
+    <AdditionalInformation>
+        Happy Saturday everyone. I am looking for a movie that both my boyfriend and I will agree on watching. He hates demonic themes, or anything to do with rape. I agree, but tend to pick movies with that theme. Seriously. I don’t know what’s wrong with me.
+        I really love thrillers of all kinds and get bored with other genres. So I'm hoping y’all can recommend a movie that we’ll both enjoy. Plot twists always do the trick. But no full-on action movies. I appreciate a psychological mind-bending theme.
+        Thanks!
+    </AdditionalInformation>
+</ThrillerMovie>
 
-1. `<Name>`: For the title of the movie.
-2. `<PlotComplexity>`: For descriptions of the plot's complexity.
-3. `<PsychologicalDepth>`: For references to psychological themes and character motivations.
-4. `<CharacterDevelopment>`: For mentions of character arcs and development.
-5. `<TwistsAndTurns>`: For any references to plot twists or unexpected developments.
-6. `<Themes>`: For central ideas and messages of the film.
-7. `<AdditionalInformation>`: For any supplementary details that enhance understanding.
 
-### Reformatted Article
-In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.
 
-# Lookin for a <Name>psychological thriller</Name> that has a <TwistsAndTurns>plot twist</TwistsAndTurns> that even shocks a perceptive viewer.
+### Explanation of the Tags
+- **Name**: The title of the request for movie recommendations.
+- **MindBending**: Indicates that the user is looking for a mind-bending experience.
+- **PsychologicalThemes**: Confirms the user's interest in psychological themes.
+- **ComplexityLevel**: Assumed to be moderate based on the user's preferences.
+- **CharacterDepth**: Not specified, so marked as "No."
+- **PlotTwists**: The user explicitly mentions a preference for plot twists.
+- **IntellectualEngagement**: The request suggests a high level of engagement due to the nature of the desired films.
+- **AdditionalInformation**: Contains the user's detailed request and preferences.
 
-REQUESTING
-
-Happy Saturday everyone. I am looking for a movie that both my boyfriend and I will agree on watching. He hates demonic themes, or anything to do with rape. I agree, but tend to pick movies with that theme. Seriously. I don’t know what’s wrong with me.
-
-I really love <Themes>thrillers of all kinds</Themes> and get bored with other genres. So I'm hoping y’all can recommend a movie that we’ll both enjoy. <TwistsAndTurns>Plot twists</TwistsAndTurns> always do the trick. But no full-on action movies. I appreciate a <PlotComplexity>psychological mind-bending theme</PlotComplexity>.
-
-Thanks!
-
-Create your account and connect with a world of communities.
-
-Public
-
-Anyone can view, post, and comment to this community.
-
-## Top Posts
-
-- Reddit 
-
-reReddit: Top posts of November 28, 2021
-- Reddit 
-
-reReddit: Top posts of November 2021
-- Reddit 
-
-reReddit: Top posts of 2021
-
-&nbsp;
-
-&nbsp;
-
-TOPICS
-
-Internet Culture (Viral)
-
-- Amazing
-- Animals &amp; Pets
-- Cringe &amp; Facepalm
-- Funny
-- Interesting
-- Memes
-- Oddly Satisfying
-- Reddit Meta
-- Wholesome &amp; Heartwarming
-
-Games
-
-- Action Games
-- Adventure Games
-- Esports
-- Gaming Consoles &amp; Gear
-- Gaming News &amp; Discussion
-- Mobile Games
-- Other Games
-- Role-Playing Games
-- Simulation Games
-- Sports &amp; Racing Games
-- Strategy Games
-- Tabletop Games
-
-Q&amp;As
-
-- Q&amp;As
-- Stories &amp; Confessions
-
-Technology
-
-- 3D Printing
-- Artificial Intelligence &amp; Machine Learning
-- Computers &amp; Hardware
-- Consumer Electronics
-- DIY Electronics
-- Programming
-- Software &amp; Apps
-- Streaming Services
-- Tech News &amp; Discussion
-- Virtual &amp; Augmented Reality
-
-Pop Culture
-
-- Celebrities
-- Creators &amp; Influencers
-- Generations &amp; Nostalgia
-- Podcasts
-- Streamers
-- Tarot &amp; Astrology
-
-Movies &amp; TV
-
-- Action Movies &amp; Series
-- Animated Movies &amp; Series
-- Comedy Movies &amp; Series
-- Crime, Mystery, &amp; Thriller Movies &amp; Series
-- Documentary Movies &amp; Series
-- Drama Movies &amp; Series
-- Fantasy Movies &amp; Series
-- Horror Movies &amp; Series
-- Movie News &amp; Discussion
-- Reality TV
-- Romance Movies &amp; Series
-- Sci-Fi Movies &amp; Series
-- Superhero Movies &amp; Series
-- TV News &amp; Discussion
-
-RESOURCES
-
-About Reddit
-
-Advertise
-
-Reddit Pro
-
-      BETA
-
-Help
-
-Blog
-
-Careers
-
-Press
-
-Communities
-
-Best of Reddit
-
-Topics
+This structured format makes it easier for readers to understand the user's request while highlighting the key attributes of the desired thriller movies.

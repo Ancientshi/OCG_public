@@ -148,146 +148,65 @@ Topics
 <!-- image -->
 
 # Spanned Content
-### Specify Types of Tag
-Based on the provided Abstract Data Type (ADT) for the class `ThrillerMovie`, the following XML tags will be used to wrap relevant segments of the article:
+Now, I will rewrite the article while inserting the appropriate XML tags.
 
-1. `<Name>`: For the titles of the movies mentioned.
-2. `<Plot Complexity>`: For descriptions that imply the complexity of the plot.
-3. `<Psychological Depth>`: For references to psychological themes or character motivations.
-4. `<Character Development>`: For mentions of character arcs or development.
-5. `<Twists and Turns>`: For any references to unexpected plot developments or surprises.
-6. `<Themes>`: For central ideas or messages of the films.
-7. `<Additional Information>`: For any supplementary details that enhance understanding.
 
-### Reformatted Article
-The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers. Read our extensive list of rules for more information on other types of posts like fan-art and self-promotion, or message the moderators if you have any questions.
 
-# What are the best movies with unreliable narrators?
+<ThrillerMovie>
+    <Name>Fight Club</Name>
+    <MindBending>true</MindBending>
+    <PsychologicalThemes>true</PsychologicalThemes>
+    <ComplexityLevel>high</ComplexityLevel>
+    <CharacterDepth>true</CharacterDepth>
+    <PlotTwists>true</PlotTwists>
+    <IntellectualEngagement>true</IntellectualEngagement>
+    <AdditionalInformation>Fight Club is a film that explores themes of identity and consumerism through the lens of an unreliable narrator.</AdditionalInformation>
+</ThrillerMovie>
 
-Discussion
+<ThrillerMovie>
+    <Name>Gone Girl</Name>
+    <MindBending>true</MindBending>
+    <PsychologicalThemes>true</PsychologicalThemes>
+    <ComplexityLevel>high</ComplexityLevel>
+    <CharacterDepth>true</CharacterDepth>
+    <PlotTwists>true</PlotTwists>
+    <IntellectualEngagement>true</IntellectualEngagement>
+    <AdditionalInformation>Gone Girl delves into the complexities of marriage and media perception, featuring a significant plot twist.</AdditionalInformation>
+</ThrillerMovie>
 
-An unreliable narrator is a storyteller who cannot be trusted. It may either intentionally deceive the audience or unknowingly mislead them, causing them to doubt the narrator's reliability as a storyteller.
+<ThrillerMovie>
+    <Name>Shutter Island</Name>
+    <MindBending>true</MindBending>
+    <PsychologicalThemes>true</PsychologicalThemes>
+    <ComplexityLevel>high</ComplexityLevel>
+    <CharacterDepth>true</CharacterDepth>
+    <PlotTwists>true</PlotTwists>
+    <IntellectualEngagement>true</IntellectualEngagement>
+    <AdditionalInformation>Shutter Island presents a gripping psychological thriller with a shocking conclusion.</AdditionalInformation>
+</ThrillerMovie>
 
-As I can remember, the best movies I watched with unreliable narrators are:
+<ThrillerMovie>
+    <Name>Memento</Name>
+    <MindBending>true</MindBending>
+    <PsychologicalThemes>true</PsychologicalThemes>
+    <ComplexityLevel>high</ComplexityLevel>
+    <CharacterDepth>true</CharacterDepth>
+    <PlotTwists>true</PlotTwists>
+    <IntellectualEngagement>true</IntellectualEngagement>
+    <AdditionalInformation>Memento is known for its unique narrative structure and exploration of memory and identity.</AdditionalInformation>
+</ThrillerMovie>
 
-- <Name>Fight Club</Name>
-- <Name>Gone Girl</Name>
-- <Name>Shutter Island</Name>
-- <Name>Memento</Name>
-- <Name>Mr. Robot</Name> (yes, it's a TV show, but still counts)
-- <Name>The Usual Suspects</Name>
+<ThrillerMovie>
+    <Name>The Usual Suspects</Name>
+    <MindBending>true</MindBending>
+    <PsychologicalThemes>false</PsychologicalThemes>
+    <ComplexityLevel>medium</ComplexityLevel>
+    <CharacterDepth>false</CharacterDepth>
+    <PlotTwists>true</PlotTwists>
+    <IntellectualEngagement>true</IntellectualEngagement>
+    <AdditionalInformation>The Usual Suspects features one of the most famous plot twists in cinematic history.</AdditionalInformation>
+</ThrillerMovie>
 
-What are some other examples of this narrative device?
 
-Create your account and connect with a world of communities.
 
-Public
-
-Anyone can view, post, and comment to this community
-
-## Top Posts
-
-- Reddit 
-
-reReddit: Top posts of March 20, 2023
-- Reddit 
-
-reReddit: Top posts of March 2023
-- Reddit 
-
-reReddit: Top posts of 2023
-
-TOPICS
-
-Internet Culture (Viral)
-
-- Amazing
-- Animals & Pets
-- Cringe & Facepalm
-- Funny
-- Interesting
-- Memes
-- Oddly Satisfying
-- Reddit Meta
-- Wholesome & Heartwarming
-
-Games
-
-- Action Games
-- Adventure Games
-- Esports
-- Gaming Consoles & Gear
-- Gaming News & Discussion
-- Mobile Games
-- Other Games
-- Role-Playing Games
-- Simulation Games
-- Sports & Racing Games
-- Strategy Games
-- Tabletop Games
-
-Q&As
-
-- Q&As
-- Stories & Confessions
-
-Technology
-
-- 3D Printing
-- Artificial Intelligence & Machine Learning
-- Computers & Hardware
-- Consumer Electronics
-- DIY Electronics
-- Programming
-- Software & Apps
-- Streaming Services
-- Tech News & Discussion
-- Virtual & Augmented Reality
-
-Pop Culture
-
-- Celebrities
-- Creators & Influencers
-- Generations & Nostalgia
-- Podcasts
-- Streamers
-- Tarot & Astrology
-
-Movies & TV
-
-- Action Movies & Series
-- Animated Movies & Series
-- Comedy Movies & Series
-- Crime, Mystery, & Thriller Movies & Series
-- Documentary Movies & Series
-- Drama Movies & Series
-- Fantasy Movies & Series
-- Horror Movies & Series
-- Movie News & Discussion
-- Reality TV
-- Romance Movies & Series
-- Sci-Fi Movies & Series
-- Superhero Movies & Series
-- TV News & Discussion
-
-RESOURCES
-
-About Reddit
-
-Advertise
-
-Reddit Pro
-
-BETA
-
-Help
-
-Blog
-
-Careers
-
-Press
-
-Communities
-
-Best of Reddit
+In this reformatted article, each movie is encapsulated within its own `<ThrillerMovie>` tag, and the relevant attributes are tagged accordingly. This structure provides a clear and organized presentation of the information while highlighting the key aspects of each film.

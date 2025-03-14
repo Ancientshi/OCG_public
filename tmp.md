@@ -1,96 +1,4 @@
-To tackle the task, I will first identify the specific attributes from the provided Abstract Data Type (ADT) for the class `ThrillerMovie`. The attributes are:
-
-1. **Name**: The title of the movie.
-2. **Plot Complexity**: The intricacy of the plot.
-3. **Psychological Depth**: The exploration of psychological themes and character motivations.
-4. **Character Development**: How well the characters are developed.
-5. **Twists and Turns**: The unexpected plot developments.
-6. **Themes**: The central ideas and messages of the film.
-7. **Additional Information**: Optional details that enhance understanding.
-
-Next, I will rewrite the original article while incorporating these attributes as XML tags where relevant. The goal is to maintain the original meaning and content while making it more structured and reader-friendly.
-
-### Reformatted Article
-
-```xml
-<article>
-    <title>The 10 Most Mind-Bending Psychological Thrillers Of The 21st Century</title>
-    <author>by</author>
-    <introduction>
-        <text>Psychological Thrillers are not a new genre of movies and have been around for decades, however, the 21st century has seen the refinement of this category with movies which are beyond praiseworthy. What sets this genre apart is its unique ability to engage the audience in such a way that they feel the emotional turmoil of the characters to an exceedingly empathetic level and see how they cope and navigate challenges they are faced with.</text>
-        <text>Not only can movies of this genre be unsettling, but they also excel at leaving the audience full of questions, and second guessing themselves, and allow them to expand the parameters of what they think is going on with the plot. With adept use of misdirection, unreliable narrators, vivid, and often non-linear storylines, these movies challenge the audience’s scope for understanding the convoluted plots.</text>
-    </introduction>
-
-    <movie>
-        <Name>Nocturnal Animals</Name>
-        <PlotComplexity>High</PlotComplexity>
-        <PsychologicalDepth>Explores guilt and emotional turmoil</PsychologicalDepth>
-        <CharacterDevelopment>Strong character arcs, especially Susan and Tony</CharacterDevelopment>
-        <TwistsAndTurns>Multiple unexpected developments</TwistsAndTurns>
-        <Themes>Regret, betrayal, isolation, revenge</Themes>
-        <AdditionalInformation>
-            <text>From what was only Tom Ford’s second movie, came one of the most disturbing features of the 2010s. With its immaculate attention to detail, heavy use of symbolism and glamorous costuming, it’s easy to see why Nocturnal Animals is such a cult classic. With compelling performances by the star-studded cast including Jake Gyllenhaal, Amy Adams, Michael Shannon (his role earning him an Academy award nomination), Isla Fisher and Aaron Taylor-Johnson, the movie plays out all its tricks on the minds of the audience.</text>
-            <text>The movie follows a narrative within a narrative approach by playing out the events of Tony’s (Jake Gyllenhaal) book as his ex-wife Susan (Amy Adams) reads the bone chilling manuscript, and deals with fighting her guilt and resurfacing feelings for her ex-husband.</text>
-        </AdditionalInformation>
-    </movie>
-
-    <movie>
-        <Name>The Machinist</Name>
-        <PlotComplexity>High</PlotComplexity>
-        <PsychologicalDepth>Explores guilt and paranoia</PsychologicalDepth>
-        <CharacterDevelopment>Deep exploration of Trevor's psyche</CharacterDevelopment>
-        <TwistsAndTurns>Significant plot twists</TwistsAndTurns>
-        <Themes>Guilt, punishment, mental health</Themes>
-        <AdditionalInformation>
-            <text>Starring Christian Bale as what is probably the most grueling character he has ever played and is directed by Brad Anderson, who you may know from movies like, ‘Fractured’ and ‘Session 9’, The Machinist remains his best work to date.</text>
-            <text>Christian Bale lost 62 pounds and went on a strict diet of apples, water and coffee daily for the movie, playing the insomniac factory worker, Trevor Reznik.</text>
-        </AdditionalInformation>
-    </movie>
-
-    <movie>
-        <Name>Enemy</Name>
-        <PlotComplexity>Complex and layered</PlotComplexity>
-        <PsychologicalDepth>Explores identity and desire</PsychologicalDepth>
-        <CharacterDevelopment>Duality of characters</CharacterDevelopment>
-        <TwistsAndTurns>Intriguing and unexpected</TwistsAndTurns>
-        <Themes>Duality, obsession, identity</Themes>
-        <AdditionalInformation>
-            <text>The second of Jake Gyllenhaal movies to make this list, Enemy, directed by Denis Villeneuve, is perhaps his most peculiar and hard to understand on a first watch.</text>
-            <text>Adam Bell (Jake Gyllenhaal) is a history professor who lives a quiet life with his partner Mary (Mélanie Laurent). While watching a movie, he discovers an actor, Anthony Claire, who looks strikingly like him, and tracks him down and begins to stalk him out of curiosity.</text>
-        </AdditionalInformation>
-    </movie>
-
-    <movie>
-        <Name>Shutter Island</Name>
-        <PlotComplexity>Intricate and engaging</PlotComplexity>
-        <PsychologicalDepth>Explores trauma and guilt</PsychologicalDepth>
-        <CharacterDevelopment>Strong character arcs, especially Teddy</CharacterDevelopment>
-        <TwistsAndTurns>Multiple twists and revelations</TwistsAndTurns>
-        <Themes>Trauma, guilt, mental illness</Themes>
-        <AdditionalInformation>
-            <text>Adapted from the novel by Dennis Lehane and directed by Martin Scorcese, Shutter Island is regarded as one of the most critically acclaimed acting projects of Leonardo DiCaprio’s career.</text>
-            <text>The movie is set in the 1950s and begins with Teddy Daniels (DiCaprio), a U.S Marshall and his partner Chuck Aule (Ruffalo) who are tasked with investigating the disappearance of a patient from an asylum for the criminally insane at the deserted Shutter Island.</text>
-        </AdditionalInformation>
-    </movie>
-
-    <movie>
-        <Name>Black Swan</Name>
-        <PlotComplexity>Complex and psychological</PlotComplexity>
-        <PsychologicalDepth>Deep exploration of obsession and identity</PsychologicalDepth>
-        <CharacterDevelopment>Intense character transformation</CharacterDevelopment>
-        <TwistsAndTurns>Surprising and shocking developments</TwistsAndTurns>
-        <Themes>Obsession, perfection, duality</Themes>
-        <AdditionalInformation>
-            <text>Winning Natalie Portman her second Oscar nod and first win, Black Swan truly showcases Portman’s acting prowess and serves as a testament to an actor’s dedication to her character.</text>
-            <text>Portman plays the role of the determined ballerina Nina Sayers whom above all else wants to be cast as the lead role of White/Black swan in the upcoming performance of Swan Lake.</text>
-        </AdditionalInformation>
-    </movie>
-</article>
-```
-
-In this reformatted article, I have structured the content into a more readable format while tagging the relevant sections with XML tags corresponding to the attributes defined in the ADT. Each movie is encapsulated within its own `<movie>` tag, and the attributes are clearly defined, making it easy for readers to identify key aspects of each film.
-
-
+# Content
 ### Specify Types of Tag
 Based on the provided Abstract Data Type (ADT) for the class `ThrillerMovie`, the following XML tags will be used to wrap relevant segments of the article:
 
@@ -231,3 +139,251 @@ Communities
 Best of Reddit
 
 Topics
+
+# Candidate Items
+```json
+[
+    {
+        "Name": "The Sixth Sense",
+        "MindBending": true,
+        "PsychologicalThemes": true,
+        "ComplexityLevel": "NOT FOUND",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "NOT FOUND",
+        "IntellectualEngagement": "NOT FOUND",
+        "Additional Information": {}
+    },
+    {
+        "Name": "Predestination",
+        "MindBending": true,
+        "PsychologicalThemes": true,
+        "ComplexityLevel": "NOT FOUND",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "NOT FOUND",
+        "IntellectualEngagement": "NOT FOUND",
+        "Additional Information": {}
+    },
+    {
+        "Name": "Self/Less",
+        "MindBending": true,
+        "PsychologicalThemes": true,
+        "ComplexityLevel": "NOT FOUND",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "NOT FOUND",
+        "IntellectualEngagement": "NOT FOUND",
+        "Additional Information": {}
+    },
+    {
+        "Name": "Inception",
+        "MindBending": "true",
+        "PsychologicalThemes": "true",
+        "ComplexityLevel": "High",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "true",
+        "IntellectualEngagement": "true",
+        "Additional Information": {
+            "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster."
+        }
+    },
+    {
+        "Name": "Shutter Island",
+        "MindBending": "Yes",
+        "PsychologicalThemes": "Yes",
+        "ComplexityLevel": "High",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "Yes",
+        "IntellectualEngagement": "Yes",
+        "Additional Information": {
+            "Description": "A psychological thriller with thrilling twists and a complex narrative."
+        }
+    },
+    {
+        "Name": "Psychological Thriller Recommendations",
+        "MindBending": "Yes",
+        "PsychologicalThemes": "Yes",
+        "ComplexityLevel": "Moderate",
+        "CharacterDepth": "No",
+        "PlotTwists": "Yes",
+        "IntellectualEngagement": "High",
+        "Additional Information": {
+            "request": "Happy Saturday everyone. I am looking for a movie that both my boyfriend and I will agree on watching. He hates demonic themes, or anything to do with rape. I agree, but tend to pick movies with that theme. Seriously. I don\u2019t know what\u2019s wrong with me.",
+            "preferences": "I really love thrillers of all kinds and get bored with other genres. So I'm hoping y\u2019all can recommend a movie that we\u2019ll both enjoy.",
+            "notes": "Plot twists always do the trick. But no full-on action movies. I appreciate a psychological mind-bending theme."
+        }
+    },
+    {
+        "Name": "Memento",
+        "MindBending": "Yes",
+        "PsychologicalThemes": "Yes",
+        "ComplexityLevel": "High",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "Yes",
+        "IntellectualEngagement": "Yes",
+        "Additional Information": {
+            "Description": "A classic backwards-thriller that follows the disintegrating mind of an obsessed man."
+        }
+    },
+    {
+        "Name": "The Machinist",
+        "MindBending": "true",
+        "PsychologicalThemes": "true",
+        "ComplexityLevel": "Medium",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "false",
+        "IntellectualEngagement": "true",
+        "Additional Information": {
+            "description": "An industrial worker who hasn't slept in a year begins to doubt his own sanity."
+        }
+    },
+    {
+        "Name": "The Usual Suspects",
+        "MindBending": true,
+        "PsychologicalThemes": false,
+        "ComplexityLevel": "medium",
+        "CharacterDepth": false,
+        "PlotTwists": true,
+        "IntellectualEngagement": true,
+        "Additional Information": {
+            "description": "The Usual Suspects features one of the most famous plot twists in cinematic history."
+        }
+    },
+    {
+        "Name": "Arrival",
+        "MindBending": "true",
+        "PsychologicalThemes": "false",
+        "ComplexityLevel": "High",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "false",
+        "IntellectualEngagement": "true",
+        "Additional Information": {
+            "description": "Linguist Louise Banks leads a team of investigators when gigantic spaceships touch down around the world. As nations teeter on the verge of global war, Banks and her crew must find a way to communicate with the extraterrestrial visitors."
+        }
+    },
+    {
+        "Name": "Fight Club",
+        "MindBending": true,
+        "PsychologicalThemes": true,
+        "ComplexityLevel": "high",
+        "CharacterDepth": true,
+        "PlotTwists": true,
+        "IntellectualEngagement": true,
+        "Additional Information": {
+            "description": "Fight Club is a film that explores themes of identity and consumerism through the lens of an unreliable narrator."
+        }
+    },
+    {
+        "Name": "Donnie Darko",
+        "MindBending": "true",
+        "PsychologicalThemes": "true",
+        "ComplexityLevel": "High",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "true",
+        "IntellectualEngagement": "true",
+        "Additional Information": {
+            "description": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes."
+        }
+    },
+    {
+        "Name": "Se7en",
+        "MindBending": "true",
+        "PsychologicalThemes": "true",
+        "ComplexityLevel": "High",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "true",
+        "IntellectualEngagement": "true",
+        "Additional Information": {
+            "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives."
+        }
+    },
+    {
+        "Name": "Time Lapse",
+        "MindBending": "true",
+        "PsychologicalThemes": "false",
+        "ComplexityLevel": "Medium",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "true",
+        "IntellectualEngagement": "true",
+        "Additional Information": {
+            "description": "Three friends discover a mysterious machine that takes pictures twenty-four hours into the future, and conspire to use it for personal gain, until disturbing and dangerous images begin to develop."
+        }
+    },
+    {
+        "Name": "Gone Girl",
+        "MindBending": true,
+        "PsychologicalThemes": true,
+        "ComplexityLevel": "high",
+        "CharacterDepth": true,
+        "PlotTwists": true,
+        "IntellectualEngagement": true,
+        "Additional Information": {
+            "description": "Gone Girl delves into the complexities of marriage and media perception, featuring a significant plot twist."
+        }
+    },
+    {
+        "Name": "Mr. Robot",
+        "MindBending": "true",
+        "PsychologicalThemes": "explores the reality of someone living with a mental disorder",
+        "ComplexityLevel": "high",
+        "CharacterDepth": "rich",
+        "PlotTwists": "frequent",
+        "IntellectualEngagement": "high",
+        "Additional Information": {
+            "description": "This subreddit is for people to ask for suggestions on books to read. Please only post requests for suggestions, not unsolicited recommendations or \u201cshould I read this book or that book\u201d type posts."
+        }
+    },
+    {
+        "Name": "Mindhunter",
+        "MindBending": "true",
+        "PsychologicalThemes": "mindhunter",
+        "ComplexityLevel": "NOT FOUND",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "NOT FOUND",
+        "IntellectualEngagement": "true",
+        "Additional Information": {
+            "WeirdShows": [
+                "The Boys",
+                "Loki"
+            ],
+            "TrippyMovies": [
+                "Vivarium",
+                "Enter the Void",
+                "A Scanner Darkly"
+            ]
+        }
+    },
+    {
+        "Name": "Training Day",
+        "MindBending": "NOT FOUND",
+        "PsychologicalThemes": "NOT FOUND",
+        "ComplexityLevel": "NOT FOUND",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "with a twist",
+        "IntellectualEngagement": "NOT FOUND",
+        "Additional Information": "NOT FOUND"
+    },
+    {
+        "Name": "Funny Games",
+        "MindBending": "Yes",
+        "PsychologicalThemes": "Yes",
+        "ComplexityLevel": "High",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "NOT FOUND",
+        "IntellectualEngagement": "Yes",
+        "Additional Information": {
+            "Description": "A family is tortured mentally and physically by two young men."
+        }
+    },
+    {
+        "Name": "Cach\u00e9",
+        "MindBending": "Yes",
+        "PsychologicalThemes": "Yes",
+        "ComplexityLevel": "High",
+        "CharacterDepth": "NOT FOUND",
+        "PlotTwists": "NOT FOUND",
+        "IntellectualEngagement": "Yes",
+        "Additional Information": {
+            "Description": "A psychological thriller that explores themes of surveillance and guilt."
+        }
+    }
+]
+```

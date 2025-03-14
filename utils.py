@@ -17,6 +17,7 @@ from rank_bm25 import BM25Okapi
 import numpy as np
 from config import *
 import torch
+from copy import deepcopy
 #bge_reranker = BGE_Reranker()
 
 # 指定设备
@@ -36,7 +37,7 @@ logger.addHandler(file_handler)
 
 
 # 设置缓存目录
-os.environ["TRANSFORMERS_CACHE"] = cacmodel_cache_dirhe_dir
+os.environ["TRANSFORMERS_CACHE"] = cache_dir
 os.environ['OPENAI_API_KEY'] = openai_api_key
 os.environ["SILICONFLOW_API_KEY"] = silicon_flow_key
 os.environ["ERK_API_KEY"] = erk_key
@@ -663,13 +664,28 @@ def candidate_items_list_merge(candidate_items_list_global):
     '''
     candidate_items_dict={}
     for candidate_list_local in candidate_items_list_global:
-        for candidate_item in candidate_list_local:
-            name=candidate_item['Name']
-            if name not in candidate_items_dict:
-                candidate_items_dict[name]=candidate_item
-            else:
-                #两个dict合并一下更新到candidate_items_dict中
-                candidate_items_dict[name].update(candidate_item)
+        #if candidate_list_local 是list
+        if isinstance(candidate_list_local, list):
+            for candidate_item in candidate_list_local:
+                name=candidate_item['Name']
+                if name not in candidate_items_dict:
+                    candidate_items_dict[name]=candidate_item
+                else:
+                    new_Additional_Information=candidate_item['Additional Information']
+                    original_Additional_Information=candidate_items_dict[name]['Additional Information']
+                    new_Additional_Information= {} if new_Additional_Information=='NOT FOUND' else new_Additional_Information
+                    original_Additional_Information= {} if original_Additional_Information=='NOT FOUND' else original_Additional_Information
+                    merged_Additional_Information= {**original_Additional_Information, **new_Additional_Information}
+                    
+                    old_item=deepcopy(candidate_items_dict[name])
+                    new_item=deepcopy(candidate_item)
+                    old_item.update(new_item)
+                    old_item['Additional Information']=merged_Additional_Information
+                    
+                    candidate_items_dict[name]=new_item
+        else:
+            pass
+
     candidate_items_list=list(candidate_items_dict.values())
     return candidate_items_list
      

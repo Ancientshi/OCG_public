@@ -10,10 +10,11 @@ I will provide you with an [Article], and an Abstract Data Type [ADT]. Your task
 
 
 ### Important Instructions
-(1) The primary objective is to extract instance object, the Abstract Data Type [ADT] is already defined and you should strictly follow.
+(1) The primary objective is to extract instance object, the Abstract Data Type [ADT] is already defined and you should strictly follow. 
 (2) The key information and relevant attribute in [Article] is already tagged with XML. You should pay special attenstion to these highlighted key words.
 (3) You generated content for the attribute should keep the original XML tag.
 (4) Do not fabricate information—if an extracted instance object has incomplete attributes, keep them as NOT FOUND.
+(5) For the attribute 'Additional Information,' unless it is marked as 'NOT FOUND,' it should be a JSON format containing supplementary descriptive details about the candidate.
 
 ### Your Answer Should Follow These Steps
 (1) Read the [ADT] carefully and understand the defined data structure
@@ -21,13 +22,17 @@ I will provide you with an [Article], and an Abstract Data Type [ADT]. Your task
 (3) Write a section named 'Candidate List', followed by a json format answer.
 
 ### Output Format
-The output format should be **clear and well-structured**. You should use json using the following format:
+You can articulate your thought process step by step in free text. However, at the end, you must generate a section titled 'Candidate List'. This section must be enclosed within triple backticks (```json) and (```). The 'Candidate List' should be formatted as JSON using the following structure:
 ```json
 [
     {
         "attribute1": "{content}",
         "attribute2": "{content}",
-        ...
+        ...,
+        "Additional Information" : {
+            "xxx" : "xxx",
+            ...
+        }
     },
     ...
 ]

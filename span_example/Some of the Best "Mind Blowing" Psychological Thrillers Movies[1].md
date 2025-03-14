@@ -99,121 +99,117 @@ For Android and iOS
 <!-- image -->
 
 # Spanned Content
-To tackle the task, I will first identify the specific attributes from the provided Abstract Data Type (ADT) for the class `ThrillerMovie`. These attributes will guide the tagging of relevant segments in the article.
-
-### Specify Types of Tag
-The attributes from the ADT are:
-1. **Name**: The title of the movie.
-2. **Plot Complexity**: The intricacy of the plot.
-3. **Psychological Depth**: Exploration of psychological themes and character motivations.
-4. **Character Development**: How well characters are developed.
-5. **Twists and Turns**: Unexpected plot developments.
-6. **Themes**: Central ideas and messages of the film.
-7. **Additional Information**: Supplementary details about the movie.
-
-### Reformatted Article
 Here is the rewritten article with the appropriate XML tags inserted:
 
-```xml
+
+
 <article>
     <section>
-        <header>
-            <title>Some of the Best "Mind Blowing" Psychological Thrillers Movies</title>
-        </header>
-        <p>Psychological Thrillers /mind blowing / twists / time lapse movies</p>
-        <p>List activity</p>
-        <p>Create a new list</p>
-        <p>List your movie, TV &amp; celebrity picks.</p>
-        <p>- 76 titles</p>
+        <header>Some of the Best <mindBending>Mind Blowing</mindBending> Psychological Thrillers Movies</header>
+        <subsection>Psychological Thrillers /mind blowing / twists / time lapse movies</subsection>
     </section>
     
     <movie>
-        <Name>Inception</Name>
-        <PlotComplexity>Complex</PlotComplexity>
-        <PsychologicalDepth>High</PsychologicalDepth>
-        <CharacterDevelopment>Strong</CharacterDevelopment>
-        <TwistsAndTurns>Multiple</TwistsAndTurns>
-        <Themes>Dreams, Reality</Themes>
-        <AdditionalInformation>
-            <duration>2h 28m</duration>
-            <rating>M8.8 (2.7M)</rating>
-            <metascore>74</metascore>
-            <description>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.</description>
-            <director>Christopher Nolan</director>
-            <stars>Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page</stars>
-        </AdditionalInformation>
+        <name>Inception</name>
+        <mindBending>true</mindBending>
+        <psychologicalThemes>true</psychologicalThemes>
+        <complexityLevel>High</complexityLevel>
+        <intellectualEngagement>true</intellectualEngagement>
+        <additionalInformation>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.</additionalInformation>
+        <plotTwists>true</plotTwists>
     </movie>
-
+    
     <movie>
-        <Name>Memento</Name>
-        <PlotComplexity>Intricate</PlotComplexity>
-        <PsychologicalDepth>High</PsychologicalDepth>
-        <CharacterDevelopment>Strong</CharacterDevelopment>
-        <TwistsAndTurns>Significant</TwistsAndTurns>
-        <Themes>Memory, Identity</Themes>
-        <AdditionalInformation>
-            <duration>1h 53m</duration>
-            <rating>M8.4 (1.4M)</rating>
-            <metascore>83</metascore>
-            <description>Leonard Shelby, an insurance investigator, suffers from anterograde amnesia and uses notes and tattoos to hunt for the man he thinks killed his wife, which is the last thing he remembers.</description>
-            <director>Christopher Nolan</director>
-            <stars>Guy Pearce, Carrie-Anne Moss, Joe Pantoliano</stars>
-        </AdditionalInformation>
+        <name>Memento</name>
+        <mindBending>true</mindBending>
+        <psychologicalThemes>true</psychologicalThemes>
+        <complexityLevel>High</complexityLevel>
+        <intellectualEngagement>true</intellectualEngagement>
+        <additionalInformation>Leonard Shelby, an insurance investigator, suffers from anterograde amnesia and uses notes and tattoos to hunt for the man he thinks killed his wife, which is the last thing he remembers.</additionalInformation>
+        <plotTwists>true</plotTwists>
     </movie>
-
+    
     <movie>
-        <Name>Shutter Island</Name>
-        <PlotComplexity>Moderate</PlotComplexity>
-        <PsychologicalDepth>High</PsychologicalDepth>
-        <CharacterDevelopment>Good</CharacterDevelopment>
-        <TwistsAndTurns>Surprising</TwistsAndTurns>
-        <Themes>Insanity, Reality</Themes>
-        <AdditionalInformation>
-            <duration>2h 18m</duration>
-            <rating>M8.2 (1.5M)</rating>
-            <metascore>63</metascore>
-            <description>Two US marshals are sent to a mental institution on an inhospitable island in order to investigate the disappearance of a patient.</description>
-            <director>Martin Scorsese</director>
-            <stars>Leonardo DiCaprio, Emily Mortimer, Mark Ruffalo</stars>
-        </AdditionalInformation>
+        <name>Shutter Island</name>
+        <mindBending>true</mindBending>
+        <psychologicalThemes>true</psychologicalThemes>
+        <complexityLevel>Medium</complexityLevel>
+        <intellectualEngagement>true</intellectualEngagement>
+        <additionalInformation>Two US marshals are sent to a mental institution on an inhospitable island in order to investigate the disappearance of a patient.</additionalInformation>
+        <plotTwists>true</plotTwists>
     </movie>
-
+    
     <movie>
-        <Name>The Machinist</Name>
-        <PlotComplexity>Moderate</PlotComplexity>
-        <PsychologicalDepth>High</PsychologicalDepth>
-        <CharacterDevelopment>Strong</CharacterDevelopment>
-        <TwistsAndTurns>Unexpected</TwistsAndTurns>
-        <Themes>Guilt, Insomnia</Themes>
-        <AdditionalInformation>
-            <duration>1h 41m</duration>
-            <rating>M7.6 (427K)</rating>
-            <metascore>61</metascore>
-            <description>An industrial worker who hasn't slept in a year begins to doubt his own sanity.</description>
-            <director>Brad Anderson</director>
-            <stars>Christian Bale, Jennifer Jason Leigh, Aitana Sánchez-Gijón</stars>
-        </AdditionalInformation>
+        <name>The Machinist</name>
+        <mindBending>true</mindBending>
+        <psychologicalThemes>true</psychologicalThemes>
+        <complexityLevel>Medium</complexityLevel>
+        <intellectualEngagement>true</intellectualEngagement>
+        <additionalInformation>An industrial worker who hasn't slept in a year begins to doubt his own sanity.</additionalInformation>
+        <plotTwists>false</plotTwists>
     </movie>
-
+    
     <movie>
-        <Name>The Usual Suspects</Name>
-        <PlotComplexity>Complex</PlotComplexity>
-        <PsychologicalDepth>Moderate</PsychologicalDepth>
-        <CharacterDevelopment>Good</CharacterDevelopment>
-        <TwistsAndTurns>Many</TwistsAndTurns>
-        <Themes>Crime, Deception</Themes>
-        <AdditionalInformation>
-            <duration>1h 46m</duration>
-            <rating>M8.5 (1.2M)</rating>
-            <metascore>76</metascore>
-            <description>The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup.</description>
-            <director>Bryan Singer</director>
-            <stars>Kevin Spacey, Gabriel Byrne, Chazz Palminteri</stars>
-        </AdditionalInformation>
+        <name>The Usual Suspects</name>
+        <mindBending>true</mindBending>
+        <psychologicalThemes>false</psychologicalThemes>
+        <complexityLevel>High</complexityLevel>
+        <intellectualEngagement>true</intellectualEngagement>
+        <additionalInformation>The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup.</additionalInformation>
+        <plotTwists>true</plotTwists>
     </movie>
-
-    <!-- Additional movies can be added in the same format -->
+    
+    <movie>
+        <name>Arrival</name>
+        <mindBending>true</mindBending>
+        <psychologicalThemes>false</psychologicalThemes>
+        <complexityLevel>High</complexityLevel>
+        <intellectualEngagement>true</intellectualEngagement>
+        <additionalInformation>Linguist Louise Banks leads a team of investigators when gigantic spaceships touch down around the world. As nations teeter on the verge of global war, Banks and her crew must find a way to communicate with the extraterrestrial visitors.</additionalInformation>
+        <plotTwists>false</plotTwists>
+    </movie>
+    
+    <movie>
+        <name>Fight Club</name>
+        <mindBending>true</mindBending>
+        <psychologicalThemes>true</psychologicalThemes>
+        <complexityLevel>High</complexityLevel>
+        <intellectualEngagement>true</intellectualEngagement>
+        <additionalInformation>An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.</additionalInformation>
+        <plotTwists>true</plotTwists>
+    </movie>
+    
+    <movie>
+        <name>Donnie Darko</name>
+        <mindBending>true</mindBending>
+        <psychologicalThemes>true</psychologicalThemes>
+        <complexityLevel>High</complexityLevel>
+        <intellectualEngagement>true</intellectualEngagement>
+        <additionalInformation>After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes.</additionalInformation>
+        <plotTwists>true</plotTwists>
+    </movie>
+    
+    <movie>
+        <name>Se7en</name>
+        <mindBending>true</mindBending>
+        <psychologicalThemes>true</psychologicalThemes>
+        <complexityLevel>High</complexityLevel>
+        <intellectualEngagement>true</intellectualEngagement>
+        <additionalInformation>Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.</additionalInformation>
+        <plotTwists>true</plotTwists>
+    </movie>
+    
+    <movie>
+        <name>Time Lapse</name>
+        <mindBending>true</mindBending>
+        <psychologicalThemes>false</psychologicalThemes>
+        <complexityLevel>Medium</complexityLevel>
+        <intellectualEngagement>true</intellectualEngagement>
+        <additionalInformation>Three friends discover a mysterious machine that takes pictures twenty-four hours into the future, and conspire to use it for personal gain, until disturbing and dangerous images begin to develop.</additionalInformation>
+        <plotTwists>true</plotTwists>
+    </movie>
 </article>
-```
 
-In this reformatted article, each movie is encapsulated within a `<movie>` tag, and the relevant attributes are tagged accordingly. This structure maintains readability while clearly delineating the required information about each thriller movie.
+
+
+In this reformatted article, I have structured the information about each movie according to the specified attributes, ensuring that the content remains clear and informative while highlighting the relevant details with XML tags.

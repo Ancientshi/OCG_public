@@ -2,18 +2,28 @@ text='''### Specify Types of Tag\nBased on the provided Abstract Data Type (ADT)
 
 
 import json
+from utils import candidate_items_list_merge
 
 
 #读取 /Users/j4-ai/workspace/OCG/AI_search_content/2025-03-14-01-19-24.json 
 # 然后展开
 # 把里面的spanned_content 全部写入到tmp.md
 
-the_dict = json.load(open('/Users/j4-ai/workspace/OCG/AI_search_content/2025-03-14-01-19-24.json'))
+the_dict = json.load(open('/Users/j4-ai/workspace/OCG/AI_search_content/2025-03-14-16-14-21.json'))
 #展开
+candidate_items_list_global=[]
 for subquestion,subquestion_dict in the_dict['subquestion'].items():
     for obj in subquestion_dict['AI_search_content_list']:
         title = obj['title'].replace('/','_')
         content = obj['content']
         spanned_content = obj['spanned_content']
+        candidate_items_list_local=obj['candidate_items_list_local']
+        candidate_items_list_global.append(candidate_items_list_local)
         with open (f'span_example/{title}.md', 'w') as f:
             f.write(f'# Content\n{content}\n\n# Spanned Content\n{spanned_content}')
+
+candidate_items_list=candidate_items_list_merge(candidate_items_list_global)
+with open ('tmp.md', 'w') as f:
+    #打印candidate_items_list 到tmp.md
+    f.write(f'# Content\n{text}\n\n# Candidate Items\n```json\n{json.dumps(candidate_items_list, indent=4)}\n```')
+    

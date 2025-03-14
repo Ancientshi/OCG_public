@@ -14,7 +14,7 @@ Your task is to understand user’s [Narrative Recommendation Query] and the ana
 ### Important Instructions
 (1) All analyses must be strictly derived from the narrative query and the provided personality traits; no extraneous information should be incorporated.
 (2) Each inference and attribute selection must be supported by clear, logical evidence, ensuring the overall reasoning is both coherent and robust.
-(3) The design of the Abstract Data Type (ADT) should be responsive to the user’s specific concerns, balancing the necessity of key attributes with the flexibility to accommodate optional requirements. The attribute "Name" and "Additional Information" must should be included. "Name" is mandatory, and the attribute "Additional Information" is optional. The latter serves as a repository for supplementary descriptive details about the candidate that are not of primary importance
+(3) The design of the Abstract Data Type (ADT) should be responsive to the user’s specific concerns, balancing the necessity of key attributes with the flexibility to accommodate optional requirements. The attribute "Name" and "Additional Information" must should be included and they are mandatory. The latter serves as a repository for supplementary descriptive details about the candidate that are not of primary importance
 
 ### Response Format
 Class Name: {classname}
@@ -23,4 +23,4 @@ Name, required
 {attribute1}, {required/optional}
 {attribute2}, {required/optional}
 ...
-Additional information, optional
+Additional information, required

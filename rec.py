@@ -4,7 +4,7 @@ import os
 from QA import *
 from utils import *
 import logging
-from AISearch import AI_search, self_AI_search
+from AISearch import self_AI_search
 from copy import deepcopy
 from datetime import datetime
 
@@ -62,11 +62,12 @@ def generate_response_rec(data):
     citations=[]
     
     subquestion_list = rewrite(question=deepcopy(question))
-    print('subquestion_list',subquestion_list)
     log_json['subquestion']={}
     with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
         json.dump(log_json, f, ensure_ascii=False, indent=4)
-        
+    
+    print('subquestion_list',subquestion_list)
+    
     candidate_items_list_global=[]
     for subquestion in subquestion_list:
         log_json['subquestion'][subquestion]={'AI_search_content_list':[],'citations':[]}
@@ -79,7 +80,7 @@ def generate_response_rec(data):
             
         
         local_external_knowledge_dict,local_set=self_AI_search(
-            query=subquestion,pagenum=3,threshold=0.0,existed_citation_list=deepcopy(list(citations))
+            query=subquestion,pagenum=1,threshold=0.0,existed_citation_list=deepcopy(list(citations))
         )
         AI_search_content_list=[]
         
@@ -90,6 +91,7 @@ def generate_response_rec(data):
             for chunk in response:
                 if chunk:
                     spanned_content+=chunk
+            spanned_content=spanned_content.split('Reformatted Article')[1].replace('```xml','\n').replace('```','\n').strip()
                     
             # 接着根据搜到的内容，生成candidate items
             candidate_items_list_local = Extract(article=deepcopy(spanned_content),ADT=deepcopy(adt_content))
@@ -97,11 +99,10 @@ def generate_response_rec(data):
             AI_search_content_list.append({
                 'title':title,
                 'content':content,
-                'spanned_content':spanned_content
+                'spanned_content':spanned_content,
                 'candidate_items_list_local':candidate_items_list_local
             })
             AI_search_content+=f'{title}\n\n{spanned_content}\n\n'
-            
           
         AI_search_content_replaced=replace_citation_indices(AI_search_content, local_set,existing_citation_number=len(citations))  
         log_json['subquestion'][subquestion]['AI_search_content_list']=AI_search_content_list
@@ -115,7 +116,7 @@ def generate_response_rec(data):
         dict_data = FrontWrapper_Body(None,'\n\n')
         json_data = json.dumps(dict_data)
         yield f'data: {json_data}\n\n'
-
+        
     
     # 输出准备好的candidate_items_list
     dict_data = FrontWrapper_Body(None,f'# Prepare Candidate Items List:\n\n')
@@ -123,7 +124,7 @@ def generate_response_rec(data):
     yield f'data: {json_data}\n\n'
 
     
-    candidate_items_list=candidate_items_list_merge(candidate_items_list)
+    candidate_items_list=candidate_items_list_merge(candidate_items_list_global)
     dict_data = FrontWrapper_Body(None,'\n\n')
     json_data = json.dumps(dict_data)
     yield f'data: {json_data}\n\n'
@@ -131,8 +132,7 @@ def generate_response_rec(data):
     log_json['candidate_items_list_prepare']=candidate_items_list
     with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
         json.dump(log_json, f, ensure_ascii=False, indent=4)
-        
-    aa=input('continue?')
+
     
     external_knowledge_str_local_list=[]
     # 接着对candidate_items_list 中的每一个进行补充和校验
