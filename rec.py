@@ -138,8 +138,8 @@ def generate_response_rec(data):
     # 接着对candidate_items_list 中的每一个进行补充和校验
     for index,candidate_item in enumerate(candidate_items_list):
         external_knowledge_str_local=''
-        name=candidate_item['Name']
-        log_json['candidate_items_list_AI_search_content']={f'{name}':{}}
+        name=candidate_item.get('Name','NOT FOUND')
+        log_json['AI_search_content_for_complete']={f'{name}':{}}
         with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
             json.dump(log_json, f, ensure_ascii=False, indent=4)
             
@@ -153,23 +153,29 @@ def generate_response_rec(data):
         #对其每一个key和value校验，如果value没有一个是NONE，则说明这个candidate_item是完整的
         for key,value in candidate_item.items():
             if value=='NOT FOUND':
-                formulated_question=f'''
+                in_context_situation=f'''
                     User ask for: {question}
                     For a candidate item: {name}
                     Need to find related information about the {key} for it.
-                    '''
+                '''
+                generated_query=generate_single_query(in_context_situation=in_context_situation)
                 
-                dict_data = FrontWrapper_Body(None,f'# Searching related information about the {key} for {name}.\n\n')
+                
+                dict_data = FrontWrapper_Body(None,f'# Searching related information about the {key} for {name}. Query {generated_query}\n\n')
                 json_data = json.dumps(dict_data)
                 yield f'data: {json_data}\n\n'
                 
-                
-                AI_search_content,local_set=self_AI_search(
-                    formulated_question,2
+                #改到这里了
+                # AI_search_content,local_set=self_AI_search(
+                #     formulated_question,2
+                # )
+                local_external_knowledge_dict,local_set=self_AI_search(
+                    query=generated_query,pagenum=1,threshold=0.0,existed_citation_list=deepcopy(list(citations))
                 )
+                
                 AI_search_content_replaced=replace_citation_indices(AI_search_content, local_set,existing_citation_number=len(citations))  
                 
-                log_json['candidate_items_list_AI_search_content'][f'{name}'][f'{key}']={'AI_search_content_list':AI_search_content,'citations':list(local_set)}
+                log_json['AI_search_content_for_complete'][f'{name}'][f'{key}']={'AI_search_content_list':AI_search_content,'citations':list(local_set)}
                 with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
                     json.dump(log_json, f, ensure_ascii=False, indent=4)
                     

@@ -1,0 +1,21 @@
+### Task Description
+Your task is to generate just one query for searching, taking account for the [In Context Situation].
+
+
+### In Context Situation
+{{in_context_situation}}
+
+### Analytical Steps
+(1) 想象一下用户在询问问题时候的情景
+(2) 模仿用户的思考过程，他应当去浏览器上键入什么样的query。能够方便到他搜索到他想知道的内容。
+
+### Important Instructions
+(1) Note: Just return single query, no else redundant words.
+
+### Response Format
+You can think through the process step by step and ultimately generate a section titled 'Generated Query'. This section must be enclosed within triple backticks (```json ... ```). The 'Generated Query' should be formatted as JSON using the following structure. For example:
+```json
+{
+    "query":"xxx"
+}
+```

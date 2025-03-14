@@ -59,6 +59,14 @@ def rewrite(question='',profile=''):
             subquestion_list.append(line)
     return subquestion_list
 
+def generate_single_query(in_context_situation):
+    SINGLE_QUERY_GENERATION.replace("{{in_context_situation}}", in_context_situation)
+    response=GPT_QA_not_stream(SINGLE_QUERY_GENERATION, model_name="gpt-4o-mini", t=0.0)
+    generated_query=response.split('```json')[1].split('```')[0].strip()
+    generated_query=json.loads(generated_query)
+    return generated_query['query']
+
+
 def SpanPredict(adt='', article=''):
     SpanPredict_prompt= SPANPREDICT_TEMPLATE.replace("{{ADT}}", adt).replace("{{article}}", article)
     response=GPT_QA(SpanPredict_prompt, model_name="gpt-4o-mini", t=0.0)
