@@ -21,14 +21,7 @@ def generate_response_rec(data):
         json.dump(log_json, f, ensure_ascii=False, indent=4)
     
     #先生成personality traits 
-    profile_content=''
-    response = ColdRead(query=deepcopy(question))
-    for content in response:
-        if content:
-            profile_content+=content
-        dict_data = FrontWrapper_Body(None,content)
-        json_data = json.dumps(dict_data)
-        yield f'data: {json_data}\n\n'
+    profile_content=ColdRead(query=deepcopy(question))
     log_json['profile']=profile_content
     with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
         json.dump(log_json, f, ensure_ascii=False, indent=4)
@@ -40,21 +33,14 @@ def generate_response_rec(data):
     json_data = json.dumps(dict_data)
     yield f'data: {json_data}\n\n'
     
-    adt_content=''
-    response = ADT_generation(question=deepcopy(question), personality_traits=profile_content)
-    for content in response:
-        if content:
-            adt_content+=content
-        dict_data = FrontWrapper_Body(None,content)
-        json_data = json.dumps(dict_data)
-        yield f'data: {json_data}\n\n'
-    dict_data = FrontWrapper_Body(None,'\n\n')
-    json_data = json.dumps(dict_data)
-    yield f'data: {json_data}\n\n'
+    adt_content = ADT_generation(question=deepcopy(question), personality_traits=profile_content)
     log_json['ADT']=adt_content
     with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
         json.dump(log_json, f, ensure_ascii=False, indent=4)
     
+    dict_data = FrontWrapper_Body(None,adt_content+'\n\n')
+    json_data = json.dumps(dict_data)
+    yield f'data: {json_data}\n\n'
     
     
     #再去网上搜索
@@ -86,12 +72,7 @@ def generate_response_rec(data):
         
         AI_search_content=''
         for title,content in local_external_knowledge_dict.items():
-            spanned_content=''
-            response=SpanPredict(adt=deepcopy(adt_content), article=deepcopy(content))
-            for chunk in response:
-                if chunk:
-                    spanned_content+=chunk
-            spanned_content=spanned_content.split('Reformatted Article')[1].replace('```xml','\n').replace('```','\n').strip()
+            spanned_content = SpanPredict(adt=deepcopy(adt_content), article=deepcopy(content))
                     
             # 接着根据搜到的内容，生成candidate items
             candidate_items_list_local = Extract(article=deepcopy(spanned_content),ADT=deepcopy(adt_content))
@@ -185,12 +166,7 @@ def generate_response_rec(data):
             
             # 遍历搜索到的结果，并利用其内容去补全 candidate_item
             for title, content in local_external_knowledge_dict.items():
-                spanned_content = ''
-                response = SpanPredict(adt=deepcopy(adt_content), article=deepcopy(content))
-                for chunk in response:
-                    if chunk:
-                        spanned_content += chunk
-                spanned_content = spanned_content.split('Reformatted Article')[1].replace('```xml', '\n').replace('```', '\n').strip()
+                spanned_content = SpanPredict(adt=deepcopy(adt_content), article=deepcopy(content))
                 
                 # 根据搜索到的内容进行补全，可能会同时补全多个 attribute
                 completed_candidate_item = complete(

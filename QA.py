@@ -69,8 +69,9 @@ def generate_single_query(in_context_situation):
 
 def SpanPredict(adt='', article=''):
     SpanPredict_prompt= SPANPREDICT_TEMPLATE.replace("{{ADT}}", adt).replace("{{article}}", article)
-    response=GPT_QA(SpanPredict_prompt, model_name="gpt-4o-mini", t=0.0)
-    return response
+    spanned_content=GPT_QA_not_stream(SpanPredict_prompt, model_name="gpt-4o-mini", t=0.0)
+    spanned_content=spanned_content.split('Reformatted Article')[1].replace('```xml', '\n').replace('```', '\n').strip()
+    return spanned_content
     
 def answer_question(question="SQL的搜索语句怎么写？",historical_qa=None,external_knowledge_str=None,mindmap=None,user_material_str='',model='gpt-4o-mini'):
     assert model in ['gpt-4o-mini','Pro/deepseek-ai/DeepSeek-R1','Pro/THUDM/glm-4-9b-chat','Qwen/Qwen2.5-7B-Instruct']
@@ -113,14 +114,14 @@ def answer_question(question="SQL的搜索语句怎么写？",historical_qa=None
 
 def ColdRead(query=''):
     ColdRead_prompt= COLDREAD_TEMPLATE.replace("{{query}}", query)
-    response=GPT_QA(ColdRead_prompt, model_name="gpt-4o-mini", t=0.2)
-    return response
+    profile_content=GPT_QA_not_stream(ColdRead_prompt, model_name="gpt-4o-mini", t=0.2)
+    return profile_content
 
 
 def ADT_generation(question='', personality_traits=''):
     ADT_prompt= ADT_TEMPLATE.replace("{{query}}", question).replace("{{profile}}", personality_traits)
-    response=GPT_QA(ADT_prompt, model_name="gpt-4o-mini", t=0.2)
-    return response
+    adt=GPT_QA_not_stream(ADT_prompt, model_name="gpt-4o-mini", t=0.2)
+    return adt
 
 def Extract(article='',ADT=''):
     extract_prompt= EXTRACT_TEMPLATE.replace("{{article}}", article).replace("{{ADT}}", ADT)
