@@ -133,18 +133,20 @@ def generate_response_rec(data):
     with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
         json.dump(log_json, f, ensure_ascii=False, indent=4)
 
-    
+    log_json['AI_search_content_for_complete']={}
     external_knowledge_str_local_list=[]
     # 接着对candidate_items_list 中的每一个进行补充和校验
     for index,candidate_item in enumerate(candidate_items_list):
         external_knowledge_str_local=''
         name=candidate_item.get('Name','NOT FOUND')
-        log_json['AI_search_content_for_complete']={f'{name}':{}}
+        if name == 'NOT FOUND':
+            continue
+        
+        log_json['AI_search_content_for_complete'][name]={}
         with open(f'AI_search_content/{time_stamp}.json','w', encoding="utf-8") as f:
             json.dump(log_json, f, ensure_ascii=False, indent=4)
             
-        if name == 'NOT FOUND':
-            continue
+        
         dict_data = FrontWrapper_Body(None,f'# Checking Validation of Candidate Item: *{name}*\n\n')
         json_data = json.dumps(dict_data)
         yield f'data: {json_data}\n\n'
@@ -197,7 +199,7 @@ def generate_response_rec(data):
                     ADT=adt_content
                 )
                 
-                log_json['AI_search_content_for_complete'][f'{name}'] = {
+                log_json['AI_search_content_for_complete'][name] = {
                     'missing_key': missing_key,
                     'title': title,
                     'content': content,
