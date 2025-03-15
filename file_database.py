@@ -5,6 +5,8 @@ import os
 
 
 def docling_read_file(file_path):
+    #本地可以用http://0.0.0.0:6000/convert
+    #外部可以用http://103.120.11.97:4747/file/convert
     url = "http://0.0.0.0:6000/convert"
     json_data = {"file_path": file_path}
     try:

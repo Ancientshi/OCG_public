@@ -138,15 +138,12 @@ def Extract(article='',ADT=''):
     return candidate_items_list
 
 
-def complete(candidate_item='',external_knowledge_str='',ADT=''):
-    QA_prompt= COMPLETE_TEMPLATE.replace("{{candidate_item}}", candidate_item).replace("{{external_knowledge_str}}", external_knowledge_str).replace("{{ADT}}", ADT)
-    historical_qa=[]
-    historical_qa=[{
-        'role': 'system',
-        'content': COMPLETE_SYSTEM
-    }]+historical_qa
-    response=GPT_QA(QA_prompt, model_name="gpt-4o", t=0.0,historical_qa=historical_qa)
-    return response
+def complete(candidate_item='',article='',ADT=''):
+    candidate_item_str=json.dumps(candidate_item)
+    complete_prompt= COMPLETE_TEMPLATE.replace("{{candidate_item}}", candidate_item_str).replace("{{article}}", article).replace("{{ADT}}", ADT)
+    response=GPT_QA_not_stream(complete_prompt, model_name="gpt-4o-mini", t=0.0)
+    completed_candidate=response.split('```json')[1].split('```')[0].strip()
+    return completed_candidate
 
 
 if __name__ == '__main__':
