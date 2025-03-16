@@ -1,5 +1,5 @@
 ### Task Description  
-I will provide you with an [Article], and an Abstract Data Type [ADT]. Your task is to extract relevant entities from the XML tagged [Article] based on the given [ADT]. The [Article]
+I will provide you with an [Article], and an Abstract Data Type [ADT]. Your task is to extract relevant entities from the XML tagged [Article] based on the given [ADT].
 
 
 ### Abstract Data Type (ADT)

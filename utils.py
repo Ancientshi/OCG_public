@@ -668,6 +668,9 @@ def candidate_items_list_merge(candidate_items_list_global):
         if isinstance(candidate_list_local, list):
             for candidate_item in candidate_list_local:
                 name=candidate_item['Name']
+                if name == 'NOT FOUND':
+                    continue
+                
                 if name not in candidate_items_dict:
                     candidate_items_dict[name]=candidate_item
                 else:
@@ -682,7 +685,7 @@ def candidate_items_list_merge(candidate_items_list_global):
                     old_item.update(new_item)
                     old_item['Additional Information']=merged_Additional_Information
                     
-                    candidate_items_dict[name]=new_item
+                    candidate_items_dict[name]=old_item
         else:
             pass
 

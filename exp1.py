@@ -1,35 +1,45 @@
+from ask import narative_recommendation
+from rank import LLM_rank
+from evaluate import HR
 import json
-from utils import *
+import os
 
+test_file='dataset/test.json'
+with open(test_file, 'r') as f:
+    test_data = json.load(f)
 
-json_file='AI_search_content/2025-03-03-15-33-03.json'
-#读取
-dict_data = json.load(open(json_file, 'r'))
+exp1_folder='exp_result/exp1'
+# 读取result.json, 如果不存在则创建
+if not os.path.exists(f'{exp1_folder}/result.json'):
+    with open(f'{exp1_folder}/result.json', 'w') as f:
+        json.dump({}, f)
+with open(f'{exp1_folder}/result.json', 'r') as f:
+    existing_result = json.load(f)
+    
+max=20
+for index, test_case in enumerate(test_data):
+    narrative_query=test_case['narrative query']
+    result=test_case['result']
+    all_label_rank_list=list(result.values())
+    
+    if narrative_query in existing_result:
+        print(f"Test Case {index+1} already exists in result.json")
+        continue
+    
+    OCG_list=narative_recommendation(narrative_query=narrative_query,model='gpt-4o-mini')
+    LLM_rank_list=LLM_rank(OCG_list)
+    
+    hit_ratio_avg=0
+    for label_rank_list in all_label_rank_list:
+        hit_ratio = HR(label_rank_list, LLM_rank_list, k=10)
+        hit_ratio_avg+=hit_ratio
+    hit_ratio_avg/=len(all_label_rank_list)
+    print(f"Test Case {index+1} Hit Ratio: {hit_ratio_avg}")
+    
+    existing_result[narrative_query]=hit_ratio_avg
+    # 保存到result.json
+    with open(f'{exp1_folder}/result.json', 'w') as f:
+        json.dump(existing_result, f)
 
-question=dict_data.get('question','')
-mindmap=dict_data.get('mindmap','')
-ADT=dict_data.get('ADT','')
-subquestion_list=dict_data.get('subquestion','')
-for subquestion in subquestion_list.keys():
-    AI_search_content=subquestion_list[subquestion]['AI_search_content']
-    citations=subquestion_list[subquestion]['citations']
-
-candidate_items_list_prepare=dict_data.get('candidate_items_list_prepare','')
-candidate_items_list_AI_search_content=dict_data.get('candidate_items_list_AI_search_content','')
-for candidate_name in candidate_items_list_AI_search_content.keys():
-    candidate_dict=candidate_items_list_AI_search_content[candidate_name]
-    for attribute in candidate_dict.keys():
-        candidate_AI_search_content=candidate_dict[attribute]['AI_search_content']
-        candidate_citations=candidate_dict[attribute]['citations']
-
-candidate_items_list_final=dict_data.get('candidate_items_list_final','')
-final_response=dict_data.get('final_response','')
-final_response_reasoning=final_response.get('reasoning','')
-final_response_content=final_response.get('content','')
- 
-print('final_response_reasoning:',final_response_reasoning)
-print('final_response_content:',final_response_content)
-
-#如果直接用
-if __name__ == '__main__':
-    pass
+    if index+1==max:
+        break

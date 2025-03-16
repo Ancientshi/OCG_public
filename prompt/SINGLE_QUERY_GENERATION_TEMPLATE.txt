@@ -6,8 +6,8 @@ Your task is to generate just one query for searching, taking account for the [I
 {{in_context_situation}}
 
 ### Analytical Steps
-(1) 想象一下用户在询问问题时候的情景
-(2) 模仿用户的思考过程，他应当去浏览器上键入什么样的query。能够方便到他搜索到他想知道的内容。
+(1) Imagine the scenario in which the user is asking a question.
+(2) Simulate the user's thought process: What kind of query would they type into a search engine to easily find the information they are looking for?
 
 ### Important Instructions
 (1) Note: Just return single query, no else redundant words.

@@ -25,9 +25,10 @@ Your task is to complete the existing [Instance Object] based on the provided Ab
 
 
 ### Output Format
-You can articulate your thought process step by step in free text. However, at the end, you must generate a section titled 'Completed Candidate'. This section must be enclosed within triple backticks (```json) and (```). The 'Completed Candidate' should be formatted as JSON using the following structure:
+You can articulate your thought process step by step in free text. However, at the end, you must generate a section titled 'Completed Candidate'. This section must be enclosed within triple backticks (```json) and (```). The 'Completed Candidate' should be formatted as JSON aligning with [Instance Object], such as:
 ```json
 {
+    "Name": "{content}",
     "attribute1": "{content}",
     "attribute2": "{content}",
     ...,

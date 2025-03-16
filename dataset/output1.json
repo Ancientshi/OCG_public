@@ -1,0 +1,699 @@
+[
+    {
+        "narrative query": "I want some recommendations of movies. One of my favorite movies is Brick (2005). I enjoy the modern, noir style.",
+        "result": {
+            "c6dh9hw": [
+                "The Man Who Wasn't There (2001)"
+            ],
+            "c6dhzjn": [
+                "Mulholland Dr. (2001)",
+                "The Salton Sea (2002)",
+                "The Man Who Wasn't There (2001)",
+                "A History of Violence (2005)",
+                "In Bruges (2008)",
+                "Black Swan (2010)"
+            ],
+            "c6dn5oc": [
+                "The Salton Sea (2002)",
+                "The Man Who Wasn't There (2001)"
+            ],
+            "c6dti4q": [
+                "Veronica Mars (2014)"
+            ],
+            "c6ey576": [
+                "Kiss Kiss Bang Bang (2005)"
+            ],
+            "c6f5scp": [
+                "Assassination of a High School President (2008)"
+            ],
+            "c6filuh": [
+                "Dark City (1998)"
+            ],
+            "c6fpaaw": [
+                "Lost Highway (1997)"
+            ],
+            "c6fsnss": [
+                "Blue Velvet (1986)"
+            ],
+            "c6gvts3": [
+                "L.A. Confidential (1997)",
+                "Memento (2000)",
+                "The Black Dahlia (2006)"
+            ],
+            "c6gxtio": [
+                "The Usual Suspects (1995)"
+            ],
+            "c70h1wa": [
+                "Se7en (1995)",
+                "Sin City (2005)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. One of my favorite movies is Shutter Island (2010). I enjoy the thought, provoking, dark, suspenseful, movie, and, to style.",
+        "result": {
+            "c6gkgse": [
+                "Donnie Darko (2001)",
+                "El laberinto del fauno (2006)"
+            ],
+            "c6gkp73": [
+                "El laberinto del fauno (2006)"
+            ],
+            "c6gksk0": [
+                "Jacob's Ladder (1990/I)",
+                "Malice (1993)",
+                "Se7en (1995)",
+                "The Game (1997)",
+                "The Cell (2000)"
+            ],
+            "c6gkyh9": [
+                "Dark City (1998)"
+            ],
+            "c6glrbk": [
+                "Chinatown (1974)",
+                "Cape Fear (1991)",
+                "Primal Fear (1996)",
+                "Memento (2000)",
+                "Insomnia (2002)",
+                "25th Hour (2002)",
+                "Mystic River (2003)",
+                "The Machinist (2004)",
+                "Gone Baby Gone (2007)",
+                "Inside Man (2006)",
+                "Fracture (2007)",
+                "Eastern Promises (2007)",
+                "The Road (2009/I)",
+                "Black Swan (2010)",
+                "Män som hatar kvinnor (2009)",
+                "The Girl with the Dragon Tattoo (2011)"
+            ],
+            "c6gmbsj": [
+                "Taxi Driver (1976)",
+                "Children of Men (2006)",
+                "A History of Violence (2005)",
+                "A Scanner Darkly (2006)",
+                "The Prestige (2006)",
+                "Eastern Promises (2007)",
+                "Winter's Bone (2010)"
+            ],
+            "c6gmlji": [
+                "Taxi Driver (1976)",
+                "Children of Men (2006)",
+                "Winter's Bone (2010)"
+            ],
+            "c6gncl2": [
+                "Tideland (2005)"
+            ],
+            "c6gne2y": [
+                "El laberinto del fauno (2006)"
+            ],
+            "c6gnrb5": [
+                "We Need to Talk About Kevin (2011)"
+            ],
+            "c6go15n": [
+                "Jacob's Ladder (1990/I)"
+            ],
+            "c6goa8h": [
+                "The Talented Mr. Ripley (1999)",
+                "Mysterious Skin (2004)",
+                "Das Leben der Anderen (2006)",
+                "Alpha Dog (2006)",
+                "El orfanato (2007)",
+                "Dear Zachary: A Letter to a Son About His Father (2008)",
+                "Moon (2009)",
+                "Incendies (2010)",
+                "Detachment (2011)"
+            ],
+            "c6gpmmr": [
+                "Irréversible (2002)"
+            ],
+            "c6gs6yd": [
+                "A Clockwork Orange (1971)",
+                "Videodrome (1983)",
+                "Blue Velvet (1986)",
+                "Dead Ringers (1988)",
+                "Lost Highway (1997)",
+                "eXistenZ (1999)",
+                "American Psycho (2000)",
+                "Mulholland Dr. (2001)"
+            ],
+            "c6gsjl0": [
+                "Oldeuboi (2003)",
+                "Oldboy (2013)"
+            ],
+            "c6gvo3r": [
+                "Kontroll (2003)"
+            ],
+            "c6gyh41": [
+                "Take Shelter (2011)"
+            ],
+            "c6gzg0i": [
+                "Oldeuboi (2003)"
+            ],
+            "c6gzmgt": [
+                "Jin-Rô (1999)"
+            ],
+            "c6h0m5i": [
+                "Martha Marcy May Marlene (2011)"
+            ],
+            "c6h1oo2": [
+                "The Talented Mr. Ripley (1999)",
+                "Das Leben der Anderen (2006)",
+                "Moon (2009)"
+            ],
+            "c6h209y": [
+                "Das Experiment (2001)"
+            ],
+            "c6h39zf": [
+                "Cronos (1993)"
+            ],
+            "c6hv1je": [
+                "Possession (1981)",
+                "Possession (2002)",
+                "The Possession (2012/I)"
+            ],
+            "c6hvkq0": [
+                "Pusher (1996)"
+            ],
+            "c6hzz05": [
+                "Ang-ma-reul bo-at-da (2010)"
+            ],
+            "c6i8qn3": [
+                "The Cabin in the Woods (2012)"
+            ],
+            "c6ldmkm": [
+                "Night of the Living Dead (1968)",
+                "Night of the Living Dead (1990)"
+            ],
+            "c6mw5l9": [
+                "V for Vendetta (2005)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. Some movies I really enjoy include Alien (1979), Aliens (1986), Alien³ (1992), Alien: Resurrection (1997), Event Horizon (1997), Predators (2010), Prometheus (2012/I). I enjoy the space style. I really like Mystery, Thriller genres.",
+        "result": {
+            "c6gnklt": [
+                "Outland (1981)"
+            ],
+            "c6gqba8": [
+                "Pandorum (2009)"
+            ],
+            "c6gqfdw": [
+                "Dark City (1998)",
+                "Sunshine (2007)",
+                "Moon (2009)",
+                "Pandorum (2009)"
+            ],
+            "c6gv6bv": [
+                "Lost in Space (1998)",
+                "Pandorum (2009)"
+            ],
+            "c6gwd7i": [
+                "2001: A Space Odyssey (1968)",
+                "Blade Runner (1982)",
+                "Contact (1997)",
+                "Le cinquième élément (1997)"
+            ],
+            "c6gwwmo": [
+                "Cargo (2009)"
+            ],
+            "c6h2039": [
+                "Stargate (1994)",
+                "Pandorum (2009)"
+            ],
+            "c6j86f4": [
+                "Solaris (2002)"
+            ],
+            "c6jhjc8": [
+                "WALL·E (2008)"
+            ],
+            "c6ogdk2": [
+                "Solaris (2002)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. Some movies I really enjoy include Inception (2010), Sherlock Holmes: A Game of Shadows (2011). I enjoy the smart, intelligent style.",
+        "result": {
+            "c6i4x0t": [
+                "Sherlock Holmes (2009)",
+                "Inception (2010)"
+            ],
+            "c6i4y51": [
+                "The Fountain (2006)"
+            ],
+            "c6i511p": [
+                "The Fountain (2006)"
+            ],
+            "c6i55gp": [
+                "The Game (1997)",
+                "Mulholland Dr. (2001)",
+                "Primer (2004)"
+            ],
+            "c6i58f8": [
+                "Adaptation. (2002)"
+            ],
+            "c6i5fyq": [
+                "Fight Club (1999)",
+                "Memento (2000)"
+            ],
+            "c6i6w56": [
+                "Brick (2005)"
+            ],
+            "c6i72q3": [
+                "Twelve Monkeys (1995)"
+            ],
+            "c6i75a7": [
+                "Brazil (1985)",
+                "The Usual Suspects (1995)",
+                "American Psycho (2000)",
+                "The Machinist (2004)"
+            ],
+            "c6i7x9i": [
+                "Twelve Monkeys (1995)"
+            ],
+            "c6ibh9t": [
+                "The Prestige (2006)"
+            ],
+            "c6ic8j6": [
+                "Snatch (2000)"
+            ],
+            "c6icg5e": [
+                "Looper (2012)"
+            ],
+            "c6ijzw3": [
+                "In the Line of Fire (1993)",
+                "Nick of Time (1995)",
+                "Source Code (2011)",
+                "Moon (2009)"
+            ],
+            "c6ima5b": [
+                "Being John Malkovich (1999)"
+            ],
+            "c6ishat": [
+                "Memento (2000)"
+            ],
+            "c6isl2o": [
+                "Blade Runner (1982)",
+                "The Thing (1982)",
+                "Videodrome (1983)",
+                "eXistenZ (1999)",
+                "Cube (1997)",
+                "Pafekuto buru (1997)",
+                "Papurika (2006)",
+                "The Thing (2011/I)"
+            ],
+            "c6jrm24": [
+                "Shutter Island (2010)"
+            ],
+            "c6l9m3h": [
+                "The Game (1997)",
+                "A Beautiful Mind (2001)"
+            ],
+            "c6mj3xb": [
+                "Brick (2005)"
+            ],
+            "c6nd1yo": [
+                "Gattaca (1997)",
+                "Catch Me If You Can (2002)",
+                "Casino Royale (2006)",
+                "The Departed (2006)",
+                "V for Vendetta (2005)"
+            ],
+            "c6oiesx": [
+                "Brazil (1985)"
+            ],
+            "c6wmaqv": [
+                "The Fountain (2006)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. One of my favorite movies is Hotaru no haka (1988). I enjoy the tearjerkers, tragedy, cry style. On the other hand, I tend to avoid Romance genres.",
+        "result": {
+            "c6m0ddp": [
+                "Love Liza (2002)",
+                "House of Sand and Fog (2003)"
+            ],
+            "c6m0sab": [
+                "Toy Story 3 (2010)"
+            ],
+            "c6m1a7o": [
+                "The Perks of Being a Wallflower (2012)"
+            ],
+            "c6m1mkd": [
+                "American Beauty (1999)",
+                "Requiem for a Dream (2000)",
+                "Mysterious Skin (2004)",
+                "Black Swan (2010)",
+                "Blue Valentine (2010)",
+                "Enter the Void (2009)",
+                "Shame (2011)"
+            ],
+            "c6m20b4": [
+                "Mystic River (2003)",
+                "Hotel Rwanda (2004)",
+                "Revolutionary Road (2008)"
+            ],
+            "c6m36zy": [
+                "Warrior (2011)"
+            ],
+            "c6m5edr": [
+                "Never Let Me Go (2010)"
+            ],
+            "c6m6g1g": [
+                "Bridge to Terabithia (2007)"
+            ],
+            "c6m7ivt": [
+                "Requiem for a Dream (2000)"
+            ],
+            "c6m7tl8": [
+                "My Sister's Keeper (2009)"
+            ],
+            "c6m85t0": [
+                "The Iron Giant (1999)",
+                "Up (2009)"
+            ],
+            "c6m8ewd": [
+                "Saving Private Ryan (1998)",
+                "The Last Samurai (2003)",
+                "Un long dimanche de fiançailles (2004)"
+            ],
+            "c6mam2f": [
+                "Okuribito (2008)"
+            ],
+            "c6mg2rg": [
+                "Kuch Kuch Hota Hai (1998)",
+                "Kabhi Khushi Kabhie Gham... (2001)"
+            ],
+            "c6n5z3a": [
+                "Crash (1996)",
+                "La vita è bella (1997)",
+                "Stepmom (1998)",
+                "The Pursuit of Happyness (2006)",
+                "Slumdog Millionaire (2008)"
+            ],
+            "c6nl1ed": [
+                "The Elephant Man (1980)",
+                "Hachi: A Dog's Tale (2009)",
+                "Dear Zachary: A Letter to a Son About His Father (2008)"
+            ],
+            "c6o7l8t": [
+                "The Green Mile (1999)"
+            ],
+            "c6obb72": [
+                "In the Company of Men (1997)",
+                "Requiem for a Dream (2000)",
+                "Irréversible (2002)",
+                "La piel que habito (2011)",
+                "We Need to Talk About Kevin (2011)"
+            ],
+            "c6odb1b": [
+                "Awakenings (1990)",
+                "The Green Mile (1999)",
+                "Eternal Sunshine of the Spotless Mind (2004)",
+                "Once (2007)"
+            ],
+            "c6of6dp": [
+                "Life in a Day (2011)"
+            ],
+            "c6ohl1h": [
+                "Rudy (1993)",
+                "To End All Wars (2001)",
+                "Warrior (2011)",
+                "Justin Bieber: Never Say Never (2011)"
+            ],
+            "c6oppzg": [
+                "50/50 (2011)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. Some movies I really enjoy include Falling Down (1993), Fight Club (1999), Office Space (1999), God Bless America (2011).",
+        "result": {
+            "c6mfa27": [
+                "Spider-Man 3 (2007)"
+            ],
+            "c6mfcik": [
+                "American Beauty (1999)"
+            ],
+            "c6mh702": [
+                "Hooligans (2005)"
+            ],
+            "c6moe7y": [
+                "Cool Hand Luke (1967)",
+                "Five Easy Pieces (1970)",
+                "Taxi Driver (1976)",
+                "American Psycho (2000)"
+            ],
+            "c6nnnpi": [
+                "The Big Lebowski (1998)",
+                "Bulworth (1998)",
+                "Fear and Loathing in Las Vegas (1998)",
+                "American Beauty (1999)"
+            ],
+            "c6od8u7": [
+                "American Beauty (1999)"
+            ],
+            "c6okxu6": [
+                "Wanted (2008)"
+            ],
+            "c6om8vm": [
+                "American Beauty (1999)",
+                "Perfume: The Story of a Murderer (2006)"
+            ],
+            "c6p470r": [
+                "Bulworth (1998)"
+            ],
+            "c6ps3jz": [
+                "The Evil Dead (1981)",
+                "Falling Down (1993)",
+                "The Weather Man (2005)",
+                "Evil Dead (2013)"
+            ],
+            "c6pu9qq": [
+                "Five Easy Pieces (1970)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. One of my favorite movies is Looper (2012). I enjoy the science, fiction, future, humor, rounded, characters, unconventional, expansive, detailed, stylized, the, story, grounded, interesting, world style. I really like Action genres.",
+        "result": {
+            "c6ntdv2": [
+                "Children of Men (2006)"
+            ],
+            "c6nu18t": [
+                "The Terminator (1984)",
+                "Twelve Monkeys (1995)"
+            ],
+            "c6nu8l3": [
+                "Blade Runner (1982)",
+                "Witness (1985)",
+                "Looper (2012)"
+            ],
+            "c6nxtt8": [
+                "Witness (1985)"
+            ],
+            "c6ny6pe": [
+                "Witness (1985)"
+            ],
+            "c6nyr1g": [
+                "Daybreakers (2009)",
+                "Looper (2012)"
+            ],
+            "c6o0yv8": [
+                "Inception (2010)"
+            ],
+            "c6o1x8o": [
+                "Groundhog Day (1993)",
+                "Twelve Monkeys (1995)",
+                "Frequency (2000)",
+                "The Time Machine (2002)",
+                "The Butterfly Effect (2004)",
+                "Primer (2004)",
+                "The Lake House (2006)",
+                "Los cronocrímenes (2007)",
+                "Triangle (2009)"
+            ],
+            "c6o30yg": [
+                "Primer (2004)",
+                "Looper (2012)"
+            ],
+            "c6oenee": [
+                "Twelve Monkeys (1995)",
+                "Brick (2005)",
+                "Looper (2012)"
+            ],
+            "c6ohtq2": [
+                "Equilibrium (2002)"
+            ],
+            "c6okr7i": [
+                "Brazil (1985)"
+            ],
+            "c6omth3": [
+                "In Time (2011)"
+            ],
+            "c6orjjr": [
+                "Donnie Darko (2001)"
+            ],
+            "c6osphm": [
+                "Gattaca (1997)"
+            ],
+            "c6ot8sh": [
+                "Blade Runner (1982)",
+                "Akira (1988)",
+                "Looper (2012)"
+            ],
+            "c6otjls": [
+                "Dredd (2012)"
+            ],
+            "c6pqp8v": [
+                "The Terminator (1984)"
+            ],
+            "c6pwy3c": [
+                "Deja Vu (2006)",
+                "Source Code (2011)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. One of my favorite movies is Leaving Las Vegas (1995). I enjoy the depressed, dejected, characters style.",
+        "result": {
+            "c6o3exw": [
+                "Happiness (1998)",
+                "Requiem for a Dream (2000)"
+            ],
+            "c6ocz2u": [
+                "Candy (2006)"
+            ],
+            "c6oe2ua": [
+                "Boogie Nights (1997)"
+            ],
+            "c6og0uq": [
+                "Midnight Cowboy (1969)"
+            ],
+            "c6ogwyp": [
+                "Love Liza (2002)",
+                "Capote (2005)"
+            ],
+            "c6oi78f": [
+                "A Simple Plan (1998)"
+            ],
+            "c6ow1p9": [
+                "American Beauty (1999)",
+                "Adaptation. (2002)"
+            ],
+            "c6p0pha": [
+                "Midnight Cowboy (1969)",
+                "One Night Stand (1997)",
+                "American Beauty (1999)",
+                "Requiem for a Dream (2000)",
+                "Mr. Jones (2013)"
+            ],
+            "c6trawc": [
+                "La strada (1954)",
+                "La dolce vita (1960)",
+                "Midnight Cowboy (1969)",
+                "The Last Picture Show (1971)",
+                "Chinatown (1974)",
+                "Short Cuts (1993)",
+                "Magnolia (1999)",
+                "Fish Tank (2009)",
+                "Shame (2011)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. One of my favorite movies is Låt den rätte komma in (2008).",
+        "result": {
+            "c6ocld6": [
+                "Let Me In (2010/I)"
+            ],
+            "c6octtu": [
+                "The Road (2009/I)"
+            ],
+            "c6od1z9": [
+                "Sinister (2012/I)"
+            ],
+            "c6odx6x": [
+                "The Dark Knight Rises (2012)"
+            ],
+            "c6ogwn5": [
+                "Kingdom of Heaven (2005)",
+                "Sinister (2012/I)"
+            ],
+            "c6oh8al": [
+                "Interview with the Vampire: The Vampire Chronicles (1994)",
+                "Blade (1998)",
+                "Van Helsing (2004)",
+                "Daybreakers (2009)"
+            ],
+            "c6ojesw": [
+                "Twilight (2008/I)",
+                "Låt den rätte komma in (2008)",
+                "Let Me In (2010/I)",
+                "The Twilight Saga: New Moon (2009)",
+                "The Twilight Saga: Breaking Dawn - Part 1 (2011)",
+                "The Twilight Saga: Eclipse (2010)",
+                "The Twilight Saga: Breaking Dawn - Part 2 (2012)"
+            ],
+            "c6ojlm4": [
+                "Låt den rätte komma in (2008)",
+                "Let Me In (2010/I)"
+            ],
+            "c6osbxg": [
+                "Interview with the Vampire: The Vampire Chronicles (1994)",
+                "Bakjwi (2009)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. Some movies I really enjoy include Oldeuboi (2003), Taegukgi hwinalrimyeo (2004), Joheunnom nabbeunnom isanghannom (2008), Chugyeogja (2008), Ang-ma-reul bo-at-da (2010). I enjoy the korean style.",
+        "result": {
+            "c6ol7be": [
+                "Jigureul jikyeora! (2003)"
+            ],
+            "c6oq34n": [
+                "Salinui chueok (2003)",
+                "Janghwa, Hongryeon (2003)",
+                "Bakjwi (2009)",
+                "Madeo (2009)"
+            ],
+            "c6oq8z2": [
+                "Ajeossi (2010)"
+            ],
+            "c6orj7d": [
+                "Oldeuboi (2003)",
+                "Gwoemul (2006)"
+            ],
+            "c6owj7e": [
+                "Chugyeogja (2008)",
+                "Hwanghae (2010)"
+            ],
+            "c6oyw5e": [
+                "Chingoo (2001)",
+                "Salinui chueok (2003)",
+                "Dalkomhan insaeng (2005)",
+                "Ajeossi (2010)",
+                "Mai wei (2011)"
+            ],
+            "c6pcqgz": [
+                "Dalkomhan insaeng (2005)"
+            ],
+            "c6pmiri": [
+                "Oldeuboi (2003)",
+                "Hwanghae (2010)",
+                "Bumchoiwaui junjaeng: Nabbeunnomdeul jeonsungshidae (2012)"
+            ],
+            "c6pykvy": [
+                "Siworae (2000)",
+                "Yeopgijeogin geunyeo (2001)",
+                "Keulraesik (2003)"
+            ],
+            "c6q94go": [
+                "Salinui chueok (2003)"
+            ]
+        }
+    }
+]

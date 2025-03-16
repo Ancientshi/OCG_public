@@ -60,8 +60,8 @@ def rewrite(question='',profile=''):
     return subquestion_list
 
 def generate_single_query(in_context_situation):
-    SINGLE_QUERY_GENERATION.replace("{{in_context_situation}}", in_context_situation)
-    response=GPT_QA_not_stream(SINGLE_QUERY_GENERATION, model_name="gpt-4o-mini", t=0.0)
+    single_query_generation_prompt=SINGLE_QUERY_GENERATION_TEMPLATE.replace("{{in_context_situation}}", in_context_situation)
+    response=GPT_QA_not_stream(single_query_generation_prompt, model_name="gpt-4o-mini", t=0.0)
     generated_query=response.split('```json')[1].split('```')[0].strip()
     generated_query=json.loads(generated_query)
     return generated_query['query']
@@ -123,27 +123,36 @@ def ADT_generation(question='', personality_traits=''):
     adt=GPT_QA_not_stream(ADT_prompt, model_name="gpt-4o-mini", t=0.2)
     return adt
 
-def Extract(article='',ADT=''):
-    extract_prompt= EXTRACT_TEMPLATE.replace("{{article}}", article).replace("{{ADT}}", ADT)
-    response=GPT_QA(extract_prompt, model_name="gpt-4o-mini", t=0.0)
+def Extract(article='', ADT=''):
+    extract_prompt = EXTRACT_TEMPLATE.replace("{{article}}", article).replace("{{ADT}}", ADT)
     
-    candidate_items_str=''
-    for content in response:
-        if content:
-            candidate_items_str+=content
-
-    candidate_items_str=candidate_items_str.split('```json')[1].split('```')[0].strip()
-    candidate_items_list=json.loads(candidate_items_str)
+    for _ in range(2):  # 尝试两次
+        try:
+            response = GPT_QA_not_stream(extract_prompt, model_name="gpt-4o-mini", t=0.0)
+            candidate_items_str = response.split('```json')[1].split('```')[0].strip()
+            candidate_items_list = json.loads(candidate_items_str)
+            
+            if not isinstance(candidate_items_list, list):
+                return []
+            
+            candidate_items_list_valid = [
+                item for item in candidate_items_list 
+                if isinstance(item, dict) and item.get('Name') != 'NOT FOUND'
+            ]
+            
+            return candidate_items_list_valid
+        except Exception:
+            continue  # 如果异常，继续下一次尝试
     
-    
-    return candidate_items_list
+    return []  # 如果两次都失败，返回空列表
 
 
 def complete(candidate_item='',article='',ADT=''):
     candidate_item_str=json.dumps(candidate_item)
     complete_prompt= COMPLETE_TEMPLATE.replace("{{candidate_item}}", candidate_item_str).replace("{{article}}", article).replace("{{ADT}}", ADT)
     response=GPT_QA_not_stream(complete_prompt, model_name="gpt-4o-mini", t=0.0)
-    completed_candidate=response.split('```json')[1].split('```')[0].strip()
+    completed_candidate_str=response.split('```json')[1].split('```')[0].strip()
+    completed_candidate=json.loads(completed_candidate_str)
     return completed_candidate
 
 
