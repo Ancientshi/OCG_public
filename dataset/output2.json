@@ -1,0 +1,741 @@
+[
+    {
+        "narrative query": "I want some recommendations of movies. One of my favorite movies is The Woman in Black (2012). I enjoy the gore, psychological, so-bad-it's-funny style. I really like Horror genres.",
+        "result": {
+            "c5z21ig": [
+                "Låt den rätte komma in (2008)"
+            ],
+            "c5z2a08": [
+                "The Strangers (2008)",
+                "Insidious (2010/I)"
+            ],
+            "c5z3ka7": [
+                "Let Me In (2010/I)"
+            ],
+            "c5z3uwx": [
+                "Black Christmas (1974)",
+                "Hausu (1977)",
+                "Suspiria (1977)",
+                "The Return of the Living Dead (1985)",
+                "Evil Dead II (1987)"
+            ],
+            "c5z40ig": [
+                "The Strangers (2008)"
+            ],
+            "c5z4es2": [
+                "El orfanato (2007)",
+                "The Woman in Black (2012)"
+            ],
+            "c5z4fth": [
+                "Jacob's Ladder (1990/I)",
+                "Event Horizon (1997)",
+                "Janghwa, Hongryeon (2003)",
+                "The Woman in Black (2012)"
+            ],
+            "c5z4mc8": [
+                "Mil gritos tiene la noche (1982)",
+                "Dellamorte Dellamore (1994)",
+                "The Descent (2005)"
+            ],
+            "c5z4vhf": [
+                "Mil gritos tiene la noche (1982)",
+                "Spoorloos (1988)",
+                "The Blair Witch Project (1999)",
+                "The Descent (2005)",
+                "Noroi (2005)",
+                "Frozen (2010/I)",
+                "Frozen (2013/I)"
+            ],
+            "c5z61gc": [
+                "The Howling (1981)",
+                "The Company of Wolves (1984)",
+                "Spoorloos (1988)",
+                "In the Mouth of Madness (1994)",
+                "Dog Soldiers (2002)"
+            ],
+            "c5z65mw": [
+                "The Collector (2009/I)"
+            ],
+            "c5zav2o": [
+                "The Innocents (1961)",
+                "Night of the Living Dead (1968)",
+                "The Texas Chain Saw Massacre (1974)",
+                "Creepshow (1982)",
+                "The Evil Dead (1981)",
+                "The Thing (1982)",
+                "Videodrome (1983)",
+                "Evil Dead II (1987)",
+                "Night of the Living Dead (1990)",
+                "The Haunting (1999)",
+                "Ringu (1998)",
+                "28 Days Later... (2002)",
+                "The Ring (2002)",
+                "The Texas Chainsaw Massacre (2003)",
+                "The Ring Two (2005)",
+                "[Rec] (2007)"
+            ],
+            "c5zb53j": [
+                "The Shining (1980)"
+            ],
+            "c5zchpb": [
+                "Night of the Living Dead (1968)",
+                "The Exorcist (1973)",
+                "The Texas Chain Saw Massacre (1974)",
+                "Halloween (1978)",
+                "Alien (1979)",
+                "Friday the 13th (1980)",
+                "The Shining (1980)",
+                "The Evil Dead (1981)",
+                "The Thing (1982)",
+                "A Nightmare on Elm Street (1984)",
+                "Day of the Dead (1985)",
+                "Aliens (1986)",
+                "Night of the Living Dead (1990)",
+                "Alien³ (1992)",
+                "Scream (1996)",
+                "Alien: Resurrection (1997)",
+                "Cube (1997)",
+                "The Texas Chainsaw Massacre (2003)",
+                "Dawn of the Dead (2004)",
+                "The Thing (2011/I)",
+                "The Cabin in the Woods (2012)"
+            ],
+            "c68fet6": [
+                "Kill List (2011)"
+            ],
+            "c68ff0d": [
+                "Dog Soldiers (2002)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. Some movies I really enjoy include Shaun of the Dead (2004), Hot Fuzz (2007), Scott Pilgrim vs. the World (2010).",
+        "result": {
+            "c60zm7c": [
+                "Paul (2011)"
+            ],
+            "c60zqsj": [
+                "Dodgeball: A True Underdog Story (2004)",
+                "Run Fatboy Run (2007)",
+                "Zack and Miri Make a Porno (2008)",
+                "Adventureland (2009)",
+                "Get Him to the Greek (2010)",
+                "Kick-Ass (2010)"
+            ],
+            "c60zs6k": [
+                "Zack and Miri Make a Porno (2008)",
+                "Adventureland (2009)"
+            ],
+            "c60zzwy": [
+                "Pineapple Express (2008)"
+            ],
+            "c610cud": [
+                "Attack the Block (2011)"
+            ],
+            "c612dm3": [
+                "Zombieland (2009)"
+            ],
+            "c612fad": [
+                "The Evil Dead (1981)",
+                "Army of Darkness (1992)",
+                "Zombieland (2009)",
+                "Evil Dead (2013)"
+            ],
+            "c612o2q": [
+                "Attack the Block (2011)"
+            ],
+            "c614u0v": [
+                "Severance (2006)"
+            ],
+            "c616f9j": [
+                "Tucker and Dale vs Evil (2010)"
+            ],
+            "c61cgs1": [
+                "Paul (2011)"
+            ],
+            "c61qqlu": [
+                "The Boat That Rocked (2009)"
+            ],
+            "c621ge1": [
+                "Behind the Mask: The Rise of Leslie Vernon (2006)"
+            ],
+            "c621jnv": [
+                "Siu Lam juk kau (2001)",
+                "Kung fu (2004)",
+                "Scott Pilgrim vs. the World (2010)"
+            ],
+            "c62f20y": [
+                "Siu Lam juk kau (2001)"
+            ],
+            "c637wr1": [
+                "The Boat That Rocked (2009)"
+            ],
+            "c63j655": [
+                "The Boat That Rocked (2009)"
+            ],
+            "c68fe3v": [
+                "Attack the Block (2011)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. One of my favorite movies is Absolute Power (1997). I enjoy the unlikely, hero style.",
+        "result": {
+            "c62igkc": [
+                "The River Wild (1994)",
+                "Little Voice (1998)",
+                "Oldeuboi (2003)",
+                "Hot Fuzz (2007)",
+                "The Way Back (2010/I)",
+                "Oldboy (2013)"
+            ],
+            "c62l8yf": [
+                "The Lord of the Rings: The Fellowship of the Ring (2001)",
+                "The Lord of the Rings: The Return of the King (2003)",
+                "The Lord of the Rings: The Two Towers (2002)"
+            ],
+            "c62qvdy": [
+                "Children of Men (2006)"
+            ],
+            "c62tsqz": [
+                "Kung fu (2004)"
+            ],
+            "c62udvf": [
+                "The Way Back (2010/I)"
+            ],
+            "c62uem7": [
+                "Kung fu (2004)"
+            ],
+            "c62v417": [
+                "Straw Dogs (1971)",
+                "Straw Dogs (2011)",
+                "District 9 (2009)"
+            ],
+            "c65vzzy": [
+                "Training Day (2001)",
+                "The Salton Sea (2002)",
+                "The Machinist (2004)",
+                "Harsh Times (2005)"
+            ],
+            "c67xund": [
+                "Deep Blue Sea (1999)"
+            ],
+            "c6j54pj": [
+                "North by Northwest (1959)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. Some movies I really enjoy include The Deer Hunter (1978), Nuovo Cinema Paradiso (1988), Schindler's List (1993), Amores perros (2000), 21 Grams (2003). I really like Drama genres.",
+        "result": {
+            "c63d9f7": [
+                "Tyrannosaur (2011)"
+            ],
+            "c63epkw": [
+                "Goodbye Solo (2008)"
+            ],
+            "c63f1bf": [
+                "Nae meorisokui jiwoogae (2004)",
+                "Tokyo Sonata (2008)"
+            ],
+            "c63fezg": [
+                "The Shawshank Redemption (1994)",
+                "Before Sunrise (1995)",
+                "The Green Mile (1999)",
+                "Requiem for a Dream (2000)",
+                "Le fabuleux destin d'Amélie Poulain (2001)",
+                "Amores perros (2000)",
+                "Road to Perdition (2002)",
+                "The Hours (2002)",
+                "21 Grams (2003)",
+                "Cidade de Deus (2002)",
+                "Monster (2003)",
+                "Capote (2005)",
+                "Before Sunset (2004)",
+                "Babel (2006/I)",
+                "Tsotsi (2005)",
+                "Biutiful (2010)",
+                "A Single Man (2009)",
+                "The King's Speech (2010)",
+                "Des hommes et des dieux (2010)",
+                "Intouchables (2011)",
+                "Weekend (2011/II)"
+            ],
+            "c63frwf": [
+                "Warui yatsu hodo yoku nemuru (1960)"
+            ],
+            "c63fzuu": [
+                "The Fountain (2006)"
+            ],
+            "c63hvs2": [
+                "Another Earth (2011)"
+            ],
+            "c63hzzw": [
+                "Shame (2011)"
+            ],
+            "c63jhfu": [
+                "Amores perros (2000)",
+                "21 Grams (2003)",
+                "The Burning Plain (2008)"
+            ],
+            "c63l5wp": [
+                "Scent of a Woman (1992)",
+                "Good Will Hunting (1997)"
+            ],
+            "c63lady": [
+                "Life in a Day (2011)"
+            ],
+            "c63lr6c": [
+                "Requiem for a Dream (2000)",
+                "Mar adentro (2004/I)",
+                "The Pursuit of Happyness (2006)"
+            ],
+            "c63p5md": [
+                "Scent of a Woman (1992)"
+            ],
+            "c68jk0b": [
+                "There Will Be Blood (2007)"
+            ],
+            "c6hzyfi": [
+                "Ikiru (1952)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. Some movies I really enjoy include Akira (1988), The Matrix (1999), The Matrix Reloaded (2003), The Matrix Revolutions (2003). I enjoy the anime, japanese style.",
+        "result": {
+            "c63krkm": [
+                "Kôkaku Kidôtai (1995)"
+            ],
+            "c63pu0c": [
+                "Akira (1988)",
+                "Chronicle (2012)"
+            ],
+            "c63swb6": [
+                "Akira (1988)",
+                "Kôkaku Kidôtai (1995)",
+                "The Matrix (1999)",
+                "Pafekuto buru (1997)",
+                "The Matrix Reloaded (2003)",
+                "The Matrix Revolutions (2003)",
+                "Papurika (2006)",
+                "Black Swan (2010)",
+                "Inception (2010)",
+                "Chronicle (2012)"
+            ],
+            "c6417z0": [
+                "Ringu (1998)",
+                "The Ring (2002)",
+                "The Ring Two (2005)",
+                "The Grudge (2004)"
+            ],
+            "c64daoq": [
+                "True Story (2015/I)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. One of my favorite movies is The Help (2011). I enjoy the fiction, events, period style. I really like Drama, History genres.",
+        "result": {
+            "c63ot79": [
+                "Ride with the Devil (1999/I)"
+            ],
+            "c63q05i": [
+                "Aguirre, der Zorn Gottes (1972)",
+                "Barry Lyndon (1975)",
+                "Days of Heaven (1978)",
+                "Gosford Park (2001)",
+                "The New World (2005)",
+                "There Will Be Blood (2007)"
+            ],
+            "c63ty9u": [
+                "The Piano (1993)"
+            ],
+            "c63ubnm": [
+                "Amadeus (1984)",
+                "Perfume: The Story of a Murderer (2006)"
+            ],
+            "c63vtxo": [
+                "There Will Be Blood (2007)"
+            ],
+            "c63wgnb": [
+                "Kingdom of Heaven (2005)",
+                "There Will Be Blood (2007)"
+            ],
+            "c641mwy": [
+                "La passion de Jeanne d'Arc (1928)",
+                "Rashômon (1950)",
+                "Shichinin no samurai (1954)",
+                "Det sjunde inseglet (1957)",
+                "Seppuku (1962)",
+                "Andrey Rublev (1966)",
+                "Jôi-uchi: Hairyô tsuma shimatsu (1967)"
+            ],
+            "c642zme": [
+                "Capote (2005)"
+            ],
+            "c6445ut": [
+                "Luther (2003)"
+            ],
+            "c646fh3": [
+                "Kingdom of Heaven (2005)"
+            ],
+            "c646flv": [
+                "Kingdom of Heaven (2005)"
+            ],
+            "c646fur": [
+                "Kingdom of Heaven (2005)"
+            ],
+            "c658ugf": [
+                "Elizabeth (1998)"
+            ],
+            "c65enwn": [
+                "Agora (2009)"
+            ],
+            "c65wqjq": [
+                "Rob Roy (1995)"
+            ],
+            "c66gifx": [
+                "Barry Lyndon (1975)",
+                "The Duellists (1977)",
+                "Le violon rouge (1998)"
+            ],
+            "c66kkpy": [
+                "Yip Man (2008)"
+            ],
+            "c67wawd": [
+                "Lawrence of Arabia (1962)"
+            ],
+            "c68kuck": [
+                "The Killing Fields (1984)",
+                "Glory (1989)",
+                "Gettysburg (1993)",
+                "Elizabeth (1998)",
+                "Master and Commander: The Far Side of the World (2003)",
+                "The Wind That Shakes the Barley (2006)",
+                "The Young Victoria (2009)"
+            ],
+            "c6aa14p": [
+                "Gone with the Wind (1939)",
+                "Pride and Prejudice (1940)",
+                "Casablanca (1942)",
+                "The Sound of Music (1965)",
+                "The Last of the Mohicans (1992)",
+                "The Age of Innocence (1993)",
+                "The Libertine (2004)",
+                "Apocalypto (2006)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. Some movies I really enjoy include Lethal Weapon (1987), Die Hard (1988), Die Hard 2 (1990), Die Hard with a Vengeance (1995), Live Free or Die Hard (2007), A Good Day to Die Hard (2013). I really like Action genres.",
+        "result": {
+            "c63qw5j": [
+                "Serbuan maut (2011)"
+            ],
+            "c63v05d": [
+                "First Blood (1982)",
+                "New Jack City (1991)",
+                "Lat sau san taam (1992)",
+                "Speed (1994)",
+                "Crying Freeman (1995)",
+                "Con Air (1997)",
+                "Dobermann (1997)",
+                "Face/Off (1997)",
+                "Payback (1999/I)",
+                "Ronin (1998)",
+                "Banlieue 13 (2004)",
+                "Dalkomhan insaeng (2005)",
+                "Tropa de Elite (2007)",
+                "Bronson (2008)",
+                "Ang-ma-reul bo-at-da (2010)",
+                "Serbuan maut (2011)"
+            ],
+            "c641ey6": [
+                "Bad Boys (1983)",
+                "True Lies (1994)",
+                "Bad Boys (1995)",
+                "Last Man Standing (1996)",
+                "Payback (1999/I)",
+                "U.S. Marshals (1998)",
+                "The Boondock Saints (1999)",
+                "Gladiator (2000)",
+                "Equilibrium (2002)",
+                "The Departed (2006)",
+                "Street Kings (2008)",
+                "Lucky Number Slevin (2006)",
+                "Tropa de Elite (2007)",
+                "Taken (2008/I)",
+                "Mission: Impossible - Ghost Protocol (2011)",
+                "Taken 2 (2012)",
+                "Taken 3 (2014)"
+            ],
+            "c642xkt": [
+                "The Condemned (2007)"
+            ],
+            "c650n64": [
+                "Taken (2008/I)",
+                "Taken 2 (2012)",
+                "Ajeossi (2010)",
+                "Taken 3 (2014)"
+            ],
+            "c65u6y8": [
+                "The Last Boy Scout (1991)"
+            ],
+            "c66u7na": [
+                "Die Hard 2 (1990)",
+                "The Long Kiss Goodnight (1996)",
+                "The Rock (1996)",
+                "Serbuan maut (2011)",
+                "The Raid 2: Berandal (2014)"
+            ],
+            "c6c6qap": [
+                "Batoru rowaiaru (2000)"
+            ],
+            "c6c6ucn": [
+                "Dirty Harry (1971)",
+                "Shaft (2000)",
+                "Snatch (2000)",
+                "Cidade de Deus (2002)",
+                "Machete (2010)"
+            ],
+            "c6c6ufo": [
+                "Dobermann (1997)",
+                "Ronin (1998)"
+            ],
+            "c6omev8": [
+                "Machete (2010)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. Some movies I really enjoy include Lost in Translation (2003), Drive (2011/I). I enjoy the relationships style. However, I'm not a fan of love, movies.",
+        "result": {
+            "c65wjs7": [
+                "Before Sunrise (1995)",
+                "Before Sunset (2004)"
+            ],
+            "c65wp0m": [
+                "Mr. Smith Goes to Washington (1939)",
+                "His Girl Friday (1940)",
+                "The Philadelphia Story (1940)",
+                "The Lady Eve (1941)",
+                "Roman Holiday (1953)",
+                "North by Northwest (1959)"
+            ],
+            "c65wrz6": [
+                "Harold and Maude (1971)"
+            ],
+            "c65ziy6": [
+                "Léon (1994)"
+            ],
+            "c6608u7": [
+                "Faa yeung nin wa (2000)"
+            ],
+            "c6611ki": [
+                "Three Days of the Condor (1975)"
+            ],
+            "c662fxg": [
+                "Goodfellas (1990)"
+            ],
+            "c6635zn": [
+                "The Object of My Affection (1998)",
+                "A Single Man (2009)"
+            ],
+            "c66892u": [
+                "Natural Born Killers (1994)"
+            ],
+            "c669jbx": [
+                "Paper Man (2009)"
+            ],
+            "c6739q1": [
+                "Zack and Miri Make a Porno (2008)"
+            ],
+            "c67826e": [
+                "Paper Moon (1973)"
+            ],
+            "c67i3wr": [
+                "Out of Sight (1998)"
+            ],
+            "c67xpr3": [
+                "Wo hu cang long (2000)"
+            ],
+            "c67yo4m": [
+                "Buffalo '66 (1998)"
+            ],
+            "c6epdwk": [
+                "Garden State (2004)"
+            ],
+            "c6ra1v8": [
+                "God Bless America (2011)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. Some movies I really enjoy include Old School (2003), Accepted (2006), Superbad (2007). I enjoy the college, slacker style. I really like Comedy genres.",
+        "result": {
+            "c675b8z": [
+                "Slackers (2002)"
+            ],
+            "c676ylt": [
+                "Van Wilder (2002)"
+            ],
+            "c677pqu": [
+                "Animal House (1978)"
+            ],
+            "c677wlh": [
+                "Loser (2000)",
+                "Orange County (2002)"
+            ],
+            "c67buln": [
+                "Orange County (2002)"
+            ],
+            "c67gfte": [
+                "Dead Man on Campus (1998)"
+            ],
+            "c67gje2": [
+                "Revenge of the Nerds (1984)",
+                "Real Genius (1985)",
+                "EuroTrip (2004)"
+            ],
+            "c67ij4i": [
+                "Revenge of the Nerds (1984)",
+                "PCU (1994)"
+            ],
+            "c7t2430": [
+                "The Kentucky Fried Movie (1977)",
+                "Animal House (1978)"
+            ]
+        }
+    },
+    {
+        "narrative query": "I want some recommendations of movies. One of my favorite movies is Shallow Grave (1994). I enjoy the overlooked, great style. Some of my favorite actors are Danny Boyle.",
+        "result": {
+            "c67tpaz": [
+                "After Hours (1985)"
+            ],
+            "c67ugoh": [
+                "The Lost Weekend (1945)",
+                "Dance of the Vampires (1967)",
+                "The Duellists (1977)"
+            ],
+            "c67uvsb": [
+                "Death Proof (2007)"
+            ],
+            "c67w8r4": [
+                "Jackie Brown (1997)"
+            ],
+            "c67wd9d": [
+                "The Killing (1956)"
+            ],
+            "c67wdi2": [
+                "Jackie Brown (1997)",
+                "Death Proof (2007)",
+                "Planet Terror (2007)"
+            ],
+            "c67wswx": [
+                "Laura (1944)",
+                "Where the Sidewalk Ends (1950)"
+            ],
+            "c67x58t": [
+                "Play It Again, Sam (1972)"
+            ],
+            "c67xoh4": [
+                "The King of Comedy (1982)",
+                "The Year of Living Dangerously (1982)",
+                "Empire of the Sun (1987)",
+                "Strange Days (1995)"
+            ],
+            "c67y2w1": [
+                "A Life Less Ordinary (1997)",
+                "Tideland (2005)"
+            ],
+            "c67ysbv": [
+                "Slacker (1991)"
+            ],
+            "c67zkko": [
+                "Frankenhooker (1990)"
+            ],
+            "c67zxca": [
+                "Jûsan-nin no shikaku (2010)"
+            ],
+            "c680slh": [
+                "Shichinin no samurai (1954)",
+                "Jûsan-nin no shikaku (2010)"
+            ],
+            "c6812p3": [
+                "Munich (2005)"
+            ],
+            "c681cab": [
+                "The King of Comedy (1982)",
+                "Hei kek ji wong (1999)"
+            ],
+            "c681liu": [
+                "The Magnificent Ambersons (1942)",
+                "La jetée (1962)",
+                "Black Christmas (1974)",
+                "F for Fake (1973)",
+                "The Last Waltz (1978)",
+                "Porky's (1981)",
+                "A Christmas Story (1983)",
+                "The King of Comedy (1982)",
+                "After Hours (1985)",
+                "Twelve Monkeys (1995)",
+                "Gone in Sixty Seconds (2000)",
+                "Hei kek ji wong (1999)",
+                "The Fast and the Furious (2001)"
+            ],
+            "c681shr": [
+                "Play It Again, Sam (1972)"
+            ],
+            "c682ir3": [
+                "The Hudsucker Proxy (1994)"
+            ],
+            "c6832wv": [
+                "A Foreign Affair (1948)"
+            ],
+            "c6869rj": [
+                "The Frighteners (1996)"
+            ],
+            "c6898ka": [
+                "A Life Less Ordinary (1997)",
+                "Tideland (2005)"
+            ],
+            "c68ax7x": [
+                "Jackie Brown (1997)"
+            ],
+            "c68b8sy": [
+                "Trainspotting (1996)"
+            ],
+            "c68f0ct": [
+                "Brazil (1985)"
+            ],
+            "c68fu07": [
+                "The Mask (1994)",
+                "Sunshine (2007)"
+            ],
+            "c68i57o": [
+                "Ascenseur pour l'échafaud (1958)"
+            ],
+            "c691nco": [
+                "Jackie Brown (1997)"
+            ],
+            "c69ranb": [
+                "Nashville (1975)"
+            ],
+            "c69rd7p": [
+                "MASH (1970)",
+                "McCabe & Mrs. Miller (1971)",
+                "Nashville (1975)",
+                "The Player (1992)",
+                "Gosford Park (2001)"
+            ],
+            "c69zkge": [
+                "A Life Less Ordinary (1997)"
+            ],
+            "c69zo1o": [
+                "Heaven & Earth (1993)"
+            ]
+        }
+    }
+]

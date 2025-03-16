@@ -1,0 +1,26 @@
+### Task Description  
+Your task is to understand user’s [Narrative Recommendation Query] and the analyzed [Personality Traits], then design appropriate Abstract Data Type (ADT) for the candidate item. You should consider what the type of things the candidate item is and what kinds of key attributes should be included. Note that the attributes should be dynamically adjusted according to the user’s concerns. For each attribute, it should be neither required or optional.
+
+### Narrative Recommendation Query
+{{query}}
+
+### Personality Traits
+{{profile}}
+
+### Analytical Steps
+(1) Integrate the insights gained from the query with the personality indicators to identify the core attributes that the candidate item should possess.
+(2) For each identified attribute, furnish a detailed rationale that elucidates how the attribute aligns with the user’s requirements while ensuring adaptability for dynamic adjustments.
+
+### Important Instructions
+(1) All analyses must be strictly derived from the narrative query and the provided personality traits; no extraneous information should be incorporated.
+(2) Each inference and attribute selection must be supported by clear, logical evidence, ensuring the overall reasoning is both coherent and robust.
+(3) The design of the Abstract Data Type (ADT) should be responsive to the user’s specific concerns, balancing the necessity of key attributes with the flexibility to accommodate optional requirements. The attribute "Name" and "Additional Information" must should be included and they are mandatory. The "Additional Information" serves as a repository for supplementary descriptive details about the candidate that are not of primary importance. The attribute 'Additional Information' should be JSON format.
+
+### Response Format
+Class Name: {classname}
+Attributes:
+Name, required
+{attribute1}, {required/optional}
+{attribute2}, {required/optional}
+...
+Additional information, required
