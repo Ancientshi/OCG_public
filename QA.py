@@ -68,8 +68,9 @@ def generate_single_query(in_context_situation):
 
 
 def SpanPredict(adt='', article=''):
-    SpanPredict_prompt= SPANPREDICT_TEMPLATE.replace("{{ADT}}", adt).replace("{{article}}", article)
+    SpanPredict_prompt= SPANPREDICT_TEMPLATE_v2_shn.replace("{{ADT}}", adt).replace("{{article}}", article)
     spanned_content=GPT_QA_not_stream(SpanPredict_prompt, model_name="gpt-4o-mini", t=0.0)
+    # shn：这里由于提示词变化，因此split('Reformatted Article')[1] 暂时改为split('Reformatted Article')[0]
     spanned_content=spanned_content.split('Reformatted Article')[1].replace('```xml', '\n').replace('```', '\n').strip()
     return spanned_content
     

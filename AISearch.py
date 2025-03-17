@@ -1,5 +1,5 @@
 from openai import OpenAI
-from utils import GPT_QA_not_stream, filter_content_bm25
+from utils import GPT_QA_not_stream, filter_content_bm25, content_post_process
 import requests
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -82,6 +82,11 @@ bingsearch_tool=SerperSearch()
 
 def self_AI_search(query="",pagenum=1,threshold=1.5,existed_citation_list=[]):
     external_knowledge_dict,citation_list=bingsearch_tool.search(query, pagenum,threshold,existed_citation_list)
+    #shn: 处理检索杂质
+    # 对每个返回的 content 进行后处理
+    for key in external_knowledge_dict:
+        external_knowledge_dict[key] = content_post_process(external_knowledge_dict[key])
+    # content = content_post_process(content)  # 对 content 进行后处理
     return external_knowledge_dict,citation_list
     
 

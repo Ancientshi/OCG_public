@@ -705,9 +705,6 @@ def content_post_process(content):
     # 删除 &nbsp; 和 &amp;
     content = re.sub(r'(&nbsp;|&amp;)', '', content)
 
-    # 删除所有的 '#' 号
-    content = content.replace('#', '')
-
     # 删除多余的空白行（但保留单个换行符）
     content = re.sub(r'\n\s*\n', '\n', content)
 

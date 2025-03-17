@@ -29,7 +29,7 @@
     (4) Do not modify, reorder, or remove any original words in the text. Only wrap the relevant text segments with the designated XML tags to ensure minimal disruption to readability.
 
 ### Output Format:
-    Finally you output the reformatted section named Reformatted Article. Retaining the original paragraph and sentence structure but provide the fully tagged text. Don't output extra words, the only thing you need to do is tag the [Article].
+    You must output your thinking process step by step in free style text. Then you output the reformatted section named Reformatted Article. Retaining the original paragraph and sentence structure but provide the fully tagged text.
 
 ### Example Demonstration:
     Suppose the ADT includes attributes such as time, location, person, and artifact. The following sample text illustrates how to insert XML tags in practice.
