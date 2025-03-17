@@ -4,16 +4,17 @@ from evaluate import HR
 import json
 import os
 
-test_file='dataset/test.json'
+dataset_name='edu'
+test_file=f'dataset/{dataset_name}.json'
 with open(test_file, 'r') as f:
     test_data = json.load(f)
 
 exp1_folder='exp_result/exp1'
 # 读取result.json, 如果不存在则创建
-if not os.path.exists(f'{exp1_folder}/result.json'):
-    with open(f'{exp1_folder}/result.json', 'w') as f:
+if not os.path.exists(f'{exp1_folder}/result_{dataset_name}.json'):
+    with open(f'{exp1_folder}/result_{dataset_name}.json', 'w') as f:
         json.dump({}, f)
-with open(f'{exp1_folder}/result.json', 'r') as f:
+with open(f'{exp1_folder}/result_{dataset_name}.json', 'r') as f:
     existing_result = json.load(f)
     
 max=20
@@ -38,7 +39,7 @@ for index, test_case in enumerate(test_data):
     
     existing_result[narrative_query]=hit_ratio_avg
     # 保存到result.json
-    with open(f'{exp1_folder}/result.json', 'w') as f:
+    with open(f'{exp1_folder}/result_{dataset_name}.json', 'w') as f:
         json.dump(existing_result, f)
 
     if index+1==max:
