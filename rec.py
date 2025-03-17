@@ -74,6 +74,8 @@ def generate_response_rec(data):
         
         AI_search_content=''
         for title,content in local_external_knowledge_dict.items():
+            #shn: 处理检索杂质
+            content = content_post_process(content)  # 对 content 进行后处理
             spanned_content = SpanPredict(adt=deepcopy(adt_content), article=deepcopy(content))
                     
             # 接着根据搜到的内容，生成candidate items
@@ -170,6 +172,8 @@ def generate_response_rec(data):
             
             # 遍历搜索到的结果，并利用其内容去补全 candidate_item
             for title, content in local_external_knowledge_dict.items():
+                #shn: 处理检索杂质
+                content = content_post_process(content)  # 对 content 进行后处理
                 spanned_content = SpanPredict(adt=deepcopy(adt_content), article=deepcopy(content))
                 
                 # 根据搜索到的内容进行补全，可能会同时补全多个 attribute
@@ -376,6 +380,8 @@ def generate_response_rec_with_checkpoint_subquestion(data,checkpoint_json_file)
         
         AI_search_content=''
         for title,content in local_external_knowledge_dict.items():
+            #shn: 处理检索杂质
+            content = content_post_process(content)  # 对 content 进行后处理
             spanned_content = SpanPredict(adt=deepcopy(adt_content), article=deepcopy(content))
                     
             # 接着根据搜到的内容，生成candidate items
@@ -472,6 +478,8 @@ def generate_response_rec_with_checkpoint_subquestion(data,checkpoint_json_file)
             
             # 遍历搜索到的结果，并利用其内容去补全 candidate_item
             for title, content in local_external_knowledge_dict.items():
+                #shn: 处理检索杂质
+                content = content_post_process(content)  # 对 content 进行后处理
                 spanned_content = SpanPredict(adt=deepcopy(adt_content), article=deepcopy(content))
                 
                 # 根据搜索到的内容进行补全，可能会同时补全多个 attribute
@@ -625,6 +633,8 @@ def generate_response_rec_with_checkpoint_AI_search_content_for_complete(data,ch
             
             # 遍历搜索到的结果，并利用其内容去补全 candidate_item
             for title, content in local_external_knowledge_dict.items():
+                #shn: 处理检索杂质
+                content = content_post_process(content)  # 对 content 进行后处理
                 spanned_content = SpanPredict(adt=deepcopy(adt_content), article=deepcopy(content))
                 
                 # 根据搜索到的内容进行补全，可能会同时补全多个 attribute

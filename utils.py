@@ -18,6 +18,7 @@ import numpy as np
 from config import *
 import torch
 from copy import deepcopy
+import html
 #bge_reranker = BGE_Reranker()
 
 # 指定设备
@@ -691,5 +692,23 @@ def candidate_items_list_merge(candidate_items_list_global):
 
     candidate_items_list=list(candidate_items_dict.values())
     return candidate_items_list
-     
-      
+
+
+# 搜索结果content去杂质
+def content_post_process(content):
+    # 处理 HTML 转义字符，例如 &amp; 变成 &
+    content = html.unescape(content)
+    
+    # 删除 <!-- image -->
+    content = re.sub(r'<!-- image -->', '', content)
+
+    # 删除 &nbsp; 和 &amp;
+    content = re.sub(r'(&nbsp;|&amp;)', '', content)
+
+    # 删除所有的 '#' 号
+    content = content.replace('#', '')
+
+    # 删除多余的空白行（但保留单个换行符）
+    content = re.sub(r'\n\s*\n', '\n', content)
+
+    return content.strip()
