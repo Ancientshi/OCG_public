@@ -1,0 +1,1209 @@
+{
+    "question": "I want to watch a thriller with a mind-bending story, like Shutter Island.",
+    "model": "gpt-4o-mini",
+    "profile": "**Personality Traits:** Analytical, Introspective, Appreciative of Complexity, Enjoys Intellectual Challenges\n\n**Detailed Explanation:**\n\n1. **Analytical:**\n   - **Evidence:** The user specifically requests a thriller with a \"mind-bending story,\" which indicates a preference for narratives that require critical thinking and analysis.\n   - **Explanation:** This suggests that the user enjoys dissecting plots and understanding the underlying themes and motivations of characters. They likely appreciate stories that challenge their intellect and provoke thought, indicating a personality that values logic and reasoning.\n\n2. **Introspective:**\n   - **Evidence:** The mention of a film like \"Shutter Island,\" which delves into themes of mental health, perception, and reality, suggests that the user is drawn to narratives that explore the human psyche.\n   - **Explanation:** This inclination points to a reflective nature, where the user may enjoy contemplating their own thoughts and feelings in relation to the characters and situations presented in the film. They might be someone who seeks deeper meanings in experiences and enjoys self-exploration.\n\n3. **Appreciative of Complexity:**\n   - **Evidence:** The user’s desire for a \"mind-bending\" thriller implies that they are not satisfied with straightforward plots; they seek complexity and depth in storytelling.\n   - **Explanation:** This trait indicates that the user likely enjoys multi-layered narratives that require engagement and attention to detail. They may find satisfaction in unraveling intricate plots and appreciate when a story challenges conventional storytelling methods.\n\n4. **Enjoys Intellectual Challenges:**\n   - **Evidence:** The specific reference to a psychological thriller suggests that the user is not only interested in entertainment but also in narratives that stimulate their cognitive faculties.\n   - **Explanation:** This enjoyment of intellectual challenges may extend beyond film to other areas of their life, indicating a personality that thrives on problem-solving and critical thinking. They may be drawn to activities that require strategic thinking, such as puzzles, games, or complex discussions.\n\nOverall, the user's query reveals a personality that values depth, complexity, and intellectual engagement, suggesting they are likely to be thoughtful, reflective, and analytical individuals who seek out experiences that challenge their understanding of the world.",
+    "ADT": "Class Name: ThrillerMovie  \nAttributes:  \nName, required  \nMindBending, required  \nPsychologicalDepth, required  \nComplexPlot, required  \nCharacterDevelopment, required  \nIntellectualChallenge, required  \nAdditional Information, required  \n\n### Attribute Rationale:\n\n1. **Name (required)**: This attribute is essential as it identifies the specific title of the movie, allowing the user to recognize and reference the film easily.\n\n2. **MindBending (required)**: This attribute indicates whether the movie has a plot that twists perceptions and challenges the viewer's understanding of reality. Given the user's request for a \"mind-bending story,\" this attribute directly aligns with their desire for complex narratives.\n\n3. **PsychologicalDepth (required)**: This attribute assesses the extent to which the film explores themes related to the human psyche, mental health, and perception. The user's interest in \"Shutter Island\" suggests they appreciate films that delve into such topics, making this a critical attribute.\n\n4. **ComplexPlot (required)**: This attribute signifies the intricacy of the film's storyline. The user’s preference for complexity indicates that they seek narratives that are not straightforward but rather layered and multifaceted.\n\n5. **CharacterDevelopment (required)**: This attribute evaluates how well the characters are developed throughout the film. Given the user’s introspective nature, they likely value deep character arcs that contribute to the overall narrative complexity.\n\n6. **IntellectualChallenge (required)**: This attribute measures the extent to which the film presents challenges that stimulate critical thinking and analysis. The user's enjoyment of intellectual challenges suggests they prefer films that require active engagement and thought.\n\n7. **Additional Information (required)**: This attribute serves as a repository for supplementary descriptive details about the movie that may not be covered by the other attributes. It is formatted in JSON to allow for structured and flexible data entry, accommodating various types of additional information such as director, release year, or thematic elements. \n\n### Example of Additional Information in JSON Format:\n```json\n{\n  \"Director\": \"Martin Scorsese\",\n  \"ReleaseYear\": 2010,\n  \"Themes\": [\"Reality\", \"Mental Health\", \"Guilt\"],\n  \"AudienceRating\": \"R\"\n}\n``` \n\nThis design ensures that the attributes are responsive to the user's specific concerns while maintaining the flexibility to accommodate various aspects of the thriller genre.",
+    "subquestion": {
+        "thriller movies with mind-bending plots": {
+            "AI_search_content_list": [
+                {
+                    "title": "Mind-Bending/Psychological Thriller movies? : r/MovieSuggestions[1]",
+                    "content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.\n Mind-Bending/Psychological Thriller movies?\nREQUESTING\nI’m looking for Mind-Bending/psychological thriller suggestions. Movies that make you say “wtf just happened?!” Something like The Sixth Sense, Predestination, Self/Less, Inception, Shutter Island, etc.\nCreate your account and connect with a world of communities.\n.\nPublic\nAnyone can view, post, and comment to this community\n Top Posts\n- Reddit \nreReddit: Top posts of January 13, 2024\n- Reddit \nreReddit: Top posts of January 2024\n- Reddit \nreReddit: Top posts of 2024\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics",
+                    "spanned_content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions. \n<mindBending>Mind-Bending/Psychological Thriller</mindBending> movies? \n<request>I’m looking for <mindBending>Mind-Bending/psychological thriller</mindBending> suggestions. Movies that make you say “wtf just happened?!” Something like <name>The Sixth Sense</name>, <name>Predestination</name>, <name>Self/Less</name>, <name>Inception</name>, <name>Shutter Island</name>, etc.</request>\nCreate your account and connect with a world of communities.\n.\nPublic\nAnyone can view, post, and comment to this community\nTop Posts\n- Reddit \nreReddit: Top posts of January 13, 2024\n- Reddit \nreReddit: Top posts of January 2024\n- Reddit \nreReddit: Top posts of 2024\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics\n\n\n\nIn this reformatted article, I have tagged the relevant segments according to the ADT attributes while preserving the original text's structure and meaning.",
+                    "candidate_items_list_local": [
+                        {
+                            "Name": "The Sixth Sense",
+                            "MindBending": "Mind-Bending/Psychological Thriller",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Predestination",
+                            "MindBending": "Mind-Bending/Psychological Thriller",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Self/Less",
+                            "MindBending": "Mind-Bending/Psychological Thriller",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Inception",
+                            "MindBending": "Mind-Bending/Psychological Thriller",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Shutter Island",
+                            "MindBending": "Mind-Bending/Psychological Thriller",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        }
+                    ]
+                }
+            ],
+            "citations": [
+                "https://www.reddit.com/r/MovieSuggestions/comments/195d433/mindbendingpsychological_thriller_movies/"
+            ]
+        },
+        "films similar to Shutter Island": {
+            "AI_search_content_list": [
+                {
+                    "title": "Can you recommend any films similar to \"Shutter Island\"? - Reddit[1]",
+                    "content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.\n Can you recommend any films similar to \"Shutter Island\"?\nREQUESTING\nI thought Shutter Island was an amazing film. I'm a big fan of these types of psychological thrillers. I can't seem to find anything as good.\nCreate your account and connect with a world of communities.\n.\nPublic\nAnyone can view, post, and comment to this community\n Top Posts\n- Reddit \nreReddit: Top posts of March 8, 2023\n- Reddit \nreReddit: Top posts of March 2023\n- Reddit \nreReddit: Top posts of 2023\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics",
+                    "spanned_content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions. \nCan you recommend any films similar to <Name>Shutter Island</Name>? \nREQUESTING \nI thought <Name>Shutter Island</Name> was an amazing film. I'm a big fan of these types of <MindBending>psychological thrillers</MindBending>. I can't seem to find anything as good. \nCreate your account and connect with a world of communities. \n. \nPublic \nAnyone can view, post, and comment to this community \nTop Posts \n- Reddit \nreReddit: Top posts of March 8, 2023 \n- Reddit \nreReddit: Top posts of March 2023 \n- Reddit \nreReddit: Top posts of 2023 \nTOPICS \nInternet Culture (Viral) \n- Amazing \n- Animals  Pets \n- Cringe  Facepalm \n- Funny \n- Interesting \n- Memes \n- Oddly Satisfying \n- Reddit Meta \n- Wholesome  Heartwarming \nGames \n- Action Games \n- Adventure Games \n- Esports \n- Gaming Consoles  Gear \n- Gaming News  Discussion \n- Mobile Games \n- Other Games \n- Role-Playing Games \n- Simulation Games \n- Sports  Racing Games \n- Strategy Games \n- Tabletop Games \nQ&As \n- QAs \n- Stories  Confessions \nTechnology \n- 3D Printing \n- Artificial Intelligence  Machine Learning \n- Computers  Hardware \n- Consumer Electronics \n- DIY Electronics \n- Programming \n- Software  Apps \n- Streaming Services \n- Tech News  Discussion \n- Virtual  Augmented Reality \nPop Culture \n- Celebrities \n- Creators  Influencers \n- Generations  Nostalgia \n- Podcasts \n- Streamers \n- Tarot  Astrology \nMovies & TV \n- Action Movies  Series \n- Animated Movies  Series \n- Comedy Movies  Series \n- Crime, Mystery,  Thriller Movies  Series \n- Documentary Movies  Series \n- Drama Movies  Series \n- Fantasy Movies  Series \n- Horror Movies  Series \n- Movie News  Discussion \n- Reality TV \n- Romance Movies  Series \n- Sci-Fi Movies  Series \n- Superhero Movies  Series \n- TV News  Discussion \nRESOURCES \nAbout Reddit \nAdvertise \nReddit Pro \n      BETA \nHelp \nBlog \nCareers \nPress \nCommunities \nBest of Reddit \nTopics\n\n\n\nIn this reformatted article, I have tagged the relevant segments according to the ADT while preserving the original structure and meaning of the text. The tags reflect the attributes of the thriller movie as specified.",
+                    "candidate_items_list_local": [
+                        {
+                            "Name": "Shutter Island",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        }
+                    ]
+                }
+            ],
+            "citations": [
+                "https://www.reddit.com/r/MovieSuggestions/comments/11lw9t3/can_you_recommend_any_films_similar_to_shutter/"
+            ]
+        },
+        "psychological thrillers with twists": {
+            "AI_search_content_list": [
+                {
+                    "title": "Lookin for a psychological thriller that has a plot twist that ... - Reddit[1]",
+                    "content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.\n Lookin for a psychological thriller that has a plot twist that even shocks a perceptive viewer\nREQUESTING\nHappy Saturday everyone. I am looking for a movie that both my boyfriend and I will agree on watching. He hates demonic themes, or anything to do with rape. I agree, but tend to pick movies with that theme. Seriously. I don’t know what’s wrong with me.\nI really love thrillers of all kinds and get bored with other genres. So Im hoping y’all can recommend a movie that we’ll both enjoy. Plot twists always do the trick. But no full on action movies. I appreciate a psychological mind bending theme.\nThanks!\nCreate your account and connect with a world of communities.\n.\nPublic\nAnyone can view, post, and comment to this community\n Top Posts\n- Reddit \nreReddit: Top posts of November 28, 2021\n- Reddit \nreReddit: Top posts of November 2021\n- Reddit \nreReddit: Top posts of 2021\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics",
+                    "spanned_content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions. Lookin for a <PsychologicalDepth>psychological thriller</PsychologicalDepth> that has a plot twist that even shocks a perceptive viewer REQUESTING Happy Saturday everyone. I am looking for a movie that both my boyfriend and I will agree on watching. He hates demonic themes, or anything to do with rape. I agree, but tend to pick movies with that theme. Seriously. I don’t know what’s wrong with me. I really love thrillers of all kinds and get bored with other genres. So Im hoping y’all can recommend a movie that we’ll both enjoy. <ComplexPlot>Plot twists</ComplexPlot> always do the trick. But no full on action movies. I appreciate a <MindBending>psychological mind bending theme</MindBending>. Thanks! Create your account and connect with a world of communities. . Public Anyone can view, post, and comment to this community Top Posts - Reddit reReddit: Top posts of November 28, 2021 - Reddit reReddit: Top posts of November 2021 - Reddit reReddit: Top posts of 2021 TOPICS Internet Culture (Viral) - Amazing - Animals Pets - Cringe Facepalm - Funny - Interesting - Memes - Oddly Satisfying - Reddit Meta - Wholesome Heartwarming Games - Action Games - Adventure Games - Esports - Gaming Consoles Gear - Gaming News Discussion - Mobile Games - Other Games - Role-Playing Games - Simulation Games - Sports Racing Games - Strategy Games - Tabletop Games Q&As - QAs - Stories Confessions Technology - 3D Printing - Artificial Intelligence Machine Learning - Computers Hardware - Consumer Electronics - DIY Electronics - Programming - Software Apps - Streaming Services - Tech News Discussion - Virtual Augmented Reality Pop Culture - Celebrities - Creators Influencers - Generations Nostalgia - Podcasts - Streamers - Tarot Astrology - Movies & TV - Action Movies Series - Animated Movies Series - Comedy Movies Series - Crime, Mystery, Thriller Movies Series - Documentary Movies Series - Drama Movies Series - Fantasy Movies Series - Horror Movies Series - Movie News Discussion - Reality TV - Romance Movies Series - Sci-Fi Movies Series - Superhero Movies Series - TV News Discussion RESOURCES About Reddit Advertise Reddit Pro BETA Help Blog Careers Press Communities Best of Reddit Topics\n\n\n\nIn this reformatted article, I have wrapped the relevant segments with XML tags corresponding to the attributes defined in the ADT. The original structure and wording of the text have been preserved while highlighting the key information.",
+                    "candidate_items_list_local": []
+                }
+            ],
+            "citations": [
+                "https://www.reddit.com/r/MovieSuggestions/comments/r3rsa1/lookin_for_a_psychological_thriller_that_has_a/"
+            ]
+        },
+        "best mind-bending thrillers of all time": {
+            "AI_search_content_list": [],
+            "citations": []
+        },
+        "movies with unreliable narrators": {
+            "AI_search_content_list": [
+                {
+                    "title": "What are the best movies with unreliable narrators? - Reddit[1]",
+                    "content": "The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers. Read our extensive list of rules for more information on other types of posts like fan-art and self-promotion, or message the moderators if you have any questions.\n What are the best movies with unreliable narrators?\nDiscussion\nAn unreliable narrator is a storyteller who cannot be trusted. It may either intentionally deceive the audience or unknowingly mislead them, causing them to doubt the narrator's reliability as a storyteller.\nAs I can remember, the best movies I watched with unreliable narrators are:\n- Fight Club\n- Gone Girl\n- Shutter Island\n- Memento\n- Mr. Robot (yes, it's a TV show, but still counts)\n- The Usual Suspects\nWhat are some others exemples of this narrative device?\nCreate your account and connect with a world of communities.\n.\nPublic\nAnyone can view, post, and comment to this community\n Top Posts\n- Reddit \nreReddit: Top posts of March 20, 2023\n- Reddit \nreReddit: Top posts of March 2023\n- Reddit \nreReddit: Top posts of 2023\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics",
+                    "spanned_content": "The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers. Read our extensive list of rules for more information on other types of posts like fan-art and self-promotion, or message the moderators if you have any questions. \nWhat are the best movies with <MindBending>true</MindBending> <ComplexPlot>true</ComplexPlot> <PsychologicalDepth>true</PsychologicalDepth> unreliable narrators? \nDiscussion \nAn unreliable narrator is a storyteller who cannot be trusted. It may either intentionally deceive the audience or unknowingly mislead them, causing them to doubt the narrator's reliability as a storyteller. \nAs I can remember, the best movies I watched with unreliable narrators are: \n- <Name>Fight Club</Name> \n- <Name>Gone Girl</Name> \n- <Name>Shutter Island</Name> \n- <Name>Memento</Name> \n- <Name>Mr. Robot</Name> (yes, it's a TV show, but still counts) \n- <Name>The Usual Suspects</Name> \nWhat are some others examples of this narrative device? \nCreate your account and connect with a world of communities. \n. \nPublic \nAnyone can view, post, and comment to this community \nTop Posts \n- Reddit \nreReddit: Top posts of March 20, 2023 \n- Reddit \nreReddit: Top posts of March 2023 \n- Reddit \nreReddit: Top posts of 2023 \nTOPICS \nInternet Culture (Viral) \n- Amazing \n- Animals  Pets \n- Cringe  Facepalm \n- Funny \n- Interesting \n- Memes \n- Oddly Satisfying \n- Reddit Meta \n- Wholesome  Heartwarming \nGames \n- Action Games \n- Adventure Games \n- Esports \n- Gaming Consoles  Gear \n- Gaming News  Discussion \n- Mobile Games \n- Other Games \n- Role-Playing Games \n- Simulation Games \n- Sports  Racing Games \n- Strategy Games \n- Tabletop Games \nQ&As \n- QAs \n- Stories  Confessions \nTechnology \n- 3D Printing \n- Artificial Intelligence  Machine Learning \n- Computers  Hardware \n- Consumer Electronics \n- DIY Electronics \n- Programming \n- Software  Apps \n- Streaming Services \n- Tech News  Discussion \n- Virtual  Augmented Reality \nPop Culture \n- Celebrities \n- Creators  Influencers \n- Generations  Nostalgia \n- Podcasts \n- Streamers \n- Tarot  Astrology \nMovies & TV \n- Action Movies  Series \n- Animated Movies  Series \n- Comedy Movies  Series \n- Crime, Mystery,  Thriller Movies  Series \n- Documentary Movies  Series \n- Drama Movies  Series \n- Fantasy Movies  Series \n- Horror Movies  Series \n- Movie News  Discussion \n- Reality TV \n- Romance Movies  Series \n- Sci-Fi Movies  Series \n- Superhero Movies  Series \n- TV News  Discussion \nRESOURCES \nAbout Reddit \nAdvertise \nReddit Pro \n      BETA \nHelp \nBlog \nCareers \nPress \nCommunities \nBest of Reddit \nTopics\n\n\n\nIn this reformatted article, I have tagged the relevant segments according to the ADT attributes while preserving the original structure and meaning of the text.",
+                    "candidate_items_list_local": [
+                        {
+                            "Name": "Fight Club",
+                            "MindBending": true,
+                            "PsychologicalDepth": true,
+                            "ComplexPlot": true,
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Gone Girl",
+                            "MindBending": true,
+                            "PsychologicalDepth": true,
+                            "ComplexPlot": true,
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Shutter Island",
+                            "MindBending": true,
+                            "PsychologicalDepth": true,
+                            "ComplexPlot": true,
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Memento",
+                            "MindBending": true,
+                            "PsychologicalDepth": true,
+                            "ComplexPlot": true,
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Mr. Robot",
+                            "MindBending": true,
+                            "PsychologicalDepth": true,
+                            "ComplexPlot": true,
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "The Usual Suspects",
+                            "MindBending": true,
+                            "PsychologicalDepth": true,
+                            "ComplexPlot": true,
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        }
+                    ]
+                }
+            ],
+            "citations": [
+                "https://www.reddit.com/r/movies/comments/11whgjf/what_are_the_best_movies_with_unreliable_narrators/"
+            ]
+        },
+        "thrillers that explore mental health themes": {
+            "AI_search_content_list": [
+                {
+                    "title": "Psychological thriller novels that explores mental illness? - Reddit[1]",
+                    "content": "Vote on r/booksuggestions favorite book of 2024 here!\nIn need of a good read? Let us know what you want and we guarantee you'll find a great book, or your money back.\nThis subreddit is for people to ask for suggestions on books to read. Please only post requests for suggestions, not unsolicited recommendations or “should I read this book or that book” type posts.\n Psychological thriller novels that explores mental illness?\nCan anyone recommend any good novels that explores the reality of someone living with a mental disorder? That kinda has a similar theme to Mr. Robot for those who have seen the show.\nCreate your account and connect with a world of communities.\n.\nVote on r/booksuggestions favorite book of 2024 here!\nPublic\nAnyone can view, post, and comment to this community\n Top Posts\n- Reddit \nreReddit: Top posts of May 5, 2024\n- Reddit \nreReddit: Top posts of May 2024\n- Reddit \nreReddit: Top posts of 2024\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics",
+                    "spanned_content": "Vote on r/booksuggestions favorite book of 2024 here!\nIn need of a good read? Let us know what you want and we guarantee you'll find a great book, or your money back.\nThis subreddit is for people to ask for suggestions on books to read. Please only post requests for suggestions, not unsolicited recommendations or “should I read this book or that book” type posts.\n<PsychologicalDepth>Psychological thriller novels that explores mental illness</PsychologicalDepth>?\nCan anyone recommend any good novels that explores the <MindBending>reality</MindBending> of someone living with a mental disorder? That kinda has a similar theme to <Name>Mr. Robot</Name> for those who have seen the show.\nCreate your account and connect with a world of communities.\n.\nVote on r/booksuggestions favorite book of 2024 here!\nPublic\nAnyone can view, post, and comment to this community\n Top Posts\n- Reddit \nreReddit: Top posts of May 5, 2024\n- Reddit \nreReddit: Top posts of May 2024\n- Reddit \nreReddit: Top posts of 2024\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics\n\n\n\nIn this reformatted article, I have tagged the relevant segments according to the ADT attributes while ensuring that the original text remains intact and readable.",
+                    "candidate_items_list_local": [
+                        {
+                            "Name": "Mr. Robot",
+                            "MindBending": "reality",
+                            "PsychologicalDepth": "Psychological thriller novels that explores mental illness",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        }
+                    ]
+                }
+            ],
+            "citations": [
+                "https://www.reddit.com/r/booksuggestions/comments/1ckfiwv/psychological_thriller_novels_that_explores/"
+            ]
+        },
+        "top-rated psychological thrillers on streaming platforms": {
+            "AI_search_content_list": [
+                {
+                    "title": "The Best Psychological Thrillers for Stressed-Out Streaming | GQ[1]",
+                    "content": "The Best Psychological Thrillers for Stressed-Out Streaming\nDay to day life not nerve-racking enough? Wind yourself up a little tighter with these high-tension movies.\nAll products are independently selected by our editors. If you buy something, we may earn an affiliate commission.\nEver get to the end of a long week and think you haven't felt enough stress? Probably not, but the pulse-raising, mind-melting tension of the best psychological thrillers can offer the perfect escape to your own worries. From crime dramas filled with a maze of twists and turns, to hauntings that are hard to differentiate from hallucinations, there's a glut of sinister psychological thrillers on Netflix, Disney+, Hulu, Max and Amazon Prime, all just waiting to enter your mind and linger there for days.\nHere are all the best psychological thrillers to get your mind whirring, available to stream right now.\n- 1/18The Silence of the LambsAnthony Hopkins is in beast mode here as Donald Trump's favorite movie-character reference point, Hannibal “Hannibal The Cannibal” Lecter. That name makes him sound like a fun, kooky wrestler—he’s not that at all. He’s a literal man-eater locked in a cell, whom junior FBI agent Clarice Starling—played by Jodie Foster, who won her second Best Actress Oscar for this—is sent to interview in an attempt to use his formidable psychiatric insight to catch another serial killer. Starling is warned by others that Lecter will try and draw her into his web, and it’s this line she has to walk between avoiding this web and extracting Lecter's insight that makes for such a tense watch. You can watch Silence of the Lambs on Prime Video.\n- 2/18InceptionDoesn’t get much more psychological than going inside people’s dreams. In Christopher Nolan’s film, Leonardo DiCaprio—playing Cobb, a thief who can infiltrate the sleeping minds of his subjects and use the information he gleans to steal from them—is presented with an opportunity that will test his powers to their absolute limits: he’s asked to implant an idea in someone’s mind. In return, he’ll have his criminal past wiped from every record and be a free man. Cillian Murphy, Marion Cotillard, Elliott Page, Tom Hardy and Joseph Gordon-Levitt make up a stellar supporting cast that elevate the whole thing a notch or two (even) higher. You can rent Inception on Amazon.\n- 3/18Uncut GemsThe apex of the Adam Sandler renaissance. A highly-condensed stressfest before highly-condensed stressfests were cool (looking at you, Boiling Point), this film wasn’t quite what anyone expected it to be, and all the better for it. Sandler plays Howard Ratner, a jeweller whose high-wealth, high-risk lifestyle teeters and threatens to topple over the dual brinks of his gambling addiction on one side and his not-so-properly-run jewelry business on the other. It might cut a few minutes off your life, but hey—it lasts a hell of a lot longer than a cigarette. You can watch Uncut Gems on Max.\n- 4/18Get OutBefore Get Out, Jordan Peele was a sketch show performer and Daniel Kaluuya was that guy from Skins and Black Mirror. They’ve both hit the big-time since and a big part of that big-time-hitting is Get Out, which Peele wrote and directed and Kaluuya starred in as a boyfriend invited to stay with his girlfriend’s family in upstate New York. Things get weird when he gets there—and more than just “they don't keep the butter in the fridge” weird. The revelation of exactly what it is that’s going on here is masterfully paced, and Kaluuya and Peele both show plenty of what’s made them household names in Hollywood. You can rent Get Out on Amazon.\n- 5/18The Killing of a Sacred DeerYorgos Lanthimos never gives audiences an easy time, but The Killing of a Sacred Deer is a truly dark trip. It follows a cardiac surgeon (Colin Farrell) who introduces his family to a teenage boy (Barry Keoghan, in one of his pre-Saltburn breakthrough roles) with a connection to his past. Things start to fall apart once the true nature of their relationship and the ties that bind them come to light. Over the course of his career, Lanthimos has dabbled in surrealist arthouse and dark comedy period pieces, but this is arguably his most unsettling film to date, due to its eerie proximity to reality. You can watch Killing of a Sacred Deer on Max.\n- 6/18Fight ClubThe first rule of Fight Club is that you probably already know what happens in it, but you need to see it nonetheless. Like The Sixth Sense and The Usual Suspects, the film’s twist ending has become film folklore, but that’s not all it has to offer. We follow an insomniac (Edward Norton) who, after becoming disillusioned by capitalism, forms an underground fight club with Tyler, a soap salesman played by Brad Pitt. Soon, their venture starts to spiral into something bigger and beyond them. If you don't already know where this is going, the less said the better. You can watch Fight Club on Hulu.\n- 7/18Velvet BuzzsawIs anything better than Jake Gyllenhaal in creepy-little-weirdo mode? Velvet Buzzsaw takes the psychological thriller into the black-comedy realm as it dumps us in the pretentious contemporary art scene of LA. The film revolves around a gallerist who decides to build a show around the work of a recently deceased unknown artist. Soon, the sycophants in her orbit are plucked off one by one in increasingly horrifying ways. A satire of commercial greed, Velvet Buzzsaw is deliciously dark and deeply weird in the best way. You can watch Velvet Buzzsaw on Netflix.\n- 8/18The ShiningPossibly the most famous psychological thriller in cinema history, and one that’s still being debated today thanks to Kubrick's commitment to obscurity, The Shining is an icon in its own tier. In it, a novelist played by elastic-faced Jack Nicholson, hired to tend an abandoned ski resort during the snowy off-season, unravels inch by inch. As he descends into madness, the ghosts of the Overlook Hotel come out to keep him company. Or, are they all in his head? You can watch The Shining on Max.\n- 9/18ParasiteParasite winning Best Picture was a rare, surprise moment of joy at the Oscars back in 2020. If you somehow missed out on the groundswell of hype that South Korean auteur Bong Joon-Ho's film got in the run-up to its historic win, now is the time to watch it. It’s a thriller quite unlike anything else, following the interweaving lives of the haves and have-nots that hinge upon each other precariously. A poor family infiltrates the working staff of a rich household, slowly inserting themselves into every position available within the home. However, they don’t realise there’s something lurking within the walls that could upend their meal ticket. You can watch Parasite on Max.\n- 10/18FractureEverybody loves to watch a crime being solved. It's why there are roughly 876 procedural shows on television at any given moment—and it's part of why Fracture is so compelling. Anthony Hopkins teams up with a then-young buck Ryan Gosling, a mastermind criminal and the attorney trying to prosecute him respectively. Thinking he has an open and shut case after Hopkins admits to shooting his wife for having an affair, Gosling is taken through the wringer as he realizes what seemed like a simple guilty verdict is not as it seems. You can rent Fracture on Amazon Prime.\n- 11/18The ConversationNeedless to say, Francis Ford Coppola had a pretty good run in the 1970s. Of course, the heavy hitters like The Godfather and Apocolypse Now get the much-deserved glory, but he also had the chance to knock out this gem of a psychological thriller about a man growing increasingly paranoid while surveilling a couple. It’s the blueprint of any solid thriller: a person, emboldened by their own perception of things, is stirred into a frenzy when the rest of the world doesn’t seem to see what they do. The Conversation revolves around a murder, but which murder? You can rent The Conversation on Amazon.\n- 12/18Gerald's GameIn an attempt to spice up their sex life, married couple Jessie (Carla Gugino) and Gerald (Bruce Greenwood) invest in a pair of sturdy steel handcuffs. But when her husband dies from a sudden and unexpected heart attack while Jessie's chained to the bed, her arousal soon turns to panic. There are no neighbors around for miles, the handcuffs are too strong to break and the phone is just out of reach. Far more than just a sex game gone wrong, this suspense-driven Stephen King adaptation (from Doctor Sleep and Haunting of Hill House director Mike Flanagan) tests the viewer's psychological endurance almost as much as Jessie's, who, at one point, must helplessly watch a dog begin to eat her husband while she remains unable to move. You can watch Gerald's Game on Netflix.\n- 13/18The GameIf you ever suffering from gifting anxiety, just know nothing can ever be as bad as what Michael Douglas has to endure in The Game. The film tells the story of a wealthy investment banker who is given a mysterious present by his brother—the chance to participate in a strange, immersive game that quickly turns nightmarish. The '90s were full of these high-concept, elaborate mind-bending thrillers, and The Game is a slightly silly but nostalgic ride that will make you feel tense until the end credits. You can rent The Game on Amazon Prime.\n- 14/18The MenuAnother one to file under the black-comedy tab of the psychological thriller genre, The Menu hides some of its more mind-melting motives under razor-sharp dialogue and some truly must-see-to-believe set pieces. It follows a young couple, played by Nicholas Hoult and Anya Taylor-Joy, who travel to a remote island to eat at an exclusive restaurant fronted by an eccentric chef with a lavish menu. Fine dining has never looked messier. You can watch The Menu on Hulu.\n- 15/18The Woman in BlackAfter a run as a hugely successful and deeply unsettling stage show, The Woman in Black took its ghostly horror to the big screen. A post-Potter Daniel Radcliffe plays a young widower who arrives in a remote village and discovers that the vengeful ghost of a scorned woman is terrorizing the locals. This really does turn the dial close to the horror end of the thriller spectrum, but it’s a fantastic illustration of how less is usually more when it comes to bone-chilling spooks and scares. You can rent The Woman in Black on Amazon, or stream it with a Paramount+ membership.\n- 16/18Blue VelvetWhen you think of David Lynch, it’s probably best to assume your mind is going to get twisted; conventional isn’t really his thing. Blue Velvet is a classic of his portfolio, a rich and delicious noir thriller that has divided and enraptured audiences since its release in 1986. Starring Kyle MacLachlan, Isabella Rossellini and Laura Dern, it follows a young college student who, after returning home to visit his ailing father, discovers a severed human ear in a field. A mass conspiracy then unfolds in front of him as he strikes up a romance with a troubled singer. You’ll leave feeling bemused, flummoxed, frustrated, and a little bit nauseous, just as Lynch intended. You can rent Blue Velvet on Amazon.\n- 17/18Shutter IslandThe modern-day classic when it comes to psychological thrillers, Shutter Island is a masterpiece of the genre, twisting and turning until the very end. Headed up by Leonardo DiCaprio and Mark Ruffalo, and directed by Martin Scorsese, this neo-noir follows a U.S. Marshal investigating a psychiatric facility on a secluded island after one of the patients goes missing. Things could not be less as they seem, however, as the unsettling vibe of an island full of the criminally insane starts to interweave with the trauma of DiCaprio’s character. It probably contains one of the most satisfying and brain-melting twists in film history, but the ride to get there is also a big thrill. You can rent Shutter Island on Amazon.\n- ©20thCentFox/Courtesy Everett Collection18/18Notes on a ScandalNotes on a Scandal, may look like a muted domestic drama, but its power is in showing that the most unsettling tension can be found in unexpected places. Judi Dench plays a lonely history teacher who latches on to a new, younger recruit at the school, played by Cate Blanchett. But when she discovers that the new object of her obsession is having an affair with a 15-year-old student, she uses it as blackmail to stay close to her. As tension builds, our loyalties to characters are tested as each one reveals to have an ugly side with a different breaking point. You can watch Notes on a Scandal on Max.\n- X\n- The Best Halloween Movies (That Are Actually About Halloween, and Not About Michael Myers)By Jesse Hassenger\n- The Best Tim Burton Movies, Definitively RankedBy Jesse Hassenger\n- How Longlegs Became the Most Hyped Horror Film of 2024By Jack King\n- CelebritiesMilla Jovovich Breaks Down Her Most Iconic Characters\nSince 1957, GQ has inspired men to look sharper and live smarter with its unparalleled coverage of style, culture, and beyond. From award-winning writing and photography to binge-ready videos to electric live events, GQ meets millions of modern men where they live, creating the moments that create conversations.\n- Instagram\n- YouTube\n- Facebook\n- X\n- Tiktok\nMore From GQ\n- About GQ\n- Newsletter Sign-Up\n- Subscribe to the Magazine\n- Wardrobe Essentials\n- Best Cologne for Men\n- Best Beard Trimmers\n- Best Electric Shavers\n- Best Face Wash for Men\n- Best Loafers\n- Best Shampoo for Men\nConnect\n- Manage Account\n- Careers\n- Public Relations\n- Media Kit\n- Masthead\n- RSS Feeds\n- Accessibility Help\n- Condé Nast Store\n- User Agreement\n- Privacy Policy\n- Your California Privacy Rights\n© 2025 Condé Nast. All rights reserved. GQ may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast. Ad Choices\n Select international site\n- U.K.\n- Korea\n- Germany\n- Mexico\n- Taiwan\n- Turkey\n- China\n- Italy\n- South Africa\n- Portugal\n- Brazil\n- France\n- Australia\n- Spain\n- India\n- Japan\n- Thailand\n- Middle East",
+                    "spanned_content": "<article>\n    The Best Psychological Thrillers for Stressed-Out Streaming\n    Day to day life not nerve-racking enough? Wind yourself up a little tighter with these high-tension movies.\n    All products are independently selected by our editors. If you buy something, we may earn an affiliate commission.\n    Ever get to the end of a long week and think you haven't felt enough stress? Probably not, but the pulse-raising, mind-melting tension of the best psychological thrillers can offer the perfect escape to your own worries. From crime dramas filled with a <ComplexPlot>maze of twists and turns</ComplexPlot>, to hauntings that are hard to differentiate from hallucinations, there's a glut of sinister psychological thrillers on Netflix, Disney+, Hulu, Max and Amazon Prime, all just waiting to enter your mind and linger there for days.\n    Here are all the best psychological thrillers to get your mind whirring, available to stream right now.\n    - <ThrillerMovie>\n        <Name>The Silence of the Lambs</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Jonathan Demme\",\n                \"ReleaseYear\": 1991,\n                \"Themes\": [\"Psychopathy\", \"Manipulation\", \"Fear\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        Anthony Hopkins is in beast mode here as Donald Trump's favorite movie-character reference point, Hannibal “Hannibal The Cannibal” Lecter. That name makes him sound like a fun, kooky wrestler—he’s not that at all. He’s a literal man-eater locked in a cell, whom junior FBI agent Clarice Starling—played by Jodie Foster, who won her second Best Actress Oscar for this—is sent to interview in an attempt to use his formidable psychiatric insight to catch another serial killer. Starling is warned by others that Lecter will try and draw her into his web, and it’s this line she has to walk between avoiding this web and extracting Lecter's insight that makes for such a tense watch. You can watch Silence of the Lambs on Prime Video.\n    - <ThrillerMovie>\n        <Name>Inception</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Christopher Nolan\",\n                \"ReleaseYear\": 2010,\n                \"Themes\": [\"Dreams\", \"Reality\", \"Guilt\"],\n                \"AudienceRating\": \"PG-13\"\n            }\n        </AdditionalInformation>\n        Doesn’t get much more psychological than going inside people’s dreams. In Christopher Nolan’s film, Leonardo DiCaprio—playing Cobb, a thief who can infiltrate the sleeping minds of his subjects and use the information he gleans to steal from them—is presented with an opportunity that will test his powers to their absolute limits: he’s asked to implant an idea in someone’s mind. In return, he’ll have his criminal past wiped from every record and be a free man. Cillian Murphy, Marion Cotillard, Elliott Page, Tom Hardy and Joseph Gordon-Levitt make up a stellar supporting cast that elevate the whole thing a notch or two (even) higher. You can rent Inception on Amazon.\n    - <ThrillerMovie>\n        <Name>Uncut Gems</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Josh Safdie, Benny Safdie\",\n                \"ReleaseYear\": 2019,\n                \"Themes\": [\"Gambling\", \"Addiction\", \"Desperation\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        The apex of the Adam Sandler renaissance. A highly-condensed stressfest before highly-condensed stressfests were cool (looking at you, Boiling Point), this film wasn’t quite what anyone expected it to be, and all the better for it. Sandler plays Howard Ratner, a jeweller whose high-wealth, high-risk lifestyle teeters and threatens to topple over the dual brinks of his gambling addiction on one side and his not-so-properly-run jewelry business on the other. It might cut a few minutes off your life, but hey—it lasts a hell of a lot longer than a cigarette. You can watch Uncut Gems on Max.\n    - <ThrillerMovie>\n        <Name>Get Out</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Jordan Peele\",\n                \"ReleaseYear\": 2017,\n                \"Themes\": [\"Racism\", \"Identity\", \"Control\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        Before Get Out, Jordan Peele was a sketch show performer and Daniel Kaluuya was that guy from Skins and Black Mirror. They’ve both hit the big-time since and a big part of that big-time-hitting is Get Out, which Peele wrote and directed and Kaluuya starred in as a boyfriend invited to stay with his girlfriend’s family in upstate New York. Things get weird when he gets there—and more than just “they don't keep the butter in the fridge” weird. The revelation of exactly what it is that’s going on here is masterfully paced, and Kaluuya and Peele both show plenty of what’s made them household names in Hollywood. You can rent Get Out on Amazon.\n    - <ThrillerMovie>\n        <Name>The Killing of a Sacred Deer</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Yorgos Lanthimos\",\n                \"ReleaseYear\": 2017,\n                \"Themes\": [\"Morality\", \"Family\", \"Revenge\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        Yorgos Lanthimos never gives audiences an easy time, but The Killing of a Sacred Deer is a truly dark trip. It follows a cardiac surgeon (Colin Farrell) who introduces his family to a teenage boy (Barry Keoghan, in one of his pre-Saltburn breakthrough roles) with a connection to his past. Things start to fall apart once the true nature of their relationship and the ties that bind them come to light. Over the course of his career, Lanthimos has dabbled in surrealist arthouse and dark comedy period pieces, but this is arguably his most unsettling film to date, due to its eerie proximity to reality. You can watch Killing of a Sacred Deer on Max.\n    - <ThrillerMovie>\n        <Name>Fight Club</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"David Fincher\",\n                \"ReleaseYear\": 1999,\n                \"Themes\": [\"Consumerism\", \"Identity\", \"Violence\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        The first rule of Fight Club is that you probably already know what happens in it, but you need to see it nonetheless. Like The Sixth Sense and The Usual Suspects, the film’s twist ending has become film folklore, but that’s not all it has to offer. We follow an insomniac (Edward Norton) who, after becoming disillusioned by capitalism, forms an underground fight club with Tyler, a soap salesman played by Brad Pitt. Soon, their venture starts to spiral into something bigger and beyond them. If you don't already know where this is going, the less said the better. You can watch Fight Club on Hulu.\n    - <ThrillerMovie>\n        <Name>Velvet Buzzsaw</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Dan Gilroy\",\n                \"ReleaseYear\": 2019,\n                \"Themes\": [\"Art\", \"Greed\", \"Death\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        Is anything better than Jake Gyllenhaal in creepy-little-weirdo mode? Velvet Buzzsaw takes the psychological thriller into the black-comedy realm as it dumps us in the pretentious contemporary art scene of LA. The film revolves around a gallerist who decides to build a show around the work of a recently deceased unknown artist. Soon, the sycophants in her orbit are plucked off one by one in increasingly horrifying ways. A satire of commercial greed, Velvet Buzzsaw is deliciously dark and deeply weird in the best way. You can watch Velvet Buzzsaw on Netflix.\n    - <ThrillerMovie>\n        <Name>The Shining</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Stanley Kubrick\",\n                \"ReleaseYear\": 1980,\n                \"Themes\": [\"Isolation\", \"Madness\", \"Family\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        Possibly the most famous psychological thriller in cinema history, and one that’s still being debated today thanks to Kubrick's commitment to obscurity, The Shining is an icon in its own tier. In it, a novelist played by elastic-faced Jack Nicholson, hired to tend an abandoned ski resort during the snowy off-season, unravels inch by inch. As he descends into madness, the ghosts of the Overlook Hotel come out to keep him company. Or, are they all in his head? You can watch The Shining on Max.\n    - <ThrillerMovie>\n        <Name>Parasite</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Bong Joon-ho\",\n                \"ReleaseYear\": 2019,\n                \"Themes\": [\"Class\", \"Society\", \"Deception\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        Parasite winning Best Picture was a rare, surprise moment of joy at the Oscars back in 2020. If you somehow missed out on the groundswell of hype that South Korean auteur Bong Joon-Ho's film got in the run-up to its historic win, now is the time to watch it. It’s a thriller quite unlike anything else, following the interweaving lives of the haves and have-nots that hinge upon each other precariously. A poor family infiltrates the working staff of a rich household, slowly inserting themselves into every position available within the home. However, they don’t realise there’s something lurking within the walls that could upend their meal ticket. You can watch Parasite on Max.\n    - <ThrillerMovie>\n        <Name>Fracture</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Gregory Hoblit\",\n                \"ReleaseYear\": 2007,\n                \"Themes\": [\"Justice\", \"Manipulation\", \"Crime\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        Everybody loves to watch a crime being solved. It's why there are roughly 876 procedural shows on television at any given moment—and it's part of why Fracture is so compelling. Anthony Hopkins teams up with a then-young buck Ryan Gosling, a mastermind criminal and the attorney trying to prosecute him respectively. Thinking he has an open and shut case after Hopkins admits to shooting his wife for having an affair, Gosling is taken through the wringer as he realizes what seemed like a simple guilty verdict is not as it seems. You can rent Fracture on Amazon Prime.\n    - <ThrillerMovie>\n        <Name>The Conversation</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Francis Ford Coppola\",\n                \"ReleaseYear\": 1974,\n                \"Themes\": [\"Paranoia\", \"Surveillance\", \"Isolation\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        Needless to say, Francis Ford Coppola had a pretty good run in the 1970s. Of course, the heavy hitters like The Godfather and Apocolypse Now get the much-deserved glory, but he also had the chance to knock out this gem of a psychological thriller about a man growing increasingly paranoid while surveilling a couple. It’s the blueprint of any solid thriller: a person, emboldened by their own perception of things, is stirred into a frenzy when the rest of the world doesn’t seem to see what they do. The Conversation revolves around a murder, but which murder? You can rent The Conversation on Amazon.\n    - <ThrillerMovie>\n        <Name>Gerald's Game</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Mike Flanagan\",\n                \"ReleaseYear\": 2017,\n                \"Themes\": [\"Survival\", \"Trauma\", \"Isolation\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        In an attempt to spice up their sex life, married couple Jessie (Carla Gugino) and Gerald (Bruce Greenwood) invest in a pair of sturdy steel handcuffs. But when her husband dies from a sudden and unexpected heart attack while Jessie's chained to the bed, her arousal soon turns to panic. There are no neighbors around for miles, the handcuffs are too strong to break and the phone is just out of reach. Far more than just a sex game gone wrong, this suspense-driven Stephen King adaptation (from Doctor Sleep and Haunting of Hill House director Mike Flanagan) tests the viewer's psychological endurance almost as much as Jessie's, who, at one point, must helplessly watch a dog begin to eat her husband while she remains unable to move. You can watch Gerald's Game on Netflix.\n    - <ThrillerMovie>\n        <Name>The Game</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"David Fincher\",\n                \"ReleaseYear\": 1997,\n                \"Themes\": [\"Reality\", \"Control\", \"Isolation\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        If you ever suffering from gifting anxiety, just know nothing can ever be as bad as what Michael Douglas has to endure in The Game. The film tells the story of a wealthy investment banker who is given a mysterious present by his brother—the chance to participate in a strange, immersive game that quickly turns nightmarish. The '90s were full of these high-concept, elaborate mind-bending thrillers, and The Game is a slightly silly but nostalgic ride that will make you feel tense until the end credits. You can rent The Game on Amazon Prime.\n    - <ThrillerMovie>\n        <Name>The Menu</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Mark Mylod\",\n                \"ReleaseYear\": 2022,\n                \"Themes\": [\"Class\", \"Food\", \"Power\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        Another one to file under the black-comedy tab of the psychological thriller genre, The Menu hides some of its more mind-melting motives under razor-sharp dialogue and some truly must-see-to-believe set pieces. It follows a young couple, played by Nicholas Hoult and Anya Taylor-Joy, who travel to a remote island to eat at an exclusive restaurant fronted by an eccentric chef with a lavish menu. Fine dining has never looked messier. You can watch The Menu on Hulu.\n    - <ThrillerMovie>\n        <Name>The Woman in Black</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"James Watkins\",\n                \"ReleaseYear\": 2012,\n                \"Themes\": [\"Grief\", \"Supernatural\", \"Isolation\"],\n                \"AudienceRating\": \"PG-13\"\n            }\n        </AdditionalInformation>\n        After a run as a hugely successful and deeply unsettling stage show, The Woman in Black took its ghostly horror to the big screen. A post-Potter Daniel Radcliffe plays a young widower who arrives in a remote village and discovers that the vengeful ghost of a scorned woman is terrorizing the locals. This really does turn the dial close to the horror end of the thriller spectrum, but it’s a fantastic illustration of how less is usually more when it comes to bone-chilling spooks and scares. You can rent The Woman in Black on Amazon, or stream it with a Paramount+ membership.\n    - <ThrillerMovie>\n        <Name>Blue Velvet</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"David Lynch\",\n                \"ReleaseYear\": 1986,\n                \"Themes\": [\"Darkness\", \"Mystery\", \"Violence\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        When you think of David Lynch, it’s probably best to assume your mind is going to get twisted; conventional isn’t really his thing. Blue Velvet is a classic of his portfolio, a rich and delicious noir thriller that has divided and enraptured audiences since its release in 1986. Starring Kyle MacLachlan, Isabella Rossellini and Laura Dern, it follows a young college student who, after returning home to visit his ailing father, discovers a severed human ear in a field. A mass conspiracy then unfolds in front of him as he strikes up a romance with a troubled singer. You’ll leave feeling bemused, flummoxed, frustrated, and a little bit nauseous, just as Lynch intended. You can rent Blue Velvet on Amazon.\n    - <ThrillerMovie>\n        <Name>Shutter Island</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Martin Scorsese\",\n                \"ReleaseYear\": 2010,\n                \"Themes\": [\"Reality\", \"Trauma\", \"Insanity\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        The modern-day classic when it comes to psychological thrillers, Shutter Island is a masterpiece of the genre, twisting and turning until the very end. Headed up by Leonardo DiCaprio and Mark Ruffalo, and directed by Martin Scorsese, this neo-noir follows a U.S. Marshal investigating a psychiatric facility on a secluded island after one of the patients goes missing. Things could not be less as they seem, however, as the unsettling vibe of an island full of the criminally insane starts to interweave with the trauma of DiCaprio’s character. It probably contains one of the most satisfying and brain-melting twists in film history, but the ride to get there is also a big thrill. You can rent Shutter Island on Amazon.\n    - <ThrillerMovie>\n        <Name>Notes on a Scandal</Name>\n        <MindBending>true</MindBending>\n        <PsychologicalDepth>true</PsychologicalDepth>\n        <ComplexPlot>true</ComplexPlot>\n        <CharacterDevelopment>true</CharacterDevelopment>\n        <IntellectualChallenge>true</IntellectualChallenge>\n        <AdditionalInformation>\n            {\n                \"Director\": \"Richard Eyre\",\n                \"ReleaseYear\": 2006,\n                \"Themes\": [\"Obsession\", \"Manipulation\", \"Betrayal\"],\n                \"AudienceRating\": \"R\"\n            }\n        </AdditionalInformation>\n        Notes on a Scandal, may look like a muted domestic drama, but its power is in showing that the most unsettling tension can be found in unexpected places. Judi Dench plays a lonely history teacher who latches on to a new, younger recruit at the school, played by Cate Blanchett. But when she discovers that the new object of her obsession is having an affair with a 15-year-old student, she uses it as blackmail to stay close to her. As tension builds, our loyalties to characters are tested as each one reveals to have an ugly side with a different breaking point. You can watch Notes on a Scandal on Max.\n</article>\n\n\n\nThis reformatted article maintains the original structure while clearly tagging the relevant segments according to the specified attributes of the \"ThrillerMovie\" ADT. Each movie is encapsulated within its own `<ThrillerMovie>` tag, with attributes clearly defined.",
+                    "candidate_items_list_local": [
+                        {
+                            "Name": "The Silence of the Lambs",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Jonathan Demme",
+                                "ReleaseYear": 1991,
+                                "Themes": [
+                                    "Psychopathy",
+                                    "Manipulation",
+                                    "Fear"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "Inception",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Christopher Nolan",
+                                "ReleaseYear": 2010,
+                                "Themes": [
+                                    "Dreams",
+                                    "Reality",
+                                    "Guilt"
+                                ],
+                                "AudienceRating": "PG-13"
+                            }
+                        },
+                        {
+                            "Name": "Uncut Gems",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Josh Safdie, Benny Safdie",
+                                "ReleaseYear": 2019,
+                                "Themes": [
+                                    "Gambling",
+                                    "Addiction",
+                                    "Desperation"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "Get Out",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Jordan Peele",
+                                "ReleaseYear": 2017,
+                                "Themes": [
+                                    "Racism",
+                                    "Identity",
+                                    "Control"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "The Killing of a Sacred Deer",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Yorgos Lanthimos",
+                                "ReleaseYear": 2017,
+                                "Themes": [
+                                    "Morality",
+                                    "Family",
+                                    "Revenge"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "Fight Club",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "David Fincher",
+                                "ReleaseYear": 1999,
+                                "Themes": [
+                                    "Consumerism",
+                                    "Identity",
+                                    "Violence"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "Velvet Buzzsaw",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Dan Gilroy",
+                                "ReleaseYear": 2019,
+                                "Themes": [
+                                    "Art",
+                                    "Greed",
+                                    "Death"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "The Shining",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Stanley Kubrick",
+                                "ReleaseYear": 1980,
+                                "Themes": [
+                                    "Isolation",
+                                    "Madness",
+                                    "Family"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "Parasite",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Bong Joon-ho",
+                                "ReleaseYear": 2019,
+                                "Themes": [
+                                    "Class",
+                                    "Society",
+                                    "Deception"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "Fracture",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Gregory Hoblit",
+                                "ReleaseYear": 2007,
+                                "Themes": [
+                                    "Justice",
+                                    "Manipulation",
+                                    "Crime"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "The Conversation",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Francis Ford Coppola",
+                                "ReleaseYear": 1974,
+                                "Themes": [
+                                    "Paranoia",
+                                    "Surveillance",
+                                    "Isolation"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "Gerald's Game",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Mike Flanagan",
+                                "ReleaseYear": 2017,
+                                "Themes": [
+                                    "Survival",
+                                    "Trauma",
+                                    "Isolation"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "The Game",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "David Fincher",
+                                "ReleaseYear": 1997,
+                                "Themes": [
+                                    "Reality",
+                                    "Control",
+                                    "Isolation"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "The Menu",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Mark Mylod",
+                                "ReleaseYear": 2022,
+                                "Themes": [
+                                    "Class",
+                                    "Food",
+                                    "Power"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "The Woman in Black",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "James Watkins",
+                                "ReleaseYear": 2012,
+                                "Themes": [
+                                    "Grief",
+                                    "Supernatural",
+                                    "Isolation"
+                                ],
+                                "AudienceRating": "PG-13"
+                            }
+                        },
+                        {
+                            "Name": "Blue Velvet",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "David Lynch",
+                                "ReleaseYear": 1986,
+                                "Themes": [
+                                    "Darkness",
+                                    "Mystery",
+                                    "Violence"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "Shutter Island",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Martin Scorsese",
+                                "ReleaseYear": 2010,
+                                "Themes": [
+                                    "Reality",
+                                    "Trauma",
+                                    "Insanity"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        },
+                        {
+                            "Name": "Notes on a Scandal",
+                            "MindBending": "true",
+                            "PsychologicalDepth": "true",
+                            "ComplexPlot": "true",
+                            "CharacterDevelopment": "true",
+                            "IntellectualChallenge": "true",
+                            "Additional Information": {
+                                "Director": "Richard Eyre",
+                                "ReleaseYear": 2006,
+                                "Themes": [
+                                    "Obsession",
+                                    "Manipulation",
+                                    "Betrayal"
+                                ],
+                                "AudienceRating": "R"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "citations": [
+                "https://www.gq.com/gallery/the-best-psychological-thrillers-for-stressed-out-streaming"
+            ]
+        },
+        "films with shocking endings like Shutter Island": {
+            "AI_search_content_list": [],
+            "citations": []
+        },
+        "directors known for mind-bending thrillers": {
+            "AI_search_content_list": [
+                {
+                    "title": "The 20 Greatest Thriller Directors of All Time, Ranked - MovieWeb[1]",
+                    "content": "MovieWeb\n- What To Watch Submenu\n    - Apple TV+\n    - Criterion Collection\n    - Disney+\n    - Hulu\n    - Max\n    - Netflix\n    - Paramount+\n    - Prime Video\n    - Shudder\n    - Tubi\n- News Submenu\n    - New Trailers\n    - Movie News\n    - TV News\n    - Marvel News\n    - DC News\n- Features\n- Interviews\n- Reviews\n- Threads\n- Videos\n- Got a Tip?\n- Genres Submenu\n    - Action\n    - Comedy\n    - Fantasy\n    - Horror\n    - Sci-Fi\n    - Westerns\n    - More Submenu\n        - Movie Database By Year\n        - Movie Lists\n        - TV Lists\n- Sign in\n- Newsletter\n The 20 Greatest Thriller Directors of All Time, Ranked\nSign in to your  account\nNBCUniversal Television\nDirectors like Ridley Scott and James Cameron are known for their science fiction films, while others such as Wes Craven and John Carpenter are nearly synonymous with the genre of horror. Those are famous instances of filmmakers honing in on a specific category of film, with just as many popular names consistently directing thrillers. Certain incredible directors have become fittingly associated with the thriller genre, and this list compiles the greatest of the bunch.\nYou should without a doubt recognize most of the names on this list, while others will appear more unfamiliar. But their respective movies will without a doubt ring some bells, along with the members of their star-studded stables of actors. Either way, these are among cinema's all-time best legends, with fan-favorite filmographies to boot.\nThese are the 20 greatest thriller directors of all time, ranked.\n 20 \n                            Antoine Fuqua\nWarner Bros. Pictures\nKicking things off with a more modern director, it's worth noting off the bat that Antoine Fuqua is one of a few famous directors who frequently cast Denzel Washington in their projects. Of course, the most acclaimed of their collaborations was their very first: Training Day (2001). A crime-thriller, Washington co-starred with Ethan Hawke as narcotics officers, of course with a twist. Both performers were nominated at the Academy Awards, with Denzel even walking away with a golden statuette for Best Actor.\nFuqua and Washington continued their rip-roaring partnership a decade later with The Equalizer (2014), with The Equalizer 2 (2018) and The Equalizer 3 (2023) serving as the sequels. They're all entertaining, and they solidify Fuqua as a master of thrillers. What helps his case is that The Guilty (2021), with Jake Gyllenhaal, proved that he's capable of making a high-octane thriller even without the help of Denzel.\n 19 \n                            Christopher Nolan\nSummit Entertainment\nA famous filmmaker, Christoper Nolan began his career deeply invested in thrillers before moving to sci-fi and historical films. Nolan's first three films create a kind of trilogy of paranoia, three films that follow the disintegrating minds of obsessed men. There's his first film, the abstract black and white film Following (1998), followed by the classic backwards-thriller Memento (2000) and the remake of a better film, Insomnia.\nBut luckily for the sake of this list, nearly every film under the directorial belt of Christopher Nolan has elements of a thriller. Even The Prestige (2006), Tenet (2020), and The Dark Knight (2008) fits the mold, albeit to lesser extents. Whether you've watched those films ad nauseam or you've just heard about them today, Nolan always hits home with his movies, and that's especially true with his thrillers.\n 18 \n                            Jean-Pierre Melville\nComacico\nDirector Jean-Pierre Melville wore many hats, from French New Wave godfather to master of the French Resistance and chronicler of spiritual ennui. Among his many different types of films were a handful of absolutely perfect and very French thrillers.\nFrom the delightful heist film Bob le Flambeur (1956) and stylish, super cool masterpiece Le Samouraï (1967), to the more complicated noir thrillers Le Cercle Rouge (1970) and Le Doulos (1962), whenever Melville tackled a thriller, he perfected it.\n 17 \n                            Michael Haneke\nConcorde-Castle\nTwo of the greatest thrillers of their respective regions are Funny Games (1997) from Austria and Caché (2005) from France, and they were both directed by Michael Haneke. The former follows a family staying in their vacation home when an unexpected pair of visitors arrive: two young men who initiate the titular games of sadistic and horrific nature. They torture the family mentally and physically, with the intrigue of the plot being rivaled by the mastery of behind-the-scenes elements.\nRelated: Best Michael Haneke Movies, Ranked\nThe same can be said for Caché with Daniel Auteuil and Juliette Binoche. It's just as renowned as Funny Games, though it pales slightly in comparison in hindsight. Nonetheless, both films are absolute masterclasses of the thriller genre, and they render Haneke an essential director regardless of decade or region. Inflections of the genre can also be seen in his tense films The White Ribbon, Benny's Game, The Seventh Continent, and Code Unknown.\n 16 \n                            Denis Villeneuve\nWarner Bros. Pictures\nOne of the more recent directors on the list is Denis Villeneuve, who released two masterful thrillers in the same year: Enemy (2013) and Prisoners (2013). The former is highly underrated, while Prisoners is one of the best thrillers you're ever likely to see. And what's more, both films feature Jake Gyllenhaal in back-to-back show-stealing performances.\nRelated: Every Jake Gyllenhaal Thriller Movie, Ranked\nVilleneuve's next thriller will likely ring a few more bells, as Sicario (2015) has gained great traction in recent years with sequels and home-video releases. It follows FBI Special Agent Kate Marcer, who's played by Emily Blunt as she attempts to stop the happenings of a Mexican drug cartel. It's a fantastic film, and what helps land Villeneuve at number twelve is that projects such as Blade Runner 2049 (2017) may not be thrillers, but they surely feature elements thereof.\n 15 \n                            John Frankenheimer\nUnited Artists\nMore modern film fans may not recognize the name John Frankenheimer. However, he's directed many masterpieces and a couple of the biggest films to ever hit the silver screen, and one falls in the category of this list. Of course, that's The Manchurian Candidate (1962) with Frank Sinatra, Laurence Harvey, and Angela Lansbury. It follows Harvey's character, a Vietnam War veteran who is brainwashed by communists and sent back to the United States as a sleeper agent.\nYou're probably familiar with that project, but he then released the incredibly tense 1964 film The Train, starring Burt Lancaster and an amazing Jeanne Moreau. A few years down the line, Frankenheimer released Seconds (1966), a disturbing classic that was very underrated, despite its spot in the National Film Registry. Frankenheimer's next two thrillers made up for its paucity of popularity: French Connection II (1975), followed by Ronin (1998). Those are two more solid outings that on any given day could land this director within the top ten.\n 14 \n                            Bong Joon-ho\nCJ Entertainment\nAmerican audiences will mostly be familiar with the name Bong Joon-ho thanks to his Academy Award-winning film Parasite (2019) from a few years back. That's one of the greatest recent films, easily among the best of its decade, and it will without a doubt stand the test of time. But this director is gloriously unhinged, writing and directing some of the most mind-bending journeys you're ever likely to experience even from his feature-length debut.\nBarking Dogs Never Bite (2000) isn't a thriller in the classic sense, but it without a doubt features elements thereof. However, his sophomore film, Memories of Murder (2003), is a brilliant crime thriller, a police procedural about detectives tracking down a serial killer. It should frankly go down as Joon-ho's magnum opus, and perhaps the greatest thriller film of that decade.\nBut Joon-ho hardly let up from there. The Host (2006) is similar to Barking Dogs Never Bite in that it isn't quite a thriller, but it sure comes close. Mother (2009) and Snowpiercer (2013) undoubtedly fit the bill, with each film in tandem landing Joon-ho in the list.\n 13 \n                            William Friedkin\n20th Century Fox\nTo be frank, The French Connection (1971) is one of the greatest films ever made. With Gene Hackman in the lead role and Roy Scheider as his co-star, those two juggernauts of the industry truly hit international acclaim as NYPD detectives Jimmy \"Popeye\" Doyle and Buddy \"Cloudy\" Russo, respectively. And the film as a whole is as legendary as they come, with several golden statuettes from the Oscars to its name, and even a rank among the National Film Registry thanks to the preservation by the Library of Congress.\nThat entry by itself is enough to land anyone on the list of greatest thriller directors. But luckily for William Friedkin, his spot is bolstered by several other nerve-racking adventures such as Sorcerer (1977), Cruising (1980), To Live and Die in L.A. (1985), and even more recent films such as the brilliant Bug (2006) and Killer Joe (2011). He has a few duds in the mix, but most of his thrillers meet their marks. What helps Friedkin in the long run is The French Connection — if it weren't for The Exorcist (1973), that would easily be his masterpiece.\n 12 \n                            The Coen Brothers\n20th Century Fox\nThere's a very specific type of thrill to the Coen brothers' films. It's offbeat, surprisingly violent, often arbitrary, and realistic despite the eccentric characters involved. Blood SImple (1984), Miller's Crossing (1990), Fargo (1996), The Man Who Wasn't There (2001), No Country for Old Men (2007) — these are all excellent films with a very specific kind of thriller aesthetic, which can also be found lurking beneath the surface of their comedies like Burn After Reading (2008) and Raising Arizona (1987).\n 11 \n                            Park Chan-wook\nShow East\nIf you've at any point hopped aboard the hype train of South Korean cinema, you've without a doubt seen a title or two among the filmography of Park Chan-wook. Since the turn of the 21st century, he's been pumping out some of his region's most renowned titles, from Joint Security Area (2000) and Sympathy for Mr. Vengeance (2002) to Oldboy (2003) and The Handmaiden (2016). Those are perhaps is four best and most recognizable movies, and they all fall neatly within the film category at hand.\nJoint Security Area is an action hybrid that stars Song Kang-ho, one of the greatest actors in South Korea's history, while Sympathy for Mr. Vengeance marks the beginning of his revered revenge trilogy. It was followed by Park Chan-wook's Oldboy, without a doubt among the top two or three most heard-of films from its region, regardless of decade or director, with Lady Vengeance (2005) perfectly culminating the three projects. And thanks to other films such as Stoker (2013), there's no denying Chan-wook's films rank among the best ever thriller directors.\n 10 \n                            Orson Welles\nRKO Radio Pictures\nAlthough The Third Man (1949) was directed by someone who appears much later in the list, it's commonly thought of as an Orson Welles movie, with the legitimate director not getting credit in that regard from less hardcore fans. But more on him in a bit. As for Welles: his first ever thriller, The Stranger (1946) was a masterpiece, following a high-ranking fugitive of the Nazi regime. It's a well-made thriller noir from its first frame, and began a dozen years of brilliant thrillers. Depending on your taste, he could understandably be number one or two on this list, but he stacks up here for us.\nAside from the groundbreaking Citizen Kane (1941) and Magnificent Ambersons (1942), Welles became largely associated with noir thrillers, such as the masterful The Lady From Shanghai (1947), Confidential Report (also known as Mr. Arkardin, from 1955), and Touch of Evil (1958).\nThe Touch of Evil is cited by pundits of the industry as one of the greatest movies ever made. Its thrilling nature is on full display from the very first scene, with Welles solidifying himself as an undisputed master of suspense. While he'd completely abandon the thriller in favor of more experimental subjects, the 12 years he spent making thrillers were enough to ensure his place as one of the best.\n 9 \n                            Roman Polanski\nParamount Pictures\nLike Haneke, this director also made two of the most revered thrillers their regions had to offer, starting with Knife in the Water (1962). A Polish-language film, it chronicles a young male hitchhiker who accompanies a married couple on a boating trip, only for the former party to initiate a series of strange head-to-heads. The sequences build in tension, with Knife in the Water frequently being cited as perhaps the best Polish thriller ever made. It remains the only Roman Polanski film that features dialogue in his native language, and the project holds up wonderfully several decades later.\nThe other legendary thriller directed by Polanski is Chinatown (1974), starring Jack Nicholson as Jake Gettys, a private detective. That's among the greatest and most well-known movies ever made, and like Knife in the Water, it remains among the best thrillers its region has ever seen.\nBut those are far from the only thrillers that Polanski has to offer. Repulsion (1965) and Cul-de-sac (1966) are great early outings, while Death and the Maiden (1994) and The Ninth Gate (1999) continued his reputation in the genre. The Ghost Writer (2010) puts the perfect capstone on his career as a legendary thriller director.\n 8 \n                            Carol Reed\nBritish Lion Films\nThe Fallen Idol (1948) and The Third Man (1949) are two of the greatest British films of all time, and fans might have expected Reed to place even higher on the list because of it. But arguably the most famous entry throughout his career is Oliver! (1968), a period musical. No disrespect there, but it's far from a thriller, and the rest of the directors essentially made careers with the latter ilk of cinema.\nThe Third Man is among the greatest film noirs ever made, and it garnered Reed a nomination at the Academy Awards for Best Director, as did The Fallen Idol in the year prior. And although he came up short at both ceremonies, the projects did receive back-to-back wins for Best British Film at the BAFTAs. Reed's noir thriller Odd Man Out actually won the very first BAFTA for Best British Film, so he continued to justify the precedent he set. Along with the wonderful Night Train to Munich, Reed's position here is utterly warranted.\n 7 \n                            Henri-Georges Clouzot\nCinédis\nWhile hardcore film fans are likely caught off guard by Henri-Georges Clouzot not being within the list's top five, it's once again worth noting that, like Carol Reed, he branched out to other genres a bit more frequently than the directors that are to follow. He's made straight-up dramas, a couple comedies, and even a documentary (about Pablo Picasso!) along the way. But like the rest of the filmmakers on this list, Clouzot's thrillers are among the greatest in cinematic history.\nClouzot's second film, Le Corbeau (1942), is a wonderfully efficient little thriller, but it was The Wages of Fear (1953) that put him on the international map, while Les Diaboliques (1955) only saw further success in this regard. The former is an incredible suspense film, while the latter is perhaps his best project regardless of genre.\nSpecifically, Les Diaboliques is a psychological thriller that mixes in elements of horror. It was highly influential, even inspiring the number one director on the list when he made one of his most important films. Clouzot is undeniably among the all-time greats of thriller directors, and on any given fan's list, he could place even higher than number seven.\n 6 \n                            Martin Scorsese\nColumbia Pictures\nSure, you may not speak about Martin Scorsese and the thriller genre in the same breath. But it depends on how you define a thriller. Obviously, in Cape Fear (1991), his greatest collaborator, Robert De Niro, sends chills down the audience's spines with every line uttered as Max Cady. And Scorsese's other famous collaborator, Leonardo DiCaprio, starred in the director's follow-up crime thriller, The Departed (2006).\nRelated: Best Martin Scorsese Movies, Ranked\nBoth films are remakes, and they're arguably better than their original versions, and The Departed cleaned up at the 79th Academy Awards. Then, there's Shutter Island (2010). A true fan-favorite among Scorsese's already-famous filmography, Shutter Island with Leo DiCaprio and Mark Ruffalo features thrilling twists unlike few films you'll read about today. And none of that is to even broach the subject of Taxi Driver (1976), one of the greatest thrillers ever made, if you consider it as such.\n 5 \n                            David Lynch\nUniversal Pictures\nWhatever you say about David Lynch, it's clear that he's been primarily working within the thriller genre his whole career, even if that means primarily deconstructing it in disturbing postmodern ways. Eraserhead (1977) is more horror than anything, while Blue Velvet (1986) falls perfectly into the thriller category. Specifically, it's a neo-noir mystery thriller, and it's one of Lynch's greatest films all these years down the line.\nLost Highway (1997) is another intriguing film of Lynchian proportions, while Mulholland Drive (2001) is commonly cited among the greatest films ever made, especially of the 21st century. And Lynch was by no means done from there. He followed that up in valiant fashion with Inland Empire (2006), which boasts one of the most star-studded casts you're likely to read about today. Whether you resonate with his idiosyncratic style of filmmaking or not, there's no denying the legacy built by Lynch and his thrillers.\n 4 \n                            David Fincher\nNew Line Cinema\nTwo of the greatest thriller directors from America are both named David. Coincidence? Absolutely. But just edging out Lynch on the list is David Fincher, who first saw critical acclaim in Hollywood by directing the crime-thriller Se7en (1995). That was his second outing following the mediocre Alien 3 (1992), with Se7en being the far superior film. In fact, it's commonly cited among the greatest films not just of its genre, but also of its decade. He followed up in underrated fashion thanks to The Game (1997) with Michael Douglas.\nRelated: 8 Movies Almost Made by David Fincher\nThen, he made arguably the most important film of his career: Fight Club (1999), starring Edward Norton and Brad Pitt. It's far from the best film under Fincher's belt, though, and it's not even the best thriller. That title goes either to the aforementioned Se7en, or to a film called Zodiac (2007) with Jake Gyllenhaal, one of the best thrillers of this century.\nAnd none of this touches upon other seminal Fincher films such as Panic Room (2002) with Jodie Foster and Kristen Stewart, The Girl with the Dragon Tattoo (2011) with Daniel Craig and Rooney Mara, or Gone Girl (2014) with Ben Affleck and Rosamund Pike. To top things off, the upcoming film The Killer (2023) will see a return to thrilling form for Fincher after a series of prestige dramas. It stars Michael Fassbender in the titular role, and it's bound to meet expectations. Whenever he directs a thriller, David Fincher always hits home.\n 3 \n                            Brian De Palma\nFilmways Pictures\nThough perhaps best known for his gangster flicks with Al Pacino such as Scarface (1983) and Carlito's Way (1993), American filmmaker Brian De Palma is also recognized as one of cinema's greatest directors of thrillers; it's been his bread and butter.\nHis first ever feature, Murder a la Mod (1968), is a murder-mystery, while he truly delved into the genre in the next decade with Hitchcock-inspired masterpieces like Sisters (1972) and the great Obsession (1976). The latter film follows Cliff Robertson's character who falls in love with an exact look-alike of his deceased wife, who's played by Geneviève Bujold. It's a great film, as were his horror-thrillers of the decade, Carrie (1976) and The Fury (1978).\nBut in the 1980s, De Palma solidified himself as an all-time great in this regard by making Dressed to Kill (1980), Blow Out (1981), and Body Double (1984). Those are three of the most underrated films of their decade, with Blow Out in particular going down perhaps as De Palma's magnum opus.\nAfter his foray into gangster films, he continued to make excellent thrillers like the very first Mission: Impossible film and some incredibly divisive films that some consider brilliant and others consider exploitive trash (Snake Eyes, Femme Fatale, and Passion). We lean toward their brilliance, though none were on par with his earlier works.\n 2 \n                            Fritz Lang\nVereinigte Star-Film GmbH\nEveryone should be familiar with the name Fritz Lang, if not just for his influence on the science fiction genre with the release of Metropolis (1927). But his seminal noir precursor, M (1931), is perhaps the single most important thriller ever made, and would be one of the earliest thriller masterpieces if not for Spies (1928) — also directed by Lang.\nAfter M, he released another prominent thriller called The Testament of Dr. Mabuse (1933), a phenomenal film that followed Lang's iconic Mabuse character. It'd take several more years, but he went on a thriller spree in the 1940s after fleeing Nazi Germany for Hollywood and making projects like Man Hunt (1941), The Woman in the Window (1944), and Cloak and Dagger (1946).\nIn the decade thereafter, he released another famous film, the noir masterpiece The Big Heat (1953), only to round out his career with a sequel: The Thousand Eyes of Dr. Mabuse (1960). The number one spot on this list was set in stone from the beginning, but frankly, so was this penultimate pick in Lang.\n 1 \n                            Alfred Hitchcock\nMetro-Goldwyn-Mayer\nWas there ever any doubt? Whether you want to call Psycho (1960) a horror film or a thriller, it hardly matters. Alfred Hitchcock is the undisputed king of thrills, and he will likely never be topped. He essentially created half of the storytelling techniques and cinematic tropes featured in Hollywood thrillers today, and the majority of filmmakers on this very list cite Hitchcock as a direct influence.\nMost directors to ever be born after Alfred Hitchcock would call him inspirational, to be frank, with his name's value transcending this list entirely. From Rear Window (1954) and Vertigo (1958) to North by Northwest (1959) and The Birds (1963), some of the greatest thrillers ever made were directed by the filmmaker at hand.\nAnd he made even more classics like Strangers on a Train (1951), Dial M for Murder (1954), or The Man Who Knew Too Much (both 1934 and 1956). And frankly, that's still only scratching the surface of his vast, critically acclaimed filmography. Without any doubt, Hitchcock deserves this spot at number one, and retains the moniker of \"master of suspense\" to this day.\n- Movie Lists\n- Thriller\nRecommended\n Every Live-Action Lex Luthor, Ranked\nAbout a dozen actors have taken on the role across movies and television and captured Lex Luthor’s arrogance and villainy against the Man of Tomorrow.\n The Most Annoying Characters in Otherwise Perfect Movies\nThese movies are near perfection, though one annoying character has left a negative impression on some fans.\n 8 Best Stephen King Movies You Can Stream on Prime\nThere are tons of Stephen King movies for anyone looking to explore the author's adaptations, and Prime Video is a good place to start.\n 14 Things That Happen in Every MCU Movie\nMCU films follow a set formula—quips, exposition dumps, CGI battles, vague villains, and post-credits teases—balancing fun with predictability.\n How To Watch Every ‘Final Destination’ Movie in the Order That Makes the Most Sense\nWith a sixth 'Final Destination' movie hitting theaters soon, here's how to watch every movie in the franchise in order.\n Jean-Claude Van Damme’s 10 Most Action-Packed Martial Arts Movies\nAs a real-life martial artist, Jean-Claude Van Damme has always preferred movies with lots of kicks and punches. These are the best ones.\n- Movie News\n- TV News\n James Bond Fans Would Give the World To See This Beloved Action Star as 007 in Amazon Reboot\n Star of One of the MCU’s Most Panned Movies Addresses Possible Return\n Jimmy Kimmel Declares \"Chubby Steven Seagal\" Donald Trump Has \"Thanos-ed\" America\n Netflix’s 'Devil May Cry' Will Feature Final Role of Beloved Batman Actor\n Netflix Sci-Fi Series With 100% RT Score Is the Best Streaming Show Nobody Knows About\n Harrison Ford's Incredible Apple TV+ Series Casts Comedy Icon in Key Role\n Trending Now\n 'Borderline' Review: 'Cocaine Bear' Writer's New Comedy Thriller Overdoses\n 'Novocaine' Stars Ray Nicholson & Jacob Batalon Talk Twisted Villains and Bank Heists\n 'Tulsa King' Fans Need to Watch This Gangster Drama With a 'Walking Dead' Star\n- Join Our Team\n- Our Audience\n- About Us\n- Press  Events\n- Contact Us\n- Follow Us\n- Advertising\n- Careers\n- Terms\n- Privacy\n- Policies\nis part of the\nCopyright © 2025 Valnet Inc.",
+                    "spanned_content": "<MovieWeb>\n    <WhatToWatchSubmenu>\n        <Platform>Apple TV+</Platform>\n        <Platform>Criterion Collection</Platform>\n        <Platform>Disney+</Platform>\n        <Platform>Hulu</Platform>\n        <Platform>Max</Platform>\n        <Platform>Netflix</Platform>\n        <Platform>Paramount+</Platform>\n        <Platform>Prime Video</Platform>\n        <Platform>Shudder</Platform>\n        <Platform>Tubi</Platform>\n    </WhatToWatchSubmenu>\n    <NewsSubmenu>\n        <NewsType>New Trailers</NewsType>\n        <NewsType>Movie News</NewsType>\n        <NewsType>TV News</NewsType>\n        <NewsType>Marvel News</NewsType>\n        <NewsType>DC News</NewsType>\n    </NewsSubmenu>\n    <Features/>\n    <Interviews/>\n    <Reviews/>\n    <Threads/>\n    <Videos/>\n    <GotATip/>\n    <GenresSubmenu>\n        <Genre>Action</Genre>\n        <Genre>Comedy</Genre>\n        <Genre>Fantasy</Genre>\n        <Genre>Horror</Genre>\n        <Genre>Sci-Fi</Genre>\n        <Genre>Westerns</Genre>\n        <MoreSubmenu>\n            <Item>Movie Database By Year</Item>\n            <Item>Movie Lists</Item>\n            <Item>TV Lists</Item>\n        </MoreSubmenu>\n    </GenresSubmenu>\n    <SignIn/>\n    <Newsletter/>\n    <ArticleTitle>The 20 Greatest Thriller Directors of All Time, Ranked</ArticleTitle>\n    <SignInToYourAccount/>\n    <NBCUniversalTelevision/>\n    <Directors>\n        <Director>\n            <Name>Antoine Fuqua</Name>\n            <Film>\n                <Title>Training Day</Title>\n                <ReleaseYear>2001</ReleaseYear>\n                <MindBending>True</MindBending>\n                <PsychologicalDepth>True</PsychologicalDepth>\n                <ComplexPlot>True</ComplexPlot>\n                <CharacterDevelopment>True</CharacterDevelopment>\n                <IntellectualChallenge>True</IntellectualChallenge>\n                <AdditionalInformation>\n                    {\"Co-stars\": [\"Denzel Washington\", \"Ethan Hawke\"], \"Awards\": [\"Academy Award for Best Actor\"]}\n                </AdditionalInformation>\n            </Film>\n            <Film>\n                <Title>The Equalizer</Title>\n                <ReleaseYear>2014</ReleaseYear>\n                <AdditionalInformation>\n                    {\"Sequels\": [\"The Equalizer 2 (2018)\", \"The Equalizer 3 (2023)\"]}\n                </AdditionalInformation>\n            </Film>\n            <Film>\n                <Title>The Guilty</Title>\n                <ReleaseYear>2021</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Christopher Nolan</Name>\n            <Film>\n                <Title>Memento</Title>\n                <ReleaseYear>2000</ReleaseYear>\n                <MindBending>True</MindBending>\n                <PsychologicalDepth>True</PsychologicalDepth>\n                <ComplexPlot>True</ComplexPlot>\n            </Film>\n            <Film>\n                <Title>The Prestige</Title>\n                <ReleaseYear>2006</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Tenet</Title>\n                <ReleaseYear>2020</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>The Dark Knight</Title>\n                <ReleaseYear>2008</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Jean-Pierre Melville</Name>\n            <Film>\n                <Title>Bob le Flambeur</Title>\n                <ReleaseYear>1956</ReleaseYear>\n                <ComplexPlot>True</ComplexPlot>\n            </Film>\n            <Film>\n                <Title>Le Samouraï</Title>\n                <ReleaseYear>1967</ReleaseYear>\n                <ComplexPlot>True</ComplexPlot>\n            </Film>\n            <Film>\n                <Title>Le Cercle Rouge</Title>\n                <ReleaseYear>1970</ReleaseYear>\n                <ComplexPlot>True</ComplexPlot>\n            </Film>\n            <Film>\n                <Title>Le Doulos</Title>\n                <ReleaseYear>1962</ReleaseYear>\n                <ComplexPlot>True</ComplexPlot>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Michael Haneke</Name>\n            <Film>\n                <Title>Funny Games</Title>\n                <ReleaseYear>1997</ReleaseYear>\n                <MindBending>True</MindBending>\n                <PsychologicalDepth>True</PsychologicalDepth>\n            </Film>\n            <Film>\n                <Title>Caché</Title>\n                <ReleaseYear>2005</ReleaseYear>\n                <MindBending>True</MindBending>\n                <PsychologicalDepth>True</PsychologicalDepth>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Denis Villeneuve</Name>\n            <Film>\n                <Title>Enemy</Title>\n                <ReleaseYear>2013</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Prisoners</Title>\n                <ReleaseYear>2013</ReleaseYear>\n                <MindBending>True</MindBending>\n                <PsychologicalDepth>True</PsychologicalDepth>\n            </Film>\n            <Film>\n                <Title>Sicario</Title>\n                <ReleaseYear>2015</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>John Frankenheimer</Name>\n            <Film>\n                <Title>The Manchurian Candidate</Title>\n                <ReleaseYear>1962</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>The Train</Title>\n                <ReleaseYear>1964</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Seconds</Title>\n                <ReleaseYear>1966</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Bong Joon-ho</Name>\n            <Film>\n                <Title>Parasite</Title>\n                <ReleaseYear>2019</ReleaseYear>\n                <MindBending>True</MindBending>\n                <PsychologicalDepth>True</PsychologicalDepth>\n            </Film>\n            <Film>\n                <Title>Memories of Murder</Title>\n                <ReleaseYear>2003</ReleaseYear>\n                <MindBending>True</MindBending>\n                <PsychologicalDepth>True</PsychologicalDepth>\n            </Film>\n            <Film>\n                <Title>Mother</Title>\n                <ReleaseYear>2009</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Snowpiercer</Title>\n                <ReleaseYear>2013</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>William Friedkin</Name>\n            <Film>\n                <Title>The French Connection</Title>\n                <ReleaseYear>1971</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Sorcerer</Title>\n                <ReleaseYear>1977</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Bug</Title>\n                <ReleaseYear>2006</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>The Coen Brothers</Name>\n            <Film>\n                <Title>Blood Simple</Title>\n                <ReleaseYear>1984</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>No Country for Old Men</Title>\n                <ReleaseYear>2007</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Park Chan-wook</Name>\n            <Film>\n                <Title>Oldboy</Title>\n                <ReleaseYear>2003</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>The Handmaiden</Title>\n                <ReleaseYear>2016</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Orson Welles</Name>\n            <Film>\n                <Title>The Stranger</Title>\n                <ReleaseYear>1946</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Touch of Evil</Title>\n                <ReleaseYear>1958</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Roman Polanski</Name>\n            <Film>\n                <Title>Knife in the Water</Title>\n                <ReleaseYear>1962</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Chinatown</Title>\n                <ReleaseYear>1974</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Carol Reed</Name>\n            <Film>\n                <Title>The Third Man</Title>\n                <ReleaseYear>1949</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Henri-Georges Clouzot</Name>\n            <Film>\n                <Title>Les Diaboliques</Title>\n                <ReleaseYear>1955</ReleaseYear>\n                <MindBending>True</MindBending>\n                <PsychologicalDepth>True</PsychologicalDepth>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Martin Scorsese</Name>\n            <Film>\n                <Title>Shutter Island</Title>\n                <ReleaseYear>2010</ReleaseYear>\n                <MindBending>True</MindBending>\n                <PsychologicalDepth>True</PsychologicalDepth>\n            </Film>\n            <Film>\n                <Title>The Departed</Title>\n                <ReleaseYear>2006</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Taxi Driver</Title>\n                <ReleaseYear>1976</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>David Lynch</Name>\n            <Film>\n                <Title>Blue Velvet</Title>\n                <ReleaseYear>1986</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Mulholland Drive</Title>\n                <ReleaseYear>2001</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>David Fincher</Name>\n            <Film>\n                <Title>Se7en</Title>\n                <ReleaseYear>1995</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Fight Club</Title>\n                <ReleaseYear>1999</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Zodiac</Title>\n                <ReleaseYear>2007</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Brian De Palma</Name>\n            <Film>\n                <Title>Scarface</Title>\n                <ReleaseYear>1983</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Body Double</Title>\n                <ReleaseYear>1984</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Fritz Lang</Name>\n            <Film>\n                <Title>M</Title>\n                <ReleaseYear>1931</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n        <Director>\n            <Name>Alfred Hitchcock</Name>\n            <Film>\n                <Title>Psycho</Title>\n                <ReleaseYear>1960</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Rear Window</Title>\n                <ReleaseYear>1954</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n            <Film>\n                <Title>Vertigo</Title>\n                <ReleaseYear>1958</ReleaseYear>\n                <MindBending>True</MindBending>\n            </Film>\n        </Director>\n    </Directors>\n    <MovieLists/>\n    <Thriller/>\n    <Recommended>\n        <Item>Every Live-Action Lex Luthor, Ranked</Item>\n        <Item>The Most Annoying Characters in Otherwise Perfect Movies</Item>\n        <Item>8 Best Stephen King Movies You Can Stream on Prime</Item>\n        <Item>14 Things That Happen in Every MCU Movie</Item>\n        <Item>How To Watch Every ‘Final Destination’ Movie in the Order That Makes the Most Sense</Item>\n        <Item>Jean-Claude Van Damme’s 10 Most Action-Packed Martial Arts Movies</Item>\n    </Recommended>\n    <MovieNews/>\n    <TVNews/>\n    <TrendingNow>\n        <Item>'Borderline' Review: 'Cocaine Bear' Writer's New Comedy Thriller Overdoses</Item>\n        <Item>'Novocaine' Stars Ray Nicholson & Jacob Batalon Talk Twisted Villains and Bank Heists</Item>\n        <Item>'Tulsa King' Fans Need to Watch This Gangster Drama With a 'Walking Dead' Star</Item>\n    </TrendingNow>\n    <JoinOurTeam/>\n    <OurAudience/>\n    <AboutUs/>\n    <PressEvents/>\n    <ContactUs/>\n    <FollowUs/>\n    <Advertising/>\n    <Careers/>\n    <Terms/>\n    <Privacy/>\n    <Policies/>\n</MovieWeb>\n\n\n\nIn this reformatted article, I have tagged the relevant segments according to the specified attributes of the ADT while maintaining the original structure and readability of the text. Each director and their films are clearly delineated, and the attributes are appropriately applied to reflect the characteristics of thriller movies.",
+                    "candidate_items_list_local": [
+                        {
+                            "Name": "Training Day",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "True",
+                            "ComplexPlot": "True",
+                            "CharacterDevelopment": "True",
+                            "IntellectualChallenge": "True",
+                            "Additional Information": {
+                                "Co-stars": [
+                                    "Denzel Washington",
+                                    "Ethan Hawke"
+                                ],
+                                "Awards": [
+                                    "Academy Award for Best Actor"
+                                ]
+                            }
+                        },
+                        {
+                            "Name": "The Guilty",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Memento",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "True",
+                            "ComplexPlot": "True",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "The Prestige",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Tenet",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "The Dark Knight",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Funny Games",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "True",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Caché",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "True",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Enemy",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Prisoners",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "True",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Parasite",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "True",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Memories of Murder",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "True",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Shutter Island",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "True",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Se7en",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Fight Club",
+                            "MindBending": "True",
+                            "PsychologicalDepth": "NOT FOUND",
+                            "ComplexPlot": "NOT FOUND",
+                            "CharacterDevelopment": "NOT FOUND",
+                            "IntellectualChallenge": "NOT FOUND",
+                            "Additional Information": {}
+                        }
+                    ]
+                }
+            ],
+            "citations": [
+                "https://movieweb.com/best-thriller-movie-directors-of-all-time/"
+            ]
+        },
+        "audience reviews of Shutter Island-like films": {
+            "AI_search_content_list": [
+                {
+                    "title": "20 Movies To Watch If You Loved Shutter Island | Rotten Tomatoes[1]",
+                    "content": "- Home\n- Box Office\n- TV\n- DVD\n- MORE\n- News\n- Trending on RT\nTAGGED AS: movies\n Related News\nThe Most Anticipated Movies of 2025\nRobert Pattinson Movies Ranked by Tomatometer\nAll Bong Joon Ho Movies Ranked by Tomatometer\n More Countdown\n50 Newest Verified Hot Movies\n100 Best New Action Movies of 2025\n30 Most Popular Movies Right Now: What to Watch In Theaters and Streaming\n Movie & TV News\n Featured on RT\nAndor Creator Tony Gilroy Reflects on Season 1 and Offers New Details on Season 2\nMarch 12, 2025\nThe Most Anticipated Movies of 2025\nMarch 12, 2025\n100 Best New Action Movies of 2025\nMarch 11, 2025\nRenewed and Cancelled TV Shows 2025\nMarch 11, 2025\n Top Headlines\n- 50 Newest Verified Hot Movies\n–\n- 100 Best New Action Movies of 2025\n–\n- 30 Most Popular Movies Right Now: What to Watch In Theaters and Streaming\n–\n- SXSW 2025: Movie  TV Scorecard\n–\n- Robert Pattinson Movies Ranked by Tomatometer\n–\n- All Bong Joon Ho Movies Ranked by Tomatometer\n–\n- Help\n- About Rotten Tomatoes®\n- Critic Submission\n- Licensing\n- Advertise\n- Careers\nFollow Us\nCopyright © Fandango. A Division of NBCUniversal. All rights reserved. V3.1\n- Privacy Policy\n- Terms and Policies\n- Cookie Settings\n- California Notice\n- Ad Choices\n- Accessibility\nCopyright © Fandango. A Division of . All rights reserved.\nCopyright © Fandango. A Division of NBCUniversal. All rights reserved.\n- Privacy Policy\n- Terms and Policies\n- Cookie Settings\n- California Notice\n- Ad Choices\n- Accessibility",
+                    "spanned_content": "<ThrillerMovies>\n    - Home\n    - Box Office\n    - TV\n    - DVD\n    - MORE\n    - News\n    - Trending on RT\n    TAGGED AS: movies\n    Related News\n    <article> The Most Anticipated Movies of 2025 </article>\n    <article> Robert Pattinson Movies Ranked by Tomatometer </article>\n    <article> All Bong Joon Ho Movies Ranked by Tomatometer </article>\n    More Countdown\n    <article> 50 Newest Verified Hot Movies </article>\n    <article> 100 Best New Action Movies of 2025 </article>\n    <article> 30 Most Popular Movies Right Now: What to Watch In Theaters and Streaming </article>\n    Movie & TV News\n    Featured on RT\n    <article> Andor Creator Tony Gilroy Reflects on Season 1 and Offers New Details on Season 2 </article>\n    <date> March 12, 2025 </date>\n    <article> The Most Anticipated Movies of 2025 </article>\n    <date> March 12, 2025 </date>\n    <article> 100 Best New Action Movies of 2025 </article>\n    <date> March 11, 2025 </date>\n    Renewed and Cancelled TV Shows 2025\n    <date> March 11, 2025 </date>\n    Top Headlines\n    <article> 50 Newest Verified Hot Movies </article>\n    <article> 100 Best New Action Movies of 2025 </article>\n    <article> 30 Most Popular Movies Right Now: What to Watch In Theaters and Streaming </article>\n    <article> SXSW 2025: Movie TV Scorecard </article>\n    <article> Robert Pattinson Movies Ranked by Tomatometer </article>\n    <article> All Bong Joon Ho Movies Ranked by Tomatometer </article>\n    - Help\n    - About Rotten Tomatoes®\n    - Critic Submission\n    - Licensing\n    - Advertise\n    - Careers\n    Follow Us\n    Copyright © Fandango. A Division of NBCUniversal. All rights reserved. V3.1\n    - Privacy Policy\n    - Terms and Policies\n    - Cookie Settings\n    - California Notice\n    - Ad Choices\n    - Accessibility\n    Copyright © Fandango. A Division of . All rights reserved.\n    Copyright © Fandango. A Division of NBCUniversal. All rights reserved.\n    - Privacy Policy\n    - Terms and Policies\n    - Cookie Settings\n    - California Notice\n    - Ad Choices\n    - Accessibility\n</ThrillerMovies>\n\n\n\nIn this reformatted article, I have wrapped the entire content in a `<ThrillerMovies>` tag to indicate that it pertains to the thriller movie genre, even though it does not contain specific details about any individual film. The individual articles and dates are also tagged to maintain clarity and structure.",
+                    "candidate_items_list_local": []
+                }
+            ],
+            "citations": [
+                "https://editorial.rottentomatoes.com/guide/20-movies-to-watch-if-you-loved-shutter-island/"
+            ]
+        }
+    },
+    "candidate_items_list_prepare": [
+        {
+            "Name": "The Sixth Sense",
+            "MindBending": "Mind-Bending/Psychological Thriller",
+            "PsychologicalDepth": "NOT FOUND",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Predestination",
+            "MindBending": "Mind-Bending/Psychological Thriller",
+            "PsychologicalDepth": "NOT FOUND",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Self/Less",
+            "MindBending": "Mind-Bending/Psychological Thriller",
+            "PsychologicalDepth": "NOT FOUND",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Inception",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Christopher Nolan",
+                "ReleaseYear": 2010,
+                "Themes": [
+                    "Dreams",
+                    "Reality",
+                    "Guilt"
+                ],
+                "AudienceRating": "PG-13"
+            }
+        },
+        {
+            "Name": "Shutter Island",
+            "MindBending": "True",
+            "PsychologicalDepth": "True",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {
+                "Director": "Martin Scorsese",
+                "ReleaseYear": 2010,
+                "Themes": [
+                    "Reality",
+                    "Trauma",
+                    "Insanity"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "Fight Club",
+            "MindBending": "True",
+            "PsychologicalDepth": "NOT FOUND",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {
+                "Director": "David Fincher",
+                "ReleaseYear": 1999,
+                "Themes": [
+                    "Consumerism",
+                    "Identity",
+                    "Violence"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "Gone Girl",
+            "MindBending": true,
+            "PsychologicalDepth": true,
+            "ComplexPlot": true,
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Memento",
+            "MindBending": "True",
+            "PsychologicalDepth": "True",
+            "ComplexPlot": "True",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Mr. Robot",
+            "MindBending": "reality",
+            "PsychologicalDepth": "Psychological thriller novels that explores mental illness",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "The Usual Suspects",
+            "MindBending": true,
+            "PsychologicalDepth": true,
+            "ComplexPlot": true,
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "The Silence of the Lambs",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Jonathan Demme",
+                "ReleaseYear": 1991,
+                "Themes": [
+                    "Psychopathy",
+                    "Manipulation",
+                    "Fear"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "Uncut Gems",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Josh Safdie, Benny Safdie",
+                "ReleaseYear": 2019,
+                "Themes": [
+                    "Gambling",
+                    "Addiction",
+                    "Desperation"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "Get Out",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Jordan Peele",
+                "ReleaseYear": 2017,
+                "Themes": [
+                    "Racism",
+                    "Identity",
+                    "Control"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "The Killing of a Sacred Deer",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Yorgos Lanthimos",
+                "ReleaseYear": 2017,
+                "Themes": [
+                    "Morality",
+                    "Family",
+                    "Revenge"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "Velvet Buzzsaw",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Dan Gilroy",
+                "ReleaseYear": 2019,
+                "Themes": [
+                    "Art",
+                    "Greed",
+                    "Death"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "The Shining",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Stanley Kubrick",
+                "ReleaseYear": 1980,
+                "Themes": [
+                    "Isolation",
+                    "Madness",
+                    "Family"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "Parasite",
+            "MindBending": "True",
+            "PsychologicalDepth": "True",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {
+                "Director": "Bong Joon-ho",
+                "ReleaseYear": 2019,
+                "Themes": [
+                    "Class",
+                    "Society",
+                    "Deception"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "Fracture",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Gregory Hoblit",
+                "ReleaseYear": 2007,
+                "Themes": [
+                    "Justice",
+                    "Manipulation",
+                    "Crime"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "The Conversation",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Francis Ford Coppola",
+                "ReleaseYear": 1974,
+                "Themes": [
+                    "Paranoia",
+                    "Surveillance",
+                    "Isolation"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "Gerald's Game",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Mike Flanagan",
+                "ReleaseYear": 2017,
+                "Themes": [
+                    "Survival",
+                    "Trauma",
+                    "Isolation"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "The Game",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "David Fincher",
+                "ReleaseYear": 1997,
+                "Themes": [
+                    "Reality",
+                    "Control",
+                    "Isolation"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "The Menu",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Mark Mylod",
+                "ReleaseYear": 2022,
+                "Themes": [
+                    "Class",
+                    "Food",
+                    "Power"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "The Woman in Black",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "James Watkins",
+                "ReleaseYear": 2012,
+                "Themes": [
+                    "Grief",
+                    "Supernatural",
+                    "Isolation"
+                ],
+                "AudienceRating": "PG-13"
+            }
+        },
+        {
+            "Name": "Blue Velvet",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "David Lynch",
+                "ReleaseYear": 1986,
+                "Themes": [
+                    "Darkness",
+                    "Mystery",
+                    "Violence"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "Notes on a Scandal",
+            "MindBending": "true",
+            "PsychologicalDepth": "true",
+            "ComplexPlot": "true",
+            "CharacterDevelopment": "true",
+            "IntellectualChallenge": "true",
+            "Additional Information": {
+                "Director": "Richard Eyre",
+                "ReleaseYear": 2006,
+                "Themes": [
+                    "Obsession",
+                    "Manipulation",
+                    "Betrayal"
+                ],
+                "AudienceRating": "R"
+            }
+        },
+        {
+            "Name": "Training Day",
+            "MindBending": "True",
+            "PsychologicalDepth": "True",
+            "ComplexPlot": "True",
+            "CharacterDevelopment": "True",
+            "IntellectualChallenge": "True",
+            "Additional Information": {
+                "Co-stars": [
+                    "Denzel Washington",
+                    "Ethan Hawke"
+                ],
+                "Awards": [
+                    "Academy Award for Best Actor"
+                ]
+            }
+        },
+        {
+            "Name": "The Guilty",
+            "MindBending": "True",
+            "PsychologicalDepth": "NOT FOUND",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "The Prestige",
+            "MindBending": "True",
+            "PsychologicalDepth": "NOT FOUND",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Tenet",
+            "MindBending": "True",
+            "PsychologicalDepth": "NOT FOUND",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "The Dark Knight",
+            "MindBending": "True",
+            "PsychologicalDepth": "NOT FOUND",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Funny Games",
+            "MindBending": "True",
+            "PsychologicalDepth": "True",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Caché",
+            "MindBending": "True",
+            "PsychologicalDepth": "True",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Enemy",
+            "MindBending": "True",
+            "PsychologicalDepth": "NOT FOUND",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Prisoners",
+            "MindBending": "True",
+            "PsychologicalDepth": "True",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Memories of Murder",
+            "MindBending": "True",
+            "PsychologicalDepth": "True",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        },
+        {
+            "Name": "Se7en",
+            "MindBending": "True",
+            "PsychologicalDepth": "NOT FOUND",
+            "ComplexPlot": "NOT FOUND",
+            "CharacterDevelopment": "NOT FOUND",
+            "IntellectualChallenge": "NOT FOUND",
+            "Additional Information": {}
+        }
+    ],
+    "AI_search_content_for_complete": {
+        "The Sixth Sense": {}
+    }
+}

@@ -1,0 +1,195 @@
+{
+    "question": "I want to watch a thriller with a mind-bending story, like Shutter Island.",
+    "model": "gpt-4o-mini",
+    "profile": "**Personality Traits:**  \n1. **Analytical Thinker**  \n2. **Appreciation for Complexity**  \n3. **Interest in Psychological Themes**  \n4. **Desire for Intellectual Engagement**  \n\n**Detailed Explanation:**  \n\n1. **Analytical Thinker:**  \n   The user's specific request for a \"mind-bending story\" indicates a preference for narratives that challenge conventional thinking and provoke deeper contemplation. This suggests that they likely possess an analytical mindset, enjoying puzzles and complexities that require critical thinking to unravel. The reference to \"Shutter Island,\" a film known for its intricate plot and psychological twists, further reinforces this trait, as it implies that the user seeks out stories that stimulate their cognitive faculties.\n\n2. **Appreciation for Complexity:**  \n   The choice of genre—thriller—alongside the emphasis on a \"mind-bending story\" implies that the user is drawn to narratives that are not straightforward. This appreciation for complexity may reflect a personality that values depth and nuance in both entertainment and perhaps in life experiences. They may find simple or predictable stories unfulfilling, indicating a preference for multifaceted characters and intricate plots that mirror the complexities of real life.\n\n3. **Interest in Psychological Themes:**  \n   By specifically mentioning \"Shutter Island,\" which delves into themes of mental health, identity, and perception, the user likely has an interest in psychological narratives. This could suggest a curiosity about the human mind and behavior, indicating that they may enjoy exploring the motivations and inner workings of characters. This interest might extend beyond cinema into other areas of their life, such as reading psychological literature or engaging in discussions about human behavior.\n\n4. **Desire for Intellectual Engagement:**  \n   The user’s request for a thriller with a \"mind-bending story\" suggests a desire for intellectual stimulation through their entertainment choices. They likely prefer films that not only entertain but also provoke thought and discussion. This trait may indicate that they enjoy engaging with content that offers more than surface-level enjoyment, seeking out narratives that challenge their perceptions and encourage them to think critically about the themes presented.\n\nIn summary, the user's query reveals a personality that values analytical thinking, complexity, psychological exploration, and intellectual engagement, suggesting a sophisticated approach to their cinematic experiences.",
+    "ADT": "Class Name: ThrillerMovie  \nAttributes:  \nName, required  \nPlot Complexity, required  \nPsychological Depth, required  \nTwists and Turns, required  \nCharacter Development, required  \nThemes, optional  \nAdditional Information, required  \n\n### Rationale for Attributes:\n\n1. **Name (required):**  \n   This attribute is essential as it identifies the specific title of the movie, allowing the user to recognize and reference the film easily.\n\n2. **Plot Complexity (required):**  \n   Given the user's preference for a \"mind-bending story,\" this attribute assesses how intricate and layered the plot is. It aligns with the user's analytical thinking and appreciation for complexity, ensuring that the movie offers a narrative that challenges conventional storytelling.\n\n3. **Psychological Depth (required):**  \n   This attribute evaluates the extent to which the movie explores psychological themes and character motivations. It caters to the user's interest in psychological narratives, ensuring that the film delves into the complexities of the human mind and behavior.\n\n4. **Twists and Turns (required):**  \n   This attribute measures the number and effectiveness of plot twists within the movie. It is crucial for satisfying the user's desire for intellectual engagement and surprise, as they likely enjoy films that keep them guessing and provoke thought.\n\n5. **Character Development (required):**  \n   This attribute assesses how well the characters are developed throughout the film. Given the user's appreciation for complexity, they are likely to prefer movies with multifaceted characters whose arcs contribute to the overall narrative depth.\n\n6. **Themes (optional):**  \n   This attribute allows for the inclusion of various themes present in the movie, such as identity, perception, or morality. While it is not mandatory, it provides additional context that may enhance the user's understanding and appreciation of the film's narrative.\n\n7. **Additional Information (required):**  \n   This attribute serves as a repository for supplementary descriptive details about the movie, such as director, release year, or notable performances. It is formatted in JSON to accommodate various types of information that may be relevant but are not of primary importance to the user's selection process.",
+    "subquestion": {
+        "thriller movies with mind-bending plots": {
+            "AI_search_content_list": [
+                {
+                    "title": "Mind-Bending/Psychological Thriller movies? : r/MovieSuggestions[1]",
+                    "content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.\n Mind-Bending/Psychological Thriller movies?\nREQUESTING\nI’m looking for Mind-Bending/psychological thriller suggestions. Movies that make you say “wtf just happened?!” Something like The Sixth Sense, Predestination, Self/Less, Inception, Shutter Island, etc.\nCreate your account and connect with a world of communities.\n.\nPublic\nAnyone can view, post, and comment to this community\n Top Posts\n- Reddit \nreReddit: Top posts of January 13, 2024\n- Reddit \nreReddit: Top posts of January 2024\n- Reddit \nreReddit: Top posts of 2024\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics",
+                    "spanned_content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.  \n<PlotComplexity>Mind-Bending/Psychological Thriller movies?</PlotComplexity>  \nREQUESTING  \nI’m looking for <PsychologicalDepth>Mind-Bending/psychological thriller</PsychologicalDepth> suggestions. Movies that make you say “wtf just happened?!” Something like <Name>The Sixth Sense</Name>, <Name>Predestination</Name>, <Name>Self/Less</Name>, <Name>Inception</Name>, <Name>Shutter Island</Name>, etc.  \nCreate your account and connect with a world of communities.  \n.  \nPublic  \nAnyone can view, post, and comment to this community  \nTop Posts  \n- Reddit  \nreReddit: Top posts of January 13, 2024  \n- Reddit  \nreReddit: Top posts of January 2024  \n- Reddit  \nreReddit: Top posts of 2024  \nTOPICS  \nInternet Culture (Viral)  \n- Amazing  \n- Animals  Pets  \n- Cringe  Facepalm  \n- Funny  \n- Interesting  \n- Memes  \n- Oddly Satisfying  \n- Reddit Meta  \n- Wholesome  Heartwarming  \nGames  \n- Action Games  \n- Adventure Games  \n- Esports  \n- Gaming Consoles  Gear  \n- Gaming News  Discussion  \n- Mobile Games  \n- Other Games  \n- Role-Playing Games  \n- Simulation Games  \n- Sports  Racing Games  \n- Strategy Games  \n- Tabletop Games  \nQ&As  \n- QAs  \n- Stories  Confessions  \nTechnology  \n- 3D Printing  \n- Artificial Intelligence  Machine Learning  \n- Computers  Hardware  \n- Consumer Electronics  \n- DIY Electronics  \n- Programming  \n- Software  Apps  \n- Streaming Services  \n- Tech News  Discussion  \n- Virtual  Augmented Reality  \nPop Culture  \n- Celebrities  \n- Creators  Influencers  \n- Generations  Nostalgia  \n- Podcasts  \n- Streamers  \n- Tarot  Astrology  \nMovies & TV  \n- Action Movies  Series  \n- Animated Movies  Series  \n- Comedy Movies  Series  \n- Crime, Mystery,  Thriller Movies  Series  \n- Documentary Movies  Series  \n- Drama Movies  Series  \n- Fantasy Movies  Series  \n- Horror Movies  Series  \n- Movie News  Discussion  \n- Reality TV  \n- Romance Movies  Series  \n- Sci-Fi Movies  Series  \n- Superhero Movies  Series  \n- TV News  Discussion  \nRESOURCES  \nAbout Reddit  \nAdvertise  \nReddit Pro  \n      BETA  \nHelp  \nBlog  \nCareers  \nPress  \nCommunities  \nBest of Reddit  \nTopics",
+                    "candidate_items_list_local": [
+                        {
+                            "Name": "The Sixth Sense",
+                            "Plot Complexity": "Mind-Bending/Psychological Thriller movies?",
+                            "Psychological Depth": "Mind-Bending/psychological thriller",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Predestination",
+                            "Plot Complexity": "Mind-Bending/Psychological Thriller movies?",
+                            "Psychological Depth": "Mind-Bending/psychological thriller",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Self/Less",
+                            "Plot Complexity": "Mind-Bending/Psychological Thriller movies?",
+                            "Psychological Depth": "Mind-Bending/psychological thriller",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Inception",
+                            "Plot Complexity": "Mind-Bending/Psychological Thriller movies?",
+                            "Psychological Depth": "Mind-Bending/psychological thriller",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "Shutter Island",
+                            "Plot Complexity": "Mind-Bending/Psychological Thriller movies?",
+                            "Psychological Depth": "Mind-Bending/psychological thriller",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        }
+                    ]
+                }
+            ],
+            "citations": [
+                "https://www.reddit.com/r/MovieSuggestions/comments/195d433/mindbendingpsychological_thriller_movies/"
+            ]
+        },
+        "films similar to Shutter Island": {
+            "AI_search_content_list": [
+                {
+                    "title": "Can you recommend any films similar to \"Shutter Island\"? - Reddit[1]",
+                    "content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.\n Can you recommend any films similar to \"Shutter Island\"?\nREQUESTING\nI thought Shutter Island was an amazing film. I'm a big fan of these types of psychological thrillers. I can't seem to find anything as good.\nCreate your account and connect with a world of communities.\n.\nPublic\nAnyone can view, post, and comment to this community\n Top Posts\n- Reddit \nreReddit: Top posts of March 8, 2023\n- Reddit \nreReddit: Top posts of March 2023\n- Reddit \nreReddit: Top posts of 2023\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics",
+                    "spanned_content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.  \nCan you recommend any films similar to <Name>Shutter Island</Name>?  \nREQUESTING  \nI thought <Name>Shutter Island</Name> was an amazing film. I'm a big fan of these types of <PsychologicalDepth>psychological thrillers</PsychologicalDepth>. I can't seem to find anything as good.  \nCreate your account and connect with a world of communities.  \n.  \nPublic  \nAnyone can view, post, and comment to this community  \nTop Posts  \n- Reddit  \nreReddit: Top posts of March 8, 2023  \n- Reddit  \nreReddit: Top posts of March 2023  \n- Reddit  \nreReddit: Top posts of 2023  \nTOPICS  \nInternet Culture (Viral)  \n- Amazing  \n- Animals  Pets  \n- Cringe  Facepalm  \n- Funny  \n- Interesting  \n- Memes  \n- Oddly Satisfying  \n- Reddit Meta  \n- Wholesome  Heartwarming  \nGames  \n- Action Games  \n- Adventure Games  \n- Esports  \n- Gaming Consoles  Gear  \n- Gaming News  Discussion  \n- Mobile Games  \n- Other Games  \n- Role-Playing Games  \n- Simulation Games  \n- Sports  Racing Games  \n- Strategy Games  \n- Tabletop Games  \nQ&As  \n- QAs  \n- Stories  Confessions  \nTechnology  \n- 3D Printing  \n- Artificial Intelligence  Machine Learning  \n- Computers  Hardware  \n- Consumer Electronics  \n- DIY Electronics  \n- Programming  \n- Software  Apps  \n- Streaming Services  \n- Tech News  Discussion  \n- Virtual  Augmented Reality  \nPop Culture  \n- Celebrities  \n- Creators  Influencers  \n- Generations  Nostalgia  \n- Podcasts  \n- Streamers  \n- Tarot  Astrology  \nMovies & TV  \n- Action Movies  Series  \n- Animated Movies  Series  \n- Comedy Movies  Series  \n- Crime, Mystery,  Thriller Movies  Series  \n- Documentary Movies  Series  \n- Drama Movies  Series  \n- Fantasy Movies  Series  \n- Horror Movies  Series  \n- Movie News  Discussion  \n- Reality TV  \n- Romance Movies  Series  \n- Sci-Fi Movies  Series  \n- Superhero Movies  Series  \n- TV News  Discussion  \nRESOURCES  \nAbout Reddit  \nAdvertise  \nReddit Pro  \n      BETA  \nHelp  \nBlog  \nCareers  \nPress  \nCommunities  \nBest of Reddit  \nTopics",
+                    "candidate_items_list_local": [
+                        {
+                            "Name": "<Name>Shutter Island</Name>",
+                            "Plot Complexity": "NOT FOUND",
+                            "Psychological Depth": "psychological thriller",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        }
+                    ]
+                }
+            ],
+            "citations": [
+                "https://www.reddit.com/r/MovieSuggestions/comments/11lw9t3/can_you_recommend_any_films_similar_to_shutter/"
+            ]
+        },
+        "psychological thrillers with twists": {
+            "AI_search_content_list": [
+                {
+                    "title": "Lookin for a psychological thriller that has a plot twist that ... - Reddit[1]",
+                    "content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions.\n Lookin for a psychological thriller that has a plot twist that even shocks a perceptive viewer\nREQUESTING\nHappy Saturday everyone. I am looking for a movie that both my boyfriend and I will agree on watching. He hates demonic themes, or anything to do with rape. I agree, but tend to pick movies with that theme. Seriously. I don’t know what’s wrong with me.\nI really love thrillers of all kinds and get bored with other genres. So Im hoping y’all can recommend a movie that we’ll both enjoy. Plot twists always do the trick. But no full on action movies. I appreciate a psychological mind bending theme.\nThanks!\nCreate your account and connect with a world of communities.\n.\nPublic\nAnyone can view, post, and comment to this community\n Top Posts\n- Reddit \nreReddit: Top posts of November 28, 2021\n- Reddit \nreReddit: Top posts of November 2021\n- Reddit \nreReddit: Top posts of 2021\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics",
+                    "spanned_content": "In the mood for a particular movie? Saw something interesting and want more? Have a favourite movie you want to recommend? Make those Movie Suggestions. Lookin for a <PsychologicalDepth>psychological thriller</PsychologicalDepth> that has a <TwistsAndTurns>plot twist that even shocks a perceptive viewer</TwistsAndTurns> REQUESTING Happy Saturday everyone. I am looking for a movie that both my boyfriend and I will agree on watching. He hates <Themes>demonic themes</Themes>, or anything to do with <Themes>rape</Themes>. I agree, but tend to pick movies with that theme. Seriously. I don’t know what’s wrong with me. I really love <Themes>thrillers</Themes> of all kinds and get bored with other genres. So Im hoping y’all can recommend a movie that we’ll both enjoy. <TwistsAndTurns>Plot twists</TwistsAndTurns> always do the trick. But no full on action movies. I appreciate a <PlotComplexity>psychological mind bending theme</PlotComplexity>. Thanks! Create your account and connect with a world of communities. . Public Anyone can view, post, and comment to this community Top Posts - Reddit reReddit: Top posts of November 28, 2021 - Reddit reReddit: Top posts of November 2021 - Reddit reReddit: Top posts of 2021 TOPICS Internet Culture (Viral) - Amazing - Animals Pets - Cringe Facepalm - Funny - Interesting - Memes - Oddly Satisfying - Reddit Meta - Wholesome Heartwarming Games - Action Games - Adventure Games - Esports - Gaming Consoles Gear - Gaming News Discussion - Mobile Games - Other Games - Role-Playing Games - Simulation Games - Sports Racing Games - Strategy Games - Tabletop Games Q&As - QAs - Stories Confessions Technology - 3D Printing - Artificial Intelligence Machine Learning - Computers Hardware - Consumer Electronics - DIY Electronics - Programming - Software Apps - Streaming Services - Tech News Discussion - Virtual Augmented Reality Pop Culture - Celebrities - Creators Influencers - Generations Nostalgia - Podcasts - Streamers - Tarot Astrology Movies & TV - Action Movies Series - Animated Movies Series - Comedy Movies Series - Crime, Mystery, Thriller Movies Series - Documentary Movies Series - Drama Movies Series - Fantasy Movies Series - Horror Movies Series - Movie News Discussion - Reality TV - Romance Movies Series - Sci-Fi Movies Series - Superhero Movies Series - TV News Discussion RESOURCES About Reddit Advertise Reddit Pro BETA Help Blog Careers Press Communities Best of Reddit Topics",
+                    "candidate_items_list_local": []
+                }
+            ],
+            "citations": [
+                "https://www.reddit.com/r/MovieSuggestions/comments/r3rsa1/lookin_for_a_psychological_thriller_that_has_a/"
+            ]
+        },
+        "best mind-bending thrillers of all time": {
+            "AI_search_content_list": [],
+            "citations": []
+        },
+        "movies with unreliable narrators": {
+            "AI_search_content_list": [
+                {
+                    "title": "What are the best movies with unreliable narrators? - Reddit[1]",
+                    "content": "The goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers. Read our extensive list of rules for more information on other types of posts like fan-art and self-promotion, or message the moderators if you have any questions.\n What are the best movies with unreliable narrators?\nDiscussion\nAn unreliable narrator is a storyteller who cannot be trusted. It may either intentionally deceive the audience or unknowingly mislead them, causing them to doubt the narrator's reliability as a storyteller.\nAs I can remember, the best movies I watched with unreliable narrators are:\n- Fight Club\n- Gone Girl\n- Shutter Island\n- Memento\n- Mr. Robot (yes, it's a TV show, but still counts)\n- The Usual Suspects\nWhat are some others exemples of this narrative device?\nCreate your account and connect with a world of communities.\n.\nPublic\nAnyone can view, post, and comment to this community\n Top Posts\n- Reddit \nreReddit: Top posts of March 20, 2023\n- Reddit \nreReddit: Top posts of March 2023\n- Reddit \nreReddit: Top posts of 2023\nTOPICS\nInternet Culture (Viral)\n- Amazing\n- Animals  Pets\n- Cringe  Facepalm\n- Funny\n- Interesting\n- Memes\n- Oddly Satisfying\n- Reddit Meta\n- Wholesome  Heartwarming\nGames\n- Action Games\n- Adventure Games\n- Esports\n- Gaming Consoles  Gear\n- Gaming News  Discussion\n- Mobile Games\n- Other Games\n- Role-Playing Games\n- Simulation Games\n- Sports  Racing Games\n- Strategy Games\n- Tabletop Games\nQ&As\n- QAs\n- Stories  Confessions\nTechnology\n- 3D Printing\n- Artificial Intelligence  Machine Learning\n- Computers  Hardware\n- Consumer Electronics\n- DIY Electronics\n- Programming\n- Software  Apps\n- Streaming Services\n- Tech News  Discussion\n- Virtual  Augmented Reality\nPop Culture\n- Celebrities\n- Creators  Influencers\n- Generations  Nostalgia\n- Podcasts\n- Streamers\n- Tarot  Astrology\nMovies & TV\n- Action Movies  Series\n- Animated Movies  Series\n- Comedy Movies  Series\n- Crime, Mystery,  Thriller Movies  Series\n- Documentary Movies  Series\n- Drama Movies  Series\n- Fantasy Movies  Series\n- Horror Movies  Series\n- Movie News  Discussion\n- Reality TV\n- Romance Movies  Series\n- Sci-Fi Movies  Series\n- Superhero Movies  Series\n- TV News  Discussion\nRESOURCES\nAbout Reddit\nAdvertise\nReddit Pro\n      BETA\nHelp\nBlog\nCareers\nPress\nCommunities\nBest of Reddit\nTopics",
+                    "spanned_content": ":\nThe goal of /r/Movies is to provide an inclusive place for discussions and news about films with major releases. Submissions should be for the purpose of informing or initiating a discussion, not just to entertain readers. Read our extensive list of rules for more information on other types of posts like fan-art and self-promotion, or message the moderators if you have any questions. What are the best movies with unreliable narrators? Discussion An unreliable narrator is a storyteller who cannot be trusted. It may either intentionally deceive the audience or unknowingly mislead them, causing them to doubt the narrator's reliability as a storyteller. As I can remember, the best movies I watched with unreliable narrators are: - <Name>Fight Club</Name> - <Name>Gone Girl</Name> - <Name>Shutter Island</Name> - <Name>Memento</Name> - <Name>Mr. Robot</Name> (yes, it's a TV show, but still counts) - <Name>The Usual Suspects</Name> What are some others exemples of this narrative device? Create your account and connect with a world of communities. . Public Anyone can view, post, and comment to this community Top Posts - Reddit reReddit: Top posts of March 20, 2023 - Reddit reReddit: Top posts of March 2023 - Reddit reReddit: Top posts of 2023 TOPICS Internet Culture (Viral) - Amazing - Animals Pets - Cringe Facepalm - Funny - Interesting - Memes - Oddly Satisfying - Reddit Meta - Wholesome Heartwarming Games - Action Games - Adventure Games - Esports - Gaming Consoles Gear - Gaming News Discussion - Mobile Games - Other Games - Role-Playing Games - Simulation Games - Sports Racing Games - Strategy Games - Tabletop Games Q&As - QAs - Stories Confessions Technology - 3D Printing - Artificial Intelligence Machine Learning - Computers Hardware - Consumer Electronics - DIY Electronics - Programming - Software Apps - Streaming Services - Tech News Discussion - Virtual Augmented Reality Pop Culture - Celebrities - Creators Influencers - Generations Nostalgia - Podcasts - Streamers - Tarot Astrology - Movies & TV - Action Movies Series - Animated Movies Series - Comedy Movies Series - Crime, Mystery, Thriller Movies Series - Documentary Movies Series - Drama Movies Series - Fantasy Movies Series - Horror Movies Series - Movie News Discussion - Reality TV - Romance Movies Series - Sci-Fi Movies Series - Superhero Movies Series - TV News Discussion RESOURCES About Reddit Advertise Reddit Pro BETA Help Blog Careers Press Communities Best of Reddit Topics",
+                    "candidate_items_list_local": [
+                        {
+                            "Name": "<Name>Fight Club</Name>",
+                            "Plot Complexity": "NOT FOUND",
+                            "Psychological Depth": "NOT FOUND",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "<Name>Gone Girl</Name>",
+                            "Plot Complexity": "NOT FOUND",
+                            "Psychological Depth": "NOT FOUND",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "<Name>Shutter Island</Name>",
+                            "Plot Complexity": "NOT FOUND",
+                            "Psychological Depth": "NOT FOUND",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "<Name>Memento</Name>",
+                            "Plot Complexity": "NOT FOUND",
+                            "Psychological Depth": "NOT FOUND",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "<Name>Mr. Robot</Name>",
+                            "Plot Complexity": "NOT FOUND",
+                            "Psychological Depth": "NOT FOUND",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        },
+                        {
+                            "Name": "<Name>The Usual Suspects</Name>",
+                            "Plot Complexity": "NOT FOUND",
+                            "Psychological Depth": "NOT FOUND",
+                            "Twists and Turns": "NOT FOUND",
+                            "Character Development": "NOT FOUND",
+                            "Themes": "NOT FOUND",
+                            "Additional Information": {}
+                        }
+                    ]
+                }
+            ],
+            "citations": [
+                "https://www.reddit.com/r/movies/comments/11whgjf/what_are_the_best_movies_with_unreliable_narrators/"
+            ]
+        },
+        "top suspense films with complex narratives": {
+            "AI_search_content_list": [],
+            "citations": []
+        },
+        "thrillers that explore mental health themes": {
+            "AI_search_content_list": [],
+            "citations": []
+        },
+        "recent mind-bending thrillers to watch": {
+            "AI_search_content_list": [],
+            "citations": []
+        },
+        "critically acclaimed psychological thrillers": {
+            "AI_search_content_list": [],
+            "citations": []
+        },
+        "movies with shocking endings like Shutter Island": {
+            "AI_search_content_list": [],
+            "citations": []
+        }
+    }
+}

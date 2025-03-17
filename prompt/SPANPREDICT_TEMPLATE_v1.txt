@@ -20,7 +20,7 @@ Given a specified [ADT] (Abstract Data Type) that defines the attributes or prop
 (4) Do not modify, reorder, or remove any original words in the text. Only wrap the relevant text segments with the designated XML tags to ensure minimal disruption to readability.
 
 ### Output Format
-You can output your thinking process step by step in free style text. But Finally you must follow a section named Reformatted Article. Retaining the original paragraph and sentence structure but provide the fully tagged text.
+You can output your thinking process step by step in free style text. Finally you must follow a section named Reformatted Article. Retaining the original paragraph and sentence structure but provide the fully tagged text.
 
 ### Example Demonstration
 Suppose the ADT includes attributes such as time, location, person, and artifact. The following sample text illustrates how to insert XML tags in practice.
