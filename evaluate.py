@@ -37,3 +37,5 @@ def HR(label_rank_list, predict_rank_list, k):
     # 返回命中率
     hit_ratio=hit_count / len(label_rank_list) if len(label_rank_list) else 0
     return hit_ratio
+
+
